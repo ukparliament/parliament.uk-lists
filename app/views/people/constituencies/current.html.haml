@@ -1,0 +1,12 @@
+#content.section--primary
+  .container
+    %h1= title("#{@person.display_name} - #{t('.title', current: t('current').capitalize, constituency: t('constituency'))}")
+
+- unless @constituency.nil?
+  %section
+    .container
+      %ul.list--box
+        %li
+          .list--details
+            %h2= link_to(@constituency.name, party_path(@constituency.graph_id))
+            %p= @constituency.seat_incumbencies.first.date_range

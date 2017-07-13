@@ -1,0 +1,8 @@
+#content.section--primary
+  .container
+    %h1= title("#{@person.display_name} - #{t('.title', current_and_former: t('current_and_former').capitalize, parties_and_groups: t('parties_and_groups'))}")
+
+%section
+  .container
+    %ol.list--box
+      = render partial: 'people/party_membership', collection: @party_memberships

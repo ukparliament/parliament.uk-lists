@@ -1,0 +1,9 @@
+#content.section--primary
+  .container
+    %h1= title("#{@person.display_name} - #{t('.title', current_and_former: t('current_and_former').capitalize, house_plural: t('house_plural'))}")
+
+- unless @incumbencies.empty?
+  %section
+    .container
+      %ol.list--box
+        = render partial: 'people/incumbency', collection: @incumbencies

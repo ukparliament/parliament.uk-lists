@@ -1,0 +1,17 @@
+- page_title = title(t('house_plural').capitalize)
+
+#content.section--primary
+  .container
+    %h1= page_title
+
+%section
+  .container
+    - @houses.each do |house|
+      %ul.list--box
+        %li
+          .list--details
+            %h2= link_to(house.name, house_path(house.graph_id))
+            - if HousesHelper.commons?(house)
+              %p= "#{t('.all_mps_info')}"
+            - else
+              %p= "#{t('.all_lords_info')}"

@@ -1,0 +1,16 @@
+#content.section--primary
+  .container
+    %h1= title("#{@person.display_name} - #{t('.title', current: t('current').capitalize, house: t('house'))}")
+
+- unless @house.nil?
+  %section
+    .container
+      %ul.list--box
+        %li
+          .list--details
+            %h2= link_to(@house.name, house_path(@house.graph_id))
+            - unless @house.seat_incumbencies.empty?
+              %p= @house.seat_incumbencies.first.date_range
+
+            - unless @house.house_incumbencies.empty?
+              %p= @house.house_incumbencies.first.date_range
