@@ -1,15 +1,21 @@
+require 'vcard/vcard'
 require 'parliament'
-require 'parliament/open_search'
-require 'pugin/helpers/controller_helpers'
+require 'houses_helper'
 require 'request_helper'
 require 'parliament_helper'
 require 'format_helper'
+require 'pugin/helpers/controller_helpers'
 
+# Base class for all other controllers
 class ApplicationController < ActionController::Base
-  include Pugin::Helpers::ControllerHelpers
+  include VCardHelper
+  include Parliament
+  include HousesHelper
   include RequestHelper
   include ParliamentHelper
+  include ResourceHelper
   include FormatHelper
+  include Pugin::Helpers::ControllerHelpers
 
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
