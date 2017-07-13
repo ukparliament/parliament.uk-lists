@@ -5,12 +5,6 @@ RSpec.describe 'people', type: :routing do
     context 'people' do
       include_examples 'index route', 'people'
 
-      # people#lookup
-      include_examples 'top level routes', 'people', 'lookup'
-
-      # people#postcode_lookup
-      include_examples 'top level POST routes', 'people', 'postcode_lookup'
-
       # people#a_to_z
       include_examples 'nested collection routes', 'people', ['a-z'], 'a_to_z'
 
@@ -49,8 +43,6 @@ RSpec.describe 'people', type: :routing do
     end
 
     context 'person' do
-      # people#show
-      include_examples 'nested routes with an id', 'people', 'B4qvo8kI', [], 'show'
 
       context 'constituencies' do
         it 'GET people/:person_id/constituencies' do

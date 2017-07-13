@@ -7,9 +7,6 @@ RSpec.describe 'parties', type: :routing do
     # parties#current
     include_examples 'top level routes', 'parties', 'current'
 
-    # parties#lookup
-    include_examples 'top level routes', 'parties', 'lookup'
-
     # parties#a_to_z
     include_examples 'nested collection routes', 'parties', ['a-z'], 'a_to_z'
 
@@ -17,9 +14,7 @@ RSpec.describe 'parties', type: :routing do
     include_examples 'collection a_to_z route with a letter', 'parties', ['a-z'], 'letters', 'a'
 
     context 'party' do
-      # parties#show
-      include_examples 'nested routes with an id', 'parties', 'jF43Jxoc', [], 'show'
-
+    
       # parties/members#index
       it 'GET parties/members#index' do
         expect(get: '/parties/jF43Jxoc/members').to route_to(

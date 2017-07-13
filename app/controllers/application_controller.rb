@@ -1,4 +1,3 @@
-require 'vcard/vcard'
 require 'parliament'
 require 'houses_helper'
 require 'request_helper'
@@ -8,12 +7,10 @@ require 'pugin/helpers/controller_helpers'
 
 # Base class for all other controllers
 class ApplicationController < ActionController::Base
-  include VCardHelper
   include Parliament
   include HousesHelper
   include RequestHelper
   include ParliamentHelper
-  include ResourceHelper
   include FormatHelper
   include Pugin::Helpers::ControllerHelpers
 

@@ -4,14 +4,8 @@ RSpec.describe 'constituencies', type: :routing do
   describe 'ConstituenciesController' do
     include_examples 'index route', 'constituencies'
 
-    # constituencies#lookup
-    include_examples 'top level routes', 'constituencies', 'lookup'
-
     # constituencies#current
     include_examples 'top level routes', 'constituencies', 'current'
-
-    # constituencies#postcode_lookup
-    include_examples 'top level POST routes', 'constituencies', 'postcode_lookup'
 
     # constituencies#a_to_z
     include_examples 'nested collection routes', 'constituencies', ['a-z'], 'a_to_z'
@@ -26,8 +20,6 @@ RSpec.describe 'constituencies', type: :routing do
     include_examples 'collection a_to_z route with a letter', 'constituencies', ['current', 'a-z'], 'current_letters', 'a'
 
     context 'constituency' do
-      # constituencies#show
-      include_examples 'nested routes with an id', 'constituencies', 'MtbjxRrE', [], 'show'
 
       # constituencies#index
       it 'GET constituencies/contact_points#index' do
@@ -37,9 +29,6 @@ RSpec.describe 'constituencies', type: :routing do
           constituency_id:    'MtbjxRrE'
         )
       end
-
-      # constituencies#map
-      include_examples 'nested routes with an id', 'constituencies', 'MtbjxRrE', ['map'], 'map'
 
       it 'GET constituencies/members#index' do
         expect(get: '/constituencies/MtbjxRrE/members').to route_to(

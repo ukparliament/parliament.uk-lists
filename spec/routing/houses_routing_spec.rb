@@ -4,12 +4,7 @@ RSpec.describe 'houses', type: :routing do
   describe 'HousesController' do
     include_examples 'index route', 'houses'
 
-    # houses#lookup
-    include_examples 'top level routes', 'houses', 'lookup'
-
     context 'house' do
-      # houses#show
-      include_examples 'nested routes with an id', 'houses', 'KL2k1BGP', [], 'show'
 
       context 'members' do
         it 'GET houses/members#index' do
@@ -77,15 +72,6 @@ RSpec.describe 'houses', type: :routing do
           controller: 'houses/parties',
           action:     'current',
           house_id:   'KL2k1BGP',
-          )
-        end
-
-        it 'GET houses#show' do
-          expect(get: '/houses/KL2k1BGP/parties/jF43Jxoc').to route_to(
-          controller: 'houses/parties',
-          action:     'show',
-          house_id:   'KL2k1BGP',
-          party_id:   'jF43Jxoc'
           )
         end
       end

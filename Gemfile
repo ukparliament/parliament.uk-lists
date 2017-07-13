@@ -22,6 +22,9 @@ gem 'parliament-opensearch', '~> 0.2', require: false
 # Parliament Grom Decorators decorates Grom nodes
 gem 'parliament-grom-decorators', '~> 0.2'
 
+# Parliament routing
+gem 'parliament-engine', path: '../parliament-engine', require: false
+
 # Parliament NTriple processes N-triple data
 gem 'parliament-ntriple', '~> 0.1', require: false
 

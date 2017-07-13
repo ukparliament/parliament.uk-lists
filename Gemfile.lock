@@ -1,3 +1,9 @@
+PATH
+  remote: ../parliament-engine
+  specs:
+    parliament-engine (0.1.0)
+      rails (~> 5.1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,8 +46,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    airbrake (6.1.2)
-      airbrake-ruby (~> 2.2, >= 2.2.5)
+    airbrake (6.2.0)
+      airbrake-ruby (~> 2.3)
     airbrake-ruby (2.3.0)
     arel (8.0.0)
     ast (2.3.0)
@@ -287,6 +293,7 @@ DEPENDENCIES
   dotenv
   haml
   listen (>= 3.0.5, < 3.2)
+  parliament-engine!
   parliament-grom-decorators (~> 0.2)
   parliament-ntriple (~> 0.1)
   parliament-opensearch (~> 0.2)
