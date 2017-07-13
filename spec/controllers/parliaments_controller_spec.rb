@@ -62,31 +62,6 @@ RSpec.describe ParliamentsController, vcr: true do
           expect(response).to redirect_to(method[:data_url])
         end
       end
-
-    end
-    describe 'next' do
-      context '@parliament is nil' do
-        # updated VCR cassette in order to set @parliament to nil
-        it 'should raise ActionController::RoutingError' do
-          expect{get :next}.to raise_error(ActionController::RoutingError)
-        end
-      end
-
-      context '@parliament is not nil' do
-        before(:each) do
-          headers = { 'Accept' => 'application/rdf+xml' }
-          request.headers.merge(headers)
-          get :next
-        end
-
-        it 'should have a response with http status redirect (302)' do
-            expect(response).to have_http_status(302)
-        end
-
-        it 'redirects to the data service' do
-            expect(response).to redirect_to("#{ENV['PARLIAMENT_BASE_URL']}/parliaments/next")
-        end
-      end
     end
   end
 end
