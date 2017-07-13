@@ -1,5 +1,4 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
-
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 # Prevent database truncation if the environment is production
@@ -8,6 +7,9 @@ require 'spec_helper'
 require 'rspec/rails'
 require 'capybara/rails'
 require 'vcr'
+
+require 'parliament'
+require 'parliament/ntriple'
 
 # Add additional requires below this line. Rails is not loaded until this point!
 
@@ -19,8 +21,8 @@ VCR.configure do |config|
   config.configure_rspec_metadata!
 
   config.default_cassette_options = {
-      # record: :new_episodes
-      record: :once
+    # record: :new_episodes
+    record: :once
   }
 
   # Create a simple matcher which will 'filter' any request URIs on the fly

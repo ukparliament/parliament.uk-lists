@@ -1,0 +1,260 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3030/constituencies/current/a
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '5705'
+      Content-Type:
+      - application/n-triples
+      Expires:
+      - Fri, 19 May 2017 11:33:07 GMT
+      Set-Cookie:
+      - ARRAffinity=a597504d04a4bb873c98faa2436077bc03bc8fb1fd56c877805eb305ea4ce58e;Path=/;Domain=20170412115159fixedquery.azurewebsites.net
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 19 May 2017 11:33:07 GMT
+    body:
+      encoding: UTF-8
+      string: "<http://id.ukpds.org/zX3Xvp3h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zX3Xvp3h>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 1\" .\r\n<http://id.ukpds.org/wp8dhOaV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wp8dhOaV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 2\" .\r\n<http://id.ukpds.org/VWcFVdLM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VWcFVdLM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 3\" .\r\n<http://id.ukpds.org/8yBmJcZ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8yBmJcZ4>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 4\" .\r\n<http://id.ukpds.org/A91CPIEq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/A91CPIEq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 5\" .\r\n<http://id.ukpds.org/GpvpbQf3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/GpvpbQf3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 6\" .\r\n<http://id.ukpds.org/tiIAowt8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/tiIAowt8>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 7\" .\r\n<http://id.ukpds.org/giVlohwQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/giVlohwQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 8\" .\r\n<http://id.ukpds.org/cYSi7X5H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cYSi7X5H>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 9\" .\r\n<http://id.ukpds.org/7t6F2gh5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7t6F2gh5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 10\" .\r\n<http://id.ukpds.org/Fe0YSkik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Fe0YSkik>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 11\" .\r\n<http://id.ukpds.org/g0H0z0ip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/g0H0z0ip>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 12\" .\r\n<http://id.ukpds.org/MiAgHEen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MiAgHEen>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 13\" .\r\n<http://id.ukpds.org/K1cNenjS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/K1cNenjS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 14\" .\r\n<http://id.ukpds.org/E4s6rego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/E4s6rego>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 15\" .\r\n<http://id.ukpds.org/5LEuiTJw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5LEuiTJw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 16\" .\r\n<http://id.ukpds.org/bKlMRVnW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bKlMRVnW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 17\" .\r\n<http://id.ukpds.org/9VG7bD26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9VG7bD26>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 18\" .\r\n<http://id.ukpds.org/QbHIqK3O> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QbHIqK3O>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 19\" .\r\n_:node1855900 <http://id.ukpds.org/schema/value> \"B\" .\r\n_:node1855901
+        <http://id.ukpds.org/schema/value> \"S\" .\r\n_:node1855902 <http://id.ukpds.org/schema/value>
+        \"P\" .\r\n_:node1855903 <http://id.ukpds.org/schema/value> \"U\" .\r\n_:node1855904
+        <http://id.ukpds.org/schema/value> \"C\" .\r\n_:node1855905 <http://id.ukpds.org/schema/value>
+        \"F\" .\r\n_:node1855906 <http://id.ukpds.org/schema/value> \"E\" .\r\n_:node1855907
+        <http://id.ukpds.org/schema/value> \"G\" .\r\n_:node1855908 <http://id.ukpds.org/schema/value>
+        \"D\" .\r\n_:node1855909 <http://id.ukpds.org/schema/value> \"W\" .\r\n_:node1855910
+        <http://id.ukpds.org/schema/value> \"H\" .\r\n_:node1855911 <http://id.ukpds.org/schema/value>
+        \"N\" .\r\n_:node1855912 <http://id.ukpds.org/schema/value> \"T\" .\r\n_:node1855913
+        <http://id.ukpds.org/schema/value> \"A\" .\r\n_:node1855914 <http://id.ukpds.org/schema/value>
+        \"K\" .\r\n_:node1855915 <http://id.ukpds.org/schema/value> \"R\" .\r\n_:node1855916
+        <http://id.ukpds.org/schema/value> \"I\" .\r\n_:node1855917 <http://id.ukpds.org/schema/value>
+        \"M\" .\r\n_:node1855918 <http://id.ukpds.org/schema/value> \"L\" .\r\n_:node1855919
+        <http://id.ukpds.org/schema/value> \"O\" .\r\n_:node1855920 <http://id.ukpds.org/schema/value>
+        \"V\" .\r\n_:node1855921 <http://id.ukpds.org/schema/value> \"Y\" .\r\n_:node1855922
+        <http://id.ukpds.org/schema/value> \"J\" .\r\n"
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:34:44 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/api/v2/groups/parliament/features/show-dissolution
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Bandiera Ruby Client / 3.0.4
+      Host:
+      - ec2-54-154-199-50.eu-west-1.compute.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '17'
+    body:
+      encoding: UTF-8
+      string: '{"response":true}'
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:34:45 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/api/v2/groups/parliament/features/show-dissolution
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Bandiera Ruby Client / 3.0.4
+      Host:
+      - ec2-54-154-199-50.eu-west-1.compute.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '17'
+    body:
+      encoding: UTF-8
+      string: '{"response":true}'
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:34:45 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/api/v2/groups/parliament/features/show-register
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Bandiera Ruby Client / 3.0.4
+      Host:
+      - ec2-54-154-199-50.eu-west-1.compute.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '17'
+    body:
+      encoding: UTF-8
+      string: '{"response":true}'
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:34:45 GMT
+- request:
+    method: get
+    uri: http://localhost:3030/houses
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '420'
+      Content-Type:
+      - application/n-triples
+      Expires:
+      - Fri, 02 Jun 2017 10:42:49 GMT
+      Set-Cookie:
+      - ARRAffinity=b33f2cf26cbb655976ea24d5d2dea6f44e1f8349a0c5eef4404e4762da5fe1ce;Path=/;Domain=20170412115159fixedquery.azurewebsites.net
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 02 Jun 2017 10:42:49 GMT
+    body:
+      encoding: UTF-8
+      string: "<http://id.ukpds.org/cqIATgUK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/cqIATgUK> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 1\" .\r\n<http://id.ukpds.org/mG2ur5TF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/mG2ur5TF> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 2\" .\r\n"
+    http_version: 
+  recorded_at: Fri, 02 Jun 2017 10:42:51 GMT
+recorded_with: VCR 3.0.3

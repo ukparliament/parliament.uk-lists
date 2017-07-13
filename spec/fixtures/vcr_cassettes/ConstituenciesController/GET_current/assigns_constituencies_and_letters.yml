@@ -1,0 +1,2153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3030/constituencies/current
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '153472'
+      Content-Type:
+      - application/n-triples
+      Expires:
+      - Fri, 19 May 2017 11:21:20 GMT
+      Set-Cookie:
+      - ARRAffinity=a597504d04a4bb873c98faa2436077bc03bc8fb1fd56c877805eb305ea4ce58e;Path=/;Domain=20170412115159fixedquery.azurewebsites.net
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 19 May 2017 11:21:20 GMT
+    body:
+      encoding: UTF-8
+      string: "<http://id.ukpds.org/fc0O4GWP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/fc0O4GWP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 1\" .\r\n<http://id.ukpds.org/QZ97S6O3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QZ97S6O3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 2\" .\r\n<http://id.ukpds.org/9PXvHVM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9PXvHVM1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 3\" .\r\n<http://id.ukpds.org/hWOXQb3w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hWOXQb3w>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 4\" .\r\n<http://id.ukpds.org/YPPGydjS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/YPPGydjS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 5\" .\r\n<http://id.ukpds.org/MdNSMFGF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MdNSMFGF>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 6\" .\r\n<http://id.ukpds.org/VuTk4JnO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VuTk4JnO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 7\" .\r\n<http://id.ukpds.org/5uxtTDBz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5uxtTDBz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 8\" .\r\n<http://id.ukpds.org/6aSDYHUx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6aSDYHUx>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 9\" .\r\n<http://id.ukpds.org/9RFYbZIz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9RFYbZIz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 10\" .\r\n<http://id.ukpds.org/LGraXnYP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/LGraXnYP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 11\" .\r\n<http://id.ukpds.org/ndZGG5dS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ndZGG5dS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 12\" .\r\n<http://id.ukpds.org/44jQ9uAr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/44jQ9uAr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 13\" .\r\n<http://id.ukpds.org/VEaqy3xt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VEaqy3xt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 14\" .\r\n<http://id.ukpds.org/AyujcUPX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/AyujcUPX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 15\" .\r\n<http://id.ukpds.org/K2JzsdE4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/K2JzsdE4>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 16\" .\r\n<http://id.ukpds.org/2WcdZbyG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/2WcdZbyG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 17\" .\r\n<http://id.ukpds.org/OLmWbypV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OLmWbypV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 18\" .\r\n<http://id.ukpds.org/mTDisZKv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mTDisZKv>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 19\" .\r\n<http://id.ukpds.org/Pk1zu52Q> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Pk1zu52Q>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 20\" .\r\n<http://id.ukpds.org/Lesgt8cF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Lesgt8cF>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 21\" .\r\n<http://id.ukpds.org/t7DieXMW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/t7DieXMW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 22\" .\r\n<http://id.ukpds.org/ZeJe0zqD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ZeJe0zqD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 23\" .\r\n<http://id.ukpds.org/eLwtMY8e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/eLwtMY8e>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 24\" .\r\n<http://id.ukpds.org/juaLkC39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/juaLkC39>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 25\" .\r\n<http://id.ukpds.org/DghyDeyN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/DghyDeyN>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 26\" .\r\n<http://id.ukpds.org/zX3Xvp3h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zX3Xvp3h>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 27\" .\r\n<http://id.ukpds.org/I45d7QOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/I45d7QOU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 28\" .\r\n<http://id.ukpds.org/FXUONehK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FXUONehK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 29\" .\r\n<http://id.ukpds.org/EHU06yZW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/EHU06yZW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 30\" .\r\n<http://id.ukpds.org/MdQ4tGut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MdQ4tGut>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 31\" .\r\n<http://id.ukpds.org/bkNPn8Zt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bkNPn8Zt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 32\" .\r\n<http://id.ukpds.org/wp8dhOaV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wp8dhOaV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 33\" .\r\n<http://id.ukpds.org/8BuYg7wr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8BuYg7wr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 34\" .\r\n<http://id.ukpds.org/43aVNqxt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/43aVNqxt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 35\" .\r\n<http://id.ukpds.org/q3BOauZG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/q3BOauZG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 36\" .\r\n<http://id.ukpds.org/wk0j9b3h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wk0j9b3h>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 37\" .\r\n<http://id.ukpds.org/WTW5Bx7o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/WTW5Bx7o>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 38\" .\r\n<http://id.ukpds.org/x9hgfHYm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/x9hgfHYm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 39\" .\r\n<http://id.ukpds.org/HyP0iP2J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HyP0iP2J>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 40\" .\r\n<http://id.ukpds.org/5Y43X9tG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5Y43X9tG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 41\" .\r\n<http://id.ukpds.org/nzkfiG5Z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nzkfiG5Z>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 42\" .\r\n<http://id.ukpds.org/0h4KvEsx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/0h4KvEsx>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 43\" .\r\n<http://id.ukpds.org/freXnadc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/freXnadc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 44\" .\r\n<http://id.ukpds.org/upL9axR0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/upL9axR0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 45\" .\r\n<http://id.ukpds.org/n2sPp0C5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/n2sPp0C5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 46\" .\r\n<http://id.ukpds.org/c3Nn3vy5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/c3Nn3vy5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 47\" .\r\n<http://id.ukpds.org/LfvPJQKW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/LfvPJQKW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 48\" .\r\n<http://id.ukpds.org/PSCUPtfp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PSCUPtfp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 49\" .\r\n<http://id.ukpds.org/U6KwqWDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/U6KwqWDe>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 50\" .\r\n<http://id.ukpds.org/MNrF6UfA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MNrF6UfA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 51\" .\r\n<http://id.ukpds.org/d0EyUv1f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/d0EyUv1f>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 52\" .\r\n<http://id.ukpds.org/1rLaMw3U> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1rLaMw3U>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 53\" .\r\n<http://id.ukpds.org/YQoXz7ll> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/YQoXz7ll>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 54\" .\r\n<http://id.ukpds.org/ikaCDlPj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ikaCDlPj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 55\" .\r\n<http://id.ukpds.org/wIUEvuqe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wIUEvuqe>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 56\" .\r\n<http://id.ukpds.org/qlJDLRqk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/qlJDLRqk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 57\" .\r\n<http://id.ukpds.org/ApIBmAyr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ApIBmAyr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 58\" .\r\n<http://id.ukpds.org/7RY3SXi4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7RY3SXi4>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 59\" .\r\n<http://id.ukpds.org/jRKR8HPv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jRKR8HPv>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 60\" .\r\n<http://id.ukpds.org/E1EtKZQq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/E1EtKZQq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 61\" .\r\n<http://id.ukpds.org/oBzuHEnt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/oBzuHEnt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 62\" .\r\n<http://id.ukpds.org/DJjF3jhK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/DJjF3jhK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 63\" .\r\n<http://id.ukpds.org/svnG0uTf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/svnG0uTf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 64\" .\r\n<http://id.ukpds.org/9KVdjsaX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9KVdjsaX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 65\" .\r\n<http://id.ukpds.org/D4zHUHoO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/D4zHUHoO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 66\" .\r\n<http://id.ukpds.org/TvgLUZlm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/TvgLUZlm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 67\" .\r\n<http://id.ukpds.org/5vDlKADK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5vDlKADK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 68\" .\r\n<http://id.ukpds.org/082oWYjo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/082oWYjo>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 69\" .\r\n<http://id.ukpds.org/TuA6zHX6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/TuA6zHX6>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 70\" .\r\n<http://id.ukpds.org/Frk9AXJH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Frk9AXJH>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 71\" .\r\n<http://id.ukpds.org/mAwduNbz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mAwduNbz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 72\" .\r\n<http://id.ukpds.org/WV1Y0GU1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/WV1Y0GU1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 73\" .\r\n<http://id.ukpds.org/IgPMCKzm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IgPMCKzm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 74\" .\r\n<http://id.ukpds.org/siL03GWy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/siL03GWy>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 75\" .\r\n<http://id.ukpds.org/ubfaHPBn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ubfaHPBn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 76\" .\r\n<http://id.ukpds.org/kiVwb3jr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kiVwb3jr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 77\" .\r\n<http://id.ukpds.org/iNjnIWmX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/iNjnIWmX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 78\" .\r\n<http://id.ukpds.org/vFq07Xtg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vFq07Xtg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 79\" .\r\n<http://id.ukpds.org/RGJyMBxz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RGJyMBxz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 80\" .\r\n<http://id.ukpds.org/VWcFVdLM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VWcFVdLM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 81\" .\r\n<http://id.ukpds.org/a6sKohjX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/a6sKohjX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 82\" .\r\n<http://id.ukpds.org/RrskiKN0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RrskiKN0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 83\" .\r\n<http://id.ukpds.org/zFdl23QT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zFdl23QT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 84\" .\r\n<http://id.ukpds.org/DYRFuJud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/DYRFuJud>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 85\" .\r\n<http://id.ukpds.org/9x8iZXZO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9x8iZXZO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 86\" .\r\n<http://id.ukpds.org/OKowdsQL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OKowdsQL>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 87\" .\r\n<http://id.ukpds.org/I4ojfyBq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/I4ojfyBq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 88\" .\r\n<http://id.ukpds.org/HQmQ8nc2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HQmQ8nc2>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 89\" .\r\n<http://id.ukpds.org/SJz79e5Z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SJz79e5Z>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 90\" .\r\n<http://id.ukpds.org/QMSafY6n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QMSafY6n>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 91\" .\r\n<http://id.ukpds.org/X3WOHioz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/X3WOHioz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 92\" .\r\n<http://id.ukpds.org/h4URC4xf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/h4URC4xf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 93\" .\r\n<http://id.ukpds.org/RcST8s2T> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RcST8s2T>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 94\" .\r\n<http://id.ukpds.org/n1pXM3fj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/n1pXM3fj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 95\" .\r\n<http://id.ukpds.org/UES6tX7U> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/UES6tX7U>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 96\" .\r\n<http://id.ukpds.org/aLSUcDFj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/aLSUcDFj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 97\" .\r\n<http://id.ukpds.org/OCkClPXS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OCkClPXS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 98\" .\r\n<http://id.ukpds.org/EvePmYVP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/EvePmYVP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 99\" .\r\n<http://id.ukpds.org/5zS55gZd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5zS55gZd>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 100\" .\r\n<http://id.ukpds.org/kDBw15Ov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kDBw15Ov>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 101\" .\r\n<http://id.ukpds.org/cBl4Ipsk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cBl4Ipsk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 102\" .\r\n<http://id.ukpds.org/RARoqbPw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RARoqbPw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 103\" .\r\n<http://id.ukpds.org/cfrkPv7w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cfrkPv7w>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 104\" .\r\n<http://id.ukpds.org/8E99iSec> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8E99iSec>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 105\" .\r\n<http://id.ukpds.org/w1a9GbeG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/w1a9GbeG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 106\" .\r\n<http://id.ukpds.org/jJoxFliP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jJoxFliP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 107\" .\r\n<http://id.ukpds.org/OdmqVjwf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OdmqVjwf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 108\" .\r\n<http://id.ukpds.org/zELfbd6e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zELfbd6e>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 109\" .\r\n<http://id.ukpds.org/9X1JKd6b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9X1JKd6b>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 110\" .\r\n<http://id.ukpds.org/3ItmJ6gT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3ItmJ6gT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 111\" .\r\n<http://id.ukpds.org/9ZGwwK2L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9ZGwwK2L>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 112\" .\r\n<http://id.ukpds.org/EOJpw1Dq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/EOJpw1Dq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 113\" .\r\n<http://id.ukpds.org/YnFvBb0i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/YnFvBb0i>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 114\" .\r\n<http://id.ukpds.org/4PyYdwtA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4PyYdwtA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 115\" .\r\n<http://id.ukpds.org/4UUaAwei> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4UUaAwei>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 116\" .\r\n<http://id.ukpds.org/snK5C6jR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/snK5C6jR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 117\" .\r\n<http://id.ukpds.org/D6SGcGwK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/D6SGcGwK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 118\" .\r\n<http://id.ukpds.org/hUY7ryCB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hUY7ryCB>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 119\" .\r\n<http://id.ukpds.org/gkLBbksz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/gkLBbksz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 120\" .\r\n<http://id.ukpds.org/vncPsX2l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vncPsX2l>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 121\" .\r\n<http://id.ukpds.org/nbOxdsVk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nbOxdsVk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 122\" .\r\n<http://id.ukpds.org/zW6jmc8f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zW6jmc8f>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 123\" .\r\n<http://id.ukpds.org/HqL1dwO7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HqL1dwO7>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 124\" .\r\n<http://id.ukpds.org/Yt5Ww1WR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Yt5Ww1WR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 125\" .\r\n<http://id.ukpds.org/28zB0fcc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/28zB0fcc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 126\" .\r\n<http://id.ukpds.org/alKYYFRU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/alKYYFRU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 127\" .\r\n<http://id.ukpds.org/LvvA4why> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/LvvA4why>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 128\" .\r\n<http://id.ukpds.org/MonEwwZt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MonEwwZt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 129\" .\r\n<http://id.ukpds.org/ZpA93bgP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ZpA93bgP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 130\" .\r\n<http://id.ukpds.org/eqLrkLUi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/eqLrkLUi>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 131\" .\r\n<http://id.ukpds.org/VQ21cCoL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VQ21cCoL>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 132\" .\r\n<http://id.ukpds.org/HJm8GIn5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HJm8GIn5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 133\" .\r\n<http://id.ukpds.org/SM6pnxsw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SM6pnxsw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 134\" .\r\n<http://id.ukpds.org/r2X4izTs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/r2X4izTs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 135\" .\r\n<http://id.ukpds.org/3EZXxUMG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3EZXxUMG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 136\" .\r\n<http://id.ukpds.org/iwg8fl1q> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/iwg8fl1q>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 137\" .\r\n<http://id.ukpds.org/fCjCHbUn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/fCjCHbUn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 138\" .\r\n<http://id.ukpds.org/6R5Gtz7z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6R5Gtz7z>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 139\" .\r\n<http://id.ukpds.org/pkDp5qb3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/pkDp5qb3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 140\" .\r\n<http://id.ukpds.org/lRXcGKwR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lRXcGKwR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 141\" .\r\n<http://id.ukpds.org/vRChSbVC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vRChSbVC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 142\" .\r\n<http://id.ukpds.org/04XMzcaM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/04XMzcaM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 143\" .\r\n<http://id.ukpds.org/pSQfNLvJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/pSQfNLvJ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 144\" .\r\n<http://id.ukpds.org/KmLecv0n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/KmLecv0n>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 145\" .\r\n<http://id.ukpds.org/e4pmcWkG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/e4pmcWkG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 146\" .\r\n<http://id.ukpds.org/MQyCosPQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MQyCosPQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 147\" .\r\n<http://id.ukpds.org/luUWy4kY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/luUWy4kY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 148\" .\r\n<http://id.ukpds.org/vPBP58Ik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vPBP58Ik>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 149\" .\r\n<http://id.ukpds.org/X167DR0e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/X167DR0e>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 150\" .\r\n<http://id.ukpds.org/qmlQrgSP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/qmlQrgSP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 151\" .\r\n<http://id.ukpds.org/o7X3NjQA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/o7X3NjQA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 152\" .\r\n<http://id.ukpds.org/dJ4fngT5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/dJ4fngT5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 153\" .\r\n<http://id.ukpds.org/mrJNxZWG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mrJNxZWG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 154\" .\r\n<http://id.ukpds.org/NRjssAQD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NRjssAQD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 155\" .\r\n<http://id.ukpds.org/IES598Lt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IES598Lt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 156\" .\r\n<http://id.ukpds.org/oKaMuMco> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/oKaMuMco>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 157\" .\r\n<http://id.ukpds.org/8yBmJcZ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8yBmJcZ4>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 158\" .\r\n<http://id.ukpds.org/VBa5oJjK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VBa5oJjK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 159\" .\r\n<http://id.ukpds.org/koeMGk7P> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/koeMGk7P>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 160\" .\r\n<http://id.ukpds.org/u3DSr305> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/u3DSr305>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 161\" .\r\n<http://id.ukpds.org/VUru5P7p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VUru5P7p>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 162\" .\r\n<http://id.ukpds.org/A91CPIEq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/A91CPIEq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 163\" .\r\n<http://id.ukpds.org/SaSs50Kw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SaSs50Kw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 164\" .\r\n<http://id.ukpds.org/GpvpbQf3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/GpvpbQf3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 165\" .\r\n<http://id.ukpds.org/vomeEg5w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vomeEg5w>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 166\" .\r\n<http://id.ukpds.org/8OM56XM5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8OM56XM5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 167\" .\r\n<http://id.ukpds.org/jmETV1Rk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jmETV1Rk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 168\" .\r\n<http://id.ukpds.org/FOLUJCfJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FOLUJCfJ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 169\" .\r\n<http://id.ukpds.org/OxUV2T5M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OxUV2T5M>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 170\" .\r\n<http://id.ukpds.org/xIzEtl8d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/xIzEtl8d>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 171\" .\r\n<http://id.ukpds.org/354zzLeS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/354zzLeS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 172\" .\r\n<http://id.ukpds.org/RUhJDmb6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RUhJDmb6>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 173\" .\r\n<http://id.ukpds.org/hVrpC0ih> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hVrpC0ih>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 174\" .\r\n<http://id.ukpds.org/T106wGqT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/T106wGqT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 175\" .\r\n<http://id.ukpds.org/tEzC2xNX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/tEzC2xNX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 176\" .\r\n<http://id.ukpds.org/aXeyAmyl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/aXeyAmyl>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 177\" .\r\n<http://id.ukpds.org/cAxz2Pdg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cAxz2Pdg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 178\" .\r\n<http://id.ukpds.org/J3UFFYHf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/J3UFFYHf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 179\" .\r\n<http://id.ukpds.org/QA0vr1u0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QA0vr1u0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 180\" .\r\n<http://id.ukpds.org/np1FK1QK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/np1FK1QK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 181\" .\r\n<http://id.ukpds.org/JCZf3OIc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/JCZf3OIc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 182\" .\r\n<http://id.ukpds.org/czZnRRwa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/czZnRRwa>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 183\" .\r\n<http://id.ukpds.org/kYii4HlU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kYii4HlU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 184\" .\r\n<http://id.ukpds.org/hUuW08Qj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hUuW08Qj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 185\" .\r\n<http://id.ukpds.org/lGsezqOE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lGsezqOE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 186\" .\r\n<http://id.ukpds.org/Tpdpj4Wy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Tpdpj4Wy>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 187\" .\r\n<http://id.ukpds.org/OpV2kVeu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OpV2kVeu>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 188\" .\r\n<http://id.ukpds.org/45ZTXPCa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/45ZTXPCa>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 189\" .\r\n<http://id.ukpds.org/maFaTAjk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/maFaTAjk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 190\" .\r\n<http://id.ukpds.org/vNHiyD2L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vNHiyD2L>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 191\" .\r\n<http://id.ukpds.org/Nbw7w4nj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Nbw7w4nj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 192\" .\r\n<http://id.ukpds.org/rjiWibdw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/rjiWibdw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 193\" .\r\n<http://id.ukpds.org/lifBZCN7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lifBZCN7>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 194\" .\r\n<http://id.ukpds.org/hmwFlTAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hmwFlTAs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 195\" .\r\n<http://id.ukpds.org/eklRlgue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/eklRlgue>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 196\" .\r\n<http://id.ukpds.org/kfayZq6g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kfayZq6g>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 197\" .\r\n<http://id.ukpds.org/SYMUk2EY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SYMUk2EY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 198\" .\r\n<http://id.ukpds.org/PzESuYBv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PzESuYBv>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 199\" .\r\n<http://id.ukpds.org/bLyfQxfR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bLyfQxfR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 200\" .\r\n<http://id.ukpds.org/Ve36kv3g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Ve36kv3g>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 201\" .\r\n<http://id.ukpds.org/ZRGWCe63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ZRGWCe63>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 202\" .\r\n<http://id.ukpds.org/jFO0zFxR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jFO0zFxR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 203\" .\r\n<http://id.ukpds.org/Txm8YxZZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Txm8YxZZ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 204\" .\r\n<http://id.ukpds.org/gKYRnhXQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/gKYRnhXQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 205\" .\r\n<http://id.ukpds.org/UJDgQ1VM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/UJDgQ1VM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 206\" .\r\n<http://id.ukpds.org/iXXOv3sL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/iXXOv3sL>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 207\" .\r\n<http://id.ukpds.org/wfZKuchM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wfZKuchM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 208\" .\r\n<http://id.ukpds.org/VRWPoEZP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VRWPoEZP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 209\" .\r\n<http://id.ukpds.org/5oIp105L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5oIp105L>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 210\" .\r\n<http://id.ukpds.org/E0SmVhRp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/E0SmVhRp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 211\" .\r\n<http://id.ukpds.org/GtKgnhNR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/GtKgnhNR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 212\" .\r\n<http://id.ukpds.org/Kop8bo7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Kop8bo7f>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 213\" .\r\n<http://id.ukpds.org/chXiiI0v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/chXiiI0v>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 214\" .\r\n<http://id.ukpds.org/HaWtufwq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HaWtufwq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 215\" .\r\n<http://id.ukpds.org/wfsBrT8R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wfsBrT8R>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 216\" .\r\n<http://id.ukpds.org/s0r7fLQS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/s0r7fLQS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 217\" .\r\n<http://id.ukpds.org/14MO01k5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/14MO01k5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 218\" .\r\n<http://id.ukpds.org/CMsSmKqb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CMsSmKqb>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 219\" .\r\n<http://id.ukpds.org/Kx1OGLvn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Kx1OGLvn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 220\" .\r\n<http://id.ukpds.org/OH8muEtf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OH8muEtf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 221\" .\r\n<http://id.ukpds.org/72C7C7wD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/72C7C7wD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 222\" .\r\n<http://id.ukpds.org/xFOYlqks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/xFOYlqks>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 223\" .\r\n<http://id.ukpds.org/sasorJKp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/sasorJKp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 224\" .\r\n<http://id.ukpds.org/x5m7Lqfk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/x5m7Lqfk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 225\" .\r\n<http://id.ukpds.org/ZJPNAcgS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ZJPNAcgS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 226\" .\r\n<http://id.ukpds.org/Ejh1ytBb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Ejh1ytBb>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 227\" .\r\n<http://id.ukpds.org/wwSnRSxh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wwSnRSxh>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 228\" .\r\n<http://id.ukpds.org/tiIAowt8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/tiIAowt8>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 229\" .\r\n<http://id.ukpds.org/sCKAZqFU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/sCKAZqFU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 230\" .\r\n<http://id.ukpds.org/gYwYLSKo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/gYwYLSKo>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 231\" .\r\n<http://id.ukpds.org/oC7jecRE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/oC7jecRE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 232\" .\r\n<http://id.ukpds.org/7mhdGf57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7mhdGf57>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 233\" .\r\n<http://id.ukpds.org/htKwOcsY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/htKwOcsY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 234\" .\r\n<http://id.ukpds.org/YXWTtXMD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/YXWTtXMD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 235\" .\r\n<http://id.ukpds.org/xYDCA4Kn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/xYDCA4Kn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 236\" .\r\n<http://id.ukpds.org/NrklgAnY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NrklgAnY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 237\" .\r\n<http://id.ukpds.org/egXLDauy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/egXLDauy>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 238\" .\r\n<http://id.ukpds.org/c68iXOyU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/c68iXOyU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 239\" .\r\n<http://id.ukpds.org/MNT6qZKT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MNT6qZKT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 240\" .\r\n<http://id.ukpds.org/FXusTLWq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FXusTLWq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 241\" .\r\n<http://id.ukpds.org/KhdHaTDc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/KhdHaTDc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 242\" .\r\n<http://id.ukpds.org/WkIv74aR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/WkIv74aR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 243\" .\r\n<http://id.ukpds.org/RRB4Zjhk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RRB4Zjhk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 244\" .\r\n<http://id.ukpds.org/9sJi6NTs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9sJi6NTs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 245\" .\r\n<http://id.ukpds.org/cXMAmDX1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cXMAmDX1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 246\" .\r\n<http://id.ukpds.org/I739gx83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/I739gx83>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 247\" .\r\n<http://id.ukpds.org/1nKazkuh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1nKazkuh>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 248\" .\r\n<http://id.ukpds.org/ExuE2w5F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ExuE2w5F>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 249\" .\r\n<http://id.ukpds.org/4hsJLZ3E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4hsJLZ3E>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 250\" .\r\n<http://id.ukpds.org/ngmTFR5S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ngmTFR5S>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 251\" .\r\n<http://id.ukpds.org/nibVO2uC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nibVO2uC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 252\" .\r\n<http://id.ukpds.org/q04ZI49A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/q04ZI49A>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 253\" .\r\n<http://id.ukpds.org/lmKtHUPQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lmKtHUPQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 254\" .\r\n<http://id.ukpds.org/dGR0niD9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/dGR0niD9>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 255\" .\r\n<http://id.ukpds.org/jWO4PrJM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jWO4PrJM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 256\" .\r\n<http://id.ukpds.org/hTrWbyv0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hTrWbyv0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 257\" .\r\n<http://id.ukpds.org/4cnTD1IE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4cnTD1IE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 258\" .\r\n<http://id.ukpds.org/VuLZ1n1V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VuLZ1n1V>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 259\" .\r\n<http://id.ukpds.org/u1syUXrG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/u1syUXrG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 260\" .\r\n<http://id.ukpds.org/Y28nbqGR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Y28nbqGR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 261\" .\r\n<http://id.ukpds.org/PrigmDob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PrigmDob>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 262\" .\r\n<http://id.ukpds.org/yC38cwut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/yC38cwut>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 263\" .\r\n<http://id.ukpds.org/QpwfxGzV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QpwfxGzV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 264\" .\r\n<http://id.ukpds.org/nBpcD6nI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nBpcD6nI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 265\" .\r\n<http://id.ukpds.org/TuDMQyIq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/TuDMQyIq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 266\" .\r\n<http://id.ukpds.org/HZpgPOeM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HZpgPOeM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 267\" .\r\n<http://id.ukpds.org/qDsLzLyG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/qDsLzLyG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 268\" .\r\n<http://id.ukpds.org/AnNLhub2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/AnNLhub2>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 269\" .\r\n<http://id.ukpds.org/RkcLpJHg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RkcLpJHg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 270\" .\r\n<http://id.ukpds.org/p7QyerNX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/p7QyerNX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 271\" .\r\n<http://id.ukpds.org/43HN3Z5G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/43HN3Z5G>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 272\" .\r\n<http://id.ukpds.org/giVlohwQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/giVlohwQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 273\" .\r\n<http://id.ukpds.org/4cJQcehL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4cJQcehL>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 274\" .\r\n<http://id.ukpds.org/vnhG3xYI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vnhG3xYI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 275\" .\r\n<http://id.ukpds.org/OSEXsWH8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OSEXsWH8>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 276\" .\r\n<http://id.ukpds.org/Omh9cqdu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Omh9cqdu>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 277\" .\r\n<http://id.ukpds.org/xf78lB2I> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/xf78lB2I>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 278\" .\r\n<http://id.ukpds.org/2pfEE0iO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/2pfEE0iO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 279\" .\r\n<http://id.ukpds.org/cYSi7X5H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cYSi7X5H>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 280\" .\r\n<http://id.ukpds.org/K91J6Tjw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/K91J6Tjw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 281\" .\r\n<http://id.ukpds.org/PT274R5o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PT274R5o>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 282\" .\r\n<http://id.ukpds.org/bpl2BdY0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bpl2BdY0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 283\" .\r\n<http://id.ukpds.org/7t6F2gh5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7t6F2gh5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 284\" .\r\n<http://id.ukpds.org/WvZOABbU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/WvZOABbU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 285\" .\r\n<http://id.ukpds.org/WGHrFDeR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/WGHrFDeR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 286\" .\r\n<http://id.ukpds.org/75bsQClZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/75bsQClZ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 287\" .\r\n<http://id.ukpds.org/OAb1mtMI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OAb1mtMI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 288\" .\r\n<http://id.ukpds.org/bor09xVQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bor09xVQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 289\" .\r\n<http://id.ukpds.org/NeineWNm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NeineWNm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 290\" .\r\n<http://id.ukpds.org/BElkkJrW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/BElkkJrW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 291\" .\r\n<http://id.ukpds.org/uJ2vFxic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/uJ2vFxic>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 292\" .\r\n<http://id.ukpds.org/VX4B2pp0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VX4B2pp0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 293\" .\r\n<http://id.ukpds.org/H6ZmI7vk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/H6ZmI7vk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 294\" .\r\n<http://id.ukpds.org/U5kdQZYt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/U5kdQZYt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 295\" .\r\n<http://id.ukpds.org/IwwAtFKs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IwwAtFKs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 296\" .\r\n<http://id.ukpds.org/jBl4jOKC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jBl4jOKC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 297\" .\r\n<http://id.ukpds.org/IGbz6ZNg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IGbz6ZNg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 298\" .\r\n<http://id.ukpds.org/by9rDNrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/by9rDNrt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 299\" .\r\n<http://id.ukpds.org/ePNzdh5y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ePNzdh5y>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 300\" .\r\n<http://id.ukpds.org/y4btbh3M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/y4btbh3M>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 301\" .\r\n<http://id.ukpds.org/rERa2w3y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/rERa2w3y>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 302\" .\r\n<http://id.ukpds.org/MXXJ54XD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MXXJ54XD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 303\" .\r\n<http://id.ukpds.org/IRsW5SgE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IRsW5SgE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 304\" .\r\n<http://id.ukpds.org/P567f3NM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/P567f3NM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 305\" .\r\n<http://id.ukpds.org/a4IIe8iE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/a4IIe8iE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 306\" .\r\n<http://id.ukpds.org/qvK15lnY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/qvK15lnY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 307\" .\r\n<http://id.ukpds.org/kfgPjvjg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kfgPjvjg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 308\" .\r\n<http://id.ukpds.org/vNU7bGiV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vNU7bGiV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 309\" .\r\n<http://id.ukpds.org/iKgAwoj5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/iKgAwoj5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 310\" .\r\n<http://id.ukpds.org/jbxYolbA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jbxYolbA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 311\" .\r\n<http://id.ukpds.org/68sXgyIp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/68sXgyIp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 312\" .\r\n<http://id.ukpds.org/sJLDhblv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/sJLDhblv>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 313\" .\r\n<http://id.ukpds.org/vzDcZkYe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vzDcZkYe>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 314\" .\r\n<http://id.ukpds.org/qpId1WWK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/qpId1WWK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 315\" .\r\n<http://id.ukpds.org/x24UO85E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/x24UO85E>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 316\" .\r\n<http://id.ukpds.org/Hlid5wSB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Hlid5wSB>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 317\" .\r\n<http://id.ukpds.org/jFvAdNXy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jFvAdNXy>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 318\" .\r\n<http://id.ukpds.org/1OMDUb2Y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1OMDUb2Y>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 319\" .\r\n<http://id.ukpds.org/4ReTN51R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4ReTN51R>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 320\" .\r\n<http://id.ukpds.org/lw3Y7fRx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lw3Y7fRx>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 321\" .\r\n<http://id.ukpds.org/u9WAKKzD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/u9WAKKzD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 322\" .\r\n<http://id.ukpds.org/AvOFmqmn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/AvOFmqmn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 323\" .\r\n<http://id.ukpds.org/k8K5lAKA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/k8K5lAKA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 324\" .\r\n<http://id.ukpds.org/mH8Mk6El> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mH8Mk6El>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 325\" .\r\n<http://id.ukpds.org/hSHxVWBs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hSHxVWBs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 326\" .\r\n<http://id.ukpds.org/bsNd4Wxs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bsNd4Wxs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 327\" .\r\n<http://id.ukpds.org/1kxQVyXL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1kxQVyXL>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 328\" .\r\n<http://id.ukpds.org/MTN40zhz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MTN40zhz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 329\" .\r\n<http://id.ukpds.org/zIRTAsz9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zIRTAsz9>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 330\" .\r\n<http://id.ukpds.org/lKJa8F6r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lKJa8F6r>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 331\" .\r\n<http://id.ukpds.org/hDLKpH4I> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hDLKpH4I>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 332\" .\r\n<http://id.ukpds.org/VrR4zMve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VrR4zMve>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 333\" .\r\n<http://id.ukpds.org/Uklawfun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Uklawfun>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 334\" .\r\n<http://id.ukpds.org/gEPrZ44D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/gEPrZ44D>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 335\" .\r\n<http://id.ukpds.org/yWuglmrZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/yWuglmrZ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 336\" .\r\n<http://id.ukpds.org/EPAPVr89> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/EPAPVr89>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 337\" .\r\n<http://id.ukpds.org/rtOwo4CU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/rtOwo4CU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 338\" .\r\n<http://id.ukpds.org/la1kgn1p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/la1kgn1p>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 339\" .\r\n<http://id.ukpds.org/pV6TqSJ3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/pV6TqSJ3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 340\" .\r\n<http://id.ukpds.org/zLtVOvGc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zLtVOvGc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 341\" .\r\n<http://id.ukpds.org/xaSEz7KM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/xaSEz7KM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 342\" .\r\n<http://id.ukpds.org/e1H4rQua> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/e1H4rQua>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 343\" .\r\n<http://id.ukpds.org/39MGDMsT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/39MGDMsT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 344\" .\r\n<http://id.ukpds.org/2urhDK7H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/2urhDK7H>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 345\" .\r\n<http://id.ukpds.org/Cxsvywz1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Cxsvywz1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 346\" .\r\n<http://id.ukpds.org/H2u4X2rE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/H2u4X2rE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 347\" .\r\n<http://id.ukpds.org/kVDwtfjV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kVDwtfjV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 348\" .\r\n<http://id.ukpds.org/DtKOGrkt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/DtKOGrkt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 349\" .\r\n<http://id.ukpds.org/dgh0C3J0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/dgh0C3J0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 350\" .\r\n<http://id.ukpds.org/WqwPU4pW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/WqwPU4pW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 351\" .\r\n<http://id.ukpds.org/Mgb0dJlo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Mgb0dJlo>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 352\" .\r\n<http://id.ukpds.org/2GFz00Xj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/2GFz00Xj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 353\" .\r\n<http://id.ukpds.org/ehpEqU0I> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ehpEqU0I>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 354\" .\r\n<http://id.ukpds.org/BGQUi1ng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/BGQUi1ng>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 355\" .\r\n<http://id.ukpds.org/AQ7WSp3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/AQ7WSp3c>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 356\" .\r\n<http://id.ukpds.org/4fMUvbqH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4fMUvbqH>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 357\" .\r\n<http://id.ukpds.org/A6trRbvX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/A6trRbvX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 358\" .\r\n<http://id.ukpds.org/x4X3dii2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/x4X3dii2>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 359\" .\r\n<http://id.ukpds.org/FcRlVCzr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FcRlVCzr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 360\" .\r\n<http://id.ukpds.org/nhkg3cmn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nhkg3cmn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 361\" .\r\n<http://id.ukpds.org/w8uZ0lZy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/w8uZ0lZy>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 362\" .\r\n<http://id.ukpds.org/SQWXgLdk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SQWXgLdk>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 363\" .\r\n<http://id.ukpds.org/8n24kn9m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8n24kn9m>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 364\" .\r\n<http://id.ukpds.org/j1DQupfX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/j1DQupfX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 365\" .\r\n<http://id.ukpds.org/JEGI04vK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/JEGI04vK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 366\" .\r\n<http://id.ukpds.org/J3pcnnDb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/J3pcnnDb>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 367\" .\r\n<http://id.ukpds.org/SnPLssfQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SnPLssfQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 368\" .\r\n<http://id.ukpds.org/Rl4wK4by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Rl4wK4by>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 369\" .\r\n<http://id.ukpds.org/MoPPerZE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MoPPerZE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 370\" .\r\n<http://id.ukpds.org/HC4pUCmC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HC4pUCmC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 371\" .\r\n<http://id.ukpds.org/QyAC21rC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QyAC21rC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 372\" .\r\n<http://id.ukpds.org/QNH2Tmi9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QNH2Tmi9>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 373\" .\r\n<http://id.ukpds.org/odyHmBEn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/odyHmBEn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 374\" .\r\n<http://id.ukpds.org/UOD3HESy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/UOD3HESy>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 375\" .\r\n<http://id.ukpds.org/iGMctYEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/iGMctYEC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 376\" .\r\n<http://id.ukpds.org/miZwNutW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/miZwNutW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 377\" .\r\n<http://id.ukpds.org/cfxhtKkT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cfxhtKkT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 378\" .\r\n<http://id.ukpds.org/bH6MarUU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bH6MarUU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 379\" .\r\n<http://id.ukpds.org/IVfkw7uO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IVfkw7uO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 380\" .\r\n<http://id.ukpds.org/7kzQAjlT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7kzQAjlT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 381\" .\r\n<http://id.ukpds.org/j9q2MqIs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/j9q2MqIs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 382\" .\r\n<http://id.ukpds.org/CSBjttC3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CSBjttC3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 383\" .\r\n<http://id.ukpds.org/36Lt687C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/36Lt687C>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 384\" .\r\n<http://id.ukpds.org/6DcdgrDf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6DcdgrDf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 385\" .\r\n<http://id.ukpds.org/sUywEluQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/sUywEluQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 386\" .\r\n<http://id.ukpds.org/KovFCJLy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/KovFCJLy>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 387\" .\r\n<http://id.ukpds.org/6jBGm2O2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6jBGm2O2>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 388\" .\r\n<http://id.ukpds.org/dl3nLw6R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/dl3nLw6R>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 389\" .\r\n<http://id.ukpds.org/utzffi0B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/utzffi0B>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 390\" .\r\n<http://id.ukpds.org/QWyDV3f1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QWyDV3f1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 391\" .\r\n<http://id.ukpds.org/8WCJszV1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8WCJszV1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 392\" .\r\n<http://id.ukpds.org/ieLiqjKg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ieLiqjKg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 393\" .\r\n<http://id.ukpds.org/JKNkpflc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/JKNkpflc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 394\" .\r\n<http://id.ukpds.org/Hn82BPgc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Hn82BPgc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 395\" .\r\n<http://id.ukpds.org/vr12IWf5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vr12IWf5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 396\" .\r\n<http://id.ukpds.org/lgonSEux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lgonSEux>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 397\" .\r\n<http://id.ukpds.org/Fe0YSkik> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Fe0YSkik>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 398\" .\r\n<http://id.ukpds.org/CBoR2gm4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CBoR2gm4>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 399\" .\r\n<http://id.ukpds.org/s3v5f9oV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/s3v5f9oV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 400\" .\r\n<http://id.ukpds.org/vBiIVR9s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vBiIVR9s>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 401\" .\r\n<http://id.ukpds.org/CK966wmu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CK966wmu>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 402\" .\r\n<http://id.ukpds.org/KLsQcMfd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/KLsQcMfd>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 403\" .\r\n<http://id.ukpds.org/CkO9pnaV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CkO9pnaV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 404\" .\r\n<http://id.ukpds.org/N9AipjgO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/N9AipjgO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 405\" .\r\n<http://id.ukpds.org/MFrxpjmW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MFrxpjmW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 406\" .\r\n<http://id.ukpds.org/diBa3AjD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/diBa3AjD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 407\" .\r\n<http://id.ukpds.org/Ss7s8qxW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Ss7s8qxW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 408\" .\r\n<http://id.ukpds.org/fvIgfg2y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/fvIgfg2y>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 409\" .\r\n<http://id.ukpds.org/CaFMFbI8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CaFMFbI8>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 410\" .\r\n<http://id.ukpds.org/PbQkU7uO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PbQkU7uO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 411\" .\r\n<http://id.ukpds.org/KeYwj2EY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/KeYwj2EY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 412\" .\r\n<http://id.ukpds.org/VBRavuEq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VBRavuEq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 413\" .\r\n<http://id.ukpds.org/NwYkTS4a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NwYkTS4a>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 414\" .\r\n<http://id.ukpds.org/GVURJw9W> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/GVURJw9W>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 415\" .\r\n<http://id.ukpds.org/7W6gBLwW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7W6gBLwW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 416\" .\r\n<http://id.ukpds.org/21jV5HzP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/21jV5HzP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 417\" .\r\n<http://id.ukpds.org/ONqzViZj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ONqzViZj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 418\" .\r\n<http://id.ukpds.org/G15FFWJ5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/G15FFWJ5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 419\" .\r\n<http://id.ukpds.org/6KopUZI2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6KopUZI2>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 420\" .\r\n<http://id.ukpds.org/Hyb0CePN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Hyb0CePN>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 421\" .\r\n<http://id.ukpds.org/HQ7iKC1o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/HQ7iKC1o>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 422\" .\r\n<http://id.ukpds.org/NaAkvLod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NaAkvLod>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 423\" .\r\n<http://id.ukpds.org/QmZsGhR3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QmZsGhR3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 424\" .\r\n<http://id.ukpds.org/7xKEUW7s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7xKEUW7s>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 425\" .\r\n<http://id.ukpds.org/hewE3SrB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hewE3SrB>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 426\" .\r\n<http://id.ukpds.org/d0aaLcbb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/d0aaLcbb>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 427\" .\r\n<http://id.ukpds.org/QSiS7rU9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QSiS7rU9>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 428\" .\r\n<http://id.ukpds.org/VfE5vAgr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VfE5vAgr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 429\" .\r\n<http://id.ukpds.org/3uwq1DP7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3uwq1DP7>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 430\" .\r\n<http://id.ukpds.org/UdT69Xjb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/UdT69Xjb>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 431\" .\r\n<http://id.ukpds.org/r3oSd7t0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/r3oSd7t0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 432\" .\r\n<http://id.ukpds.org/s2T1EMSq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/s2T1EMSq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 433\" .\r\n<http://id.ukpds.org/lXUDDUyu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lXUDDUyu>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 434\" .\r\n<http://id.ukpds.org/jUAumQTR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jUAumQTR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 435\" .\r\n<http://id.ukpds.org/ONFAfmNM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ONFAfmNM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 436\" .\r\n<http://id.ukpds.org/g0H0z0ip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/g0H0z0ip>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 437\" .\r\n<http://id.ukpds.org/NM14qpAX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NM14qpAX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 438\" .\r\n<http://id.ukpds.org/6s7ytiVK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6s7ytiVK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 439\" .\r\n<http://id.ukpds.org/REBgCxat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/REBgCxat>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 440\" .\r\n<http://id.ukpds.org/NJfQYeq0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NJfQYeq0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 441\" .\r\n<http://id.ukpds.org/59Zh4B5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/59Zh4B5c>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 442\" .\r\n<http://id.ukpds.org/Rsxlsb7P> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Rsxlsb7P>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 443\" .\r\n<http://id.ukpds.org/4ye8XYoh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4ye8XYoh>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 444\" .\r\n<http://id.ukpds.org/41rq2ovY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/41rq2ovY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 445\" .\r\n<http://id.ukpds.org/x4aVJjPP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/x4aVJjPP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 446\" .\r\n<http://id.ukpds.org/jupvYLgz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jupvYLgz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 447\" .\r\n<http://id.ukpds.org/PVEVEFyj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PVEVEFyj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 448\" .\r\n<http://id.ukpds.org/CXwNwU9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CXwNwU9e>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 449\" .\r\n<http://id.ukpds.org/LHWexqsH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/LHWexqsH>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 450\" .\r\n<http://id.ukpds.org/0PjuAXao> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/0PjuAXao>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 451\" .\r\n<http://id.ukpds.org/BwoAN96t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/BwoAN96t>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 452\" .\r\n<http://id.ukpds.org/1zG06Czf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1zG06Czf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 453\" .\r\n<http://id.ukpds.org/L1nGbcGY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/L1nGbcGY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 454\" .\r\n<http://id.ukpds.org/LBHKSHFp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/LBHKSHFp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 455\" .\r\n<http://id.ukpds.org/tR7yl7hi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/tR7yl7hi>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 456\" .\r\n<http://id.ukpds.org/Ic2bWCDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Ic2bWCDD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 457\" .\r\n<http://id.ukpds.org/i1NGRUIR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/i1NGRUIR>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 458\" .\r\n<http://id.ukpds.org/3PmXGyUC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3PmXGyUC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 459\" .\r\n<http://id.ukpds.org/6Y99cQA5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6Y99cQA5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 460\" .\r\n<http://id.ukpds.org/rZFMxiWD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/rZFMxiWD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 461\" .\r\n<http://id.ukpds.org/MyQVFvMb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MyQVFvMb>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 462\" .\r\n<http://id.ukpds.org/7SpuboDm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7SpuboDm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 463\" .\r\n<http://id.ukpds.org/5HemBDDv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5HemBDDv>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 464\" .\r\n<http://id.ukpds.org/7gnWT0UG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7gnWT0UG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 465\" .\r\n<http://id.ukpds.org/IaQ1qXo1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IaQ1qXo1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 466\" .\r\n<http://id.ukpds.org/zaehd2gl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zaehd2gl>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 467\" .\r\n<http://id.ukpds.org/C1YEO3UY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/C1YEO3UY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 468\" .\r\n<http://id.ukpds.org/QHap3YOG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QHap3YOG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 469\" .\r\n<http://id.ukpds.org/Uw5SaHoY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Uw5SaHoY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 470\" .\r\n<http://id.ukpds.org/006rYBaz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/006rYBaz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 471\" .\r\n<http://id.ukpds.org/htUlwoXx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/htUlwoXx>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 472\" .\r\n<http://id.ukpds.org/kciz745N> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kciz745N>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 473\" .\r\n<http://id.ukpds.org/VLbQmxSJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VLbQmxSJ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 474\" .\r\n<http://id.ukpds.org/6O9PhN7l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6O9PhN7l>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 475\" .\r\n<http://id.ukpds.org/tTJQedhK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/tTJQedhK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 476\" .\r\n<http://id.ukpds.org/0MDC3YsG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/0MDC3YsG>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 477\" .\r\n<http://id.ukpds.org/bjNOPUs0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bjNOPUs0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 478\" .\r\n<http://id.ukpds.org/nuy5KpSS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nuy5KpSS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 479\" .\r\n<http://id.ukpds.org/FXIhi9e6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FXIhi9e6>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 480\" .\r\n<http://id.ukpds.org/kYLMyF0H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kYLMyF0H>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 481\" .\r\n<http://id.ukpds.org/oyRQgZvF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/oyRQgZvF>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 482\" .\r\n<http://id.ukpds.org/jJXksCZA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jJXksCZA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 483\" .\r\n<http://id.ukpds.org/pCcCkOTL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/pCcCkOTL>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 484\" .\r\n<http://id.ukpds.org/zyhmEM9i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zyhmEM9i>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 485\" .\r\n<http://id.ukpds.org/Ee9JYsfc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Ee9JYsfc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 486\" .\r\n<http://id.ukpds.org/S1gRRzxi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/S1gRRzxi>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 487\" .\r\n<http://id.ukpds.org/V1pdpljU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/V1pdpljU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 488\" .\r\n<http://id.ukpds.org/1VlylWBP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1VlylWBP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 489\" .\r\n<http://id.ukpds.org/3KYgag0q> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3KYgag0q>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 490\" .\r\n<http://id.ukpds.org/FmYJgHlC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FmYJgHlC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 491\" .\r\n<http://id.ukpds.org/cMVgyY6j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cMVgyY6j>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 492\" .\r\n<http://id.ukpds.org/t5KBeF3P> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/t5KBeF3P>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 493\" .\r\n<http://id.ukpds.org/1bcgku1L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1bcgku1L>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 494\" .\r\n<http://id.ukpds.org/bY0HUR5D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bY0HUR5D>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 495\" .\r\n<http://id.ukpds.org/vAiwDgBP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vAiwDgBP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 496\" .\r\n<http://id.ukpds.org/3I88Tyfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3I88Tyfo>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 497\" .\r\n<http://id.ukpds.org/wcKyJESC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/wcKyJESC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 498\" .\r\n<http://id.ukpds.org/3DPVaY76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3DPVaY76>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 499\" .\r\n<http://id.ukpds.org/1JfhN3Vb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1JfhN3Vb>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 500\" .\r\n<http://id.ukpds.org/cXQA8MYA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cXQA8MYA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 501\" .\r\n<http://id.ukpds.org/UF9s51Ze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/UF9s51Ze>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 502\" .\r\n<http://id.ukpds.org/Igzi59lc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Igzi59lc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 503\" .\r\n<http://id.ukpds.org/DInflfVT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/DInflfVT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 504\" .\r\n<http://id.ukpds.org/VGpg0MLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VGpg0MLD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 505\" .\r\n<http://id.ukpds.org/GHZyCZo3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/GHZyCZo3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 506\" .\r\n<http://id.ukpds.org/vQtHrXxw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vQtHrXxw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 507\" .\r\n<http://id.ukpds.org/jz6I9zyd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/jz6I9zyd>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 508\" .\r\n<http://id.ukpds.org/MXA8LO20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MXA8LO20>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 509\" .\r\n<http://id.ukpds.org/5fTklxtP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5fTklxtP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 510\" .\r\n<http://id.ukpds.org/V8b5r9k5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/V8b5r9k5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 511\" .\r\n<http://id.ukpds.org/QlvhMBAm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QlvhMBAm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 512\" .\r\n<http://id.ukpds.org/3SXEACYD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3SXEACYD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 513\" .\r\n<http://id.ukpds.org/4dR5geUX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4dR5geUX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 514\" .\r\n<http://id.ukpds.org/mupJnEt9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mupJnEt9>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 515\" .\r\n<http://id.ukpds.org/4cM7lyiz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4cM7lyiz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 516\" .\r\n<http://id.ukpds.org/SVYp9F2c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SVYp9F2c>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 517\" .\r\n<http://id.ukpds.org/pZRYcYDe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/pZRYcYDe>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 518\" .\r\n<http://id.ukpds.org/Rnj7wbIg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Rnj7wbIg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 519\" .\r\n<http://id.ukpds.org/kV21b2k8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/kV21b2k8>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 520\" .\r\n<http://id.ukpds.org/RLMq5Cq8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RLMq5Cq8>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 521\" .\r\n<http://id.ukpds.org/AkFBq4ds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/AkFBq4ds>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 522\" .\r\n<http://id.ukpds.org/t0q41bhj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/t0q41bhj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 523\" .\r\n<http://id.ukpds.org/dpqOmluI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/dpqOmluI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 524\" .\r\n<http://id.ukpds.org/4LPd9umf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/4LPd9umf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 525\" .\r\n<http://id.ukpds.org/xYtLPHyh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/xYtLPHyh>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 526\" .\r\n<http://id.ukpds.org/a1hhiUyQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/a1hhiUyQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 527\" .\r\n<http://id.ukpds.org/szXM7JFx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/szXM7JFx>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 528\" .\r\n<http://id.ukpds.org/vd2KZ7le> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vd2KZ7le>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 529\" .\r\n<http://id.ukpds.org/cBY0ej0X> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cBY0ej0X>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 530\" .\r\n<http://id.ukpds.org/PrJ70Xhm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PrJ70Xhm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 531\" .\r\n<http://id.ukpds.org/oScl56jm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/oScl56jm>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 532\" .\r\n<http://id.ukpds.org/mtlNwUQt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mtlNwUQt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 533\" .\r\n<http://id.ukpds.org/MiAgHEen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MiAgHEen>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 534\" .\r\n<http://id.ukpds.org/1SW0PSmM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/1SW0PSmM>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 535\" .\r\n<http://id.ukpds.org/DbPV0O9L> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/DbPV0O9L>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 536\" .\r\n<http://id.ukpds.org/zYtLJJiX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zYtLJJiX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 537\" .\r\n<http://id.ukpds.org/XAHy0dlw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/XAHy0dlw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 538\" .\r\n<http://id.ukpds.org/baTnoo5c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/baTnoo5c>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 539\" .\r\n<http://id.ukpds.org/U2ezLx7S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/U2ezLx7S>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 540\" .\r\n<http://id.ukpds.org/Ll1ksOW4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Ll1ksOW4>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 541\" .\r\n<http://id.ukpds.org/UUqfiHeE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/UUqfiHeE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 542\" .\r\n<http://id.ukpds.org/B9kulaQI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/B9kulaQI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 543\" .\r\n<http://id.ukpds.org/C8JjhthK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/C8JjhthK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 544\" .\r\n<http://id.ukpds.org/pfRGrJGS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/pfRGrJGS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 545\" .\r\n<http://id.ukpds.org/R0O0kUt6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/R0O0kUt6>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 546\" .\r\n<http://id.ukpds.org/OppSWKgl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/OppSWKgl>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 547\" .\r\n<http://id.ukpds.org/M1jYEF70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/M1jYEF70>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 548\" .\r\n<http://id.ukpds.org/xOtNSXDs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/xOtNSXDs>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 549\" .\r\n<http://id.ukpds.org/FZ3xRuUg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FZ3xRuUg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 550\" .\r\n<http://id.ukpds.org/gx4UpJvH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/gx4UpJvH>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 551\" .\r\n<http://id.ukpds.org/K1cNenjS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/K1cNenjS>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 552\" .\r\n<http://id.ukpds.org/fdGTZBOC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/fdGTZBOC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 553\" .\r\n<http://id.ukpds.org/P17oJtwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/P17oJtwv>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 554\" .\r\n<http://id.ukpds.org/Cd5f5xYf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Cd5f5xYf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 555\" .\r\n<http://id.ukpds.org/fmHrKxYQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/fmHrKxYQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 556\" .\r\n<http://id.ukpds.org/ADIZyunI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ADIZyunI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 557\" .\r\n<http://id.ukpds.org/B8sS4elD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/B8sS4elD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 558\" .\r\n<http://id.ukpds.org/SkyUDnKh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SkyUDnKh>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 559\" .\r\n<http://id.ukpds.org/zxwiPpnJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zxwiPpnJ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 560\" .\r\n<http://id.ukpds.org/VjglptEI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/VjglptEI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 561\" .\r\n<http://id.ukpds.org/99Da2z98> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/99Da2z98>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 562\" .\r\n<http://id.ukpds.org/7s34xbf1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7s34xbf1>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 563\" .\r\n<http://id.ukpds.org/ITreY1lQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ITreY1lQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 564\" .\r\n<http://id.ukpds.org/BVg48PG5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/BVg48PG5>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 565\" .\r\n<http://id.ukpds.org/IrdXO4Fp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/IrdXO4Fp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 566\" .\r\n<http://id.ukpds.org/iQSaixtE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/iQSaixtE>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 567\" .\r\n<http://id.ukpds.org/L9Hg5bsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/L9Hg5bsi>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 568\" .\r\n<http://id.ukpds.org/E4s6rego> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/E4s6rego>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 569\" .\r\n<http://id.ukpds.org/MjHefeOh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MjHefeOh>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 570\" .\r\n<http://id.ukpds.org/5LEuiTJw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5LEuiTJw>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 571\" .\r\n<http://id.ukpds.org/bKlMRVnW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/bKlMRVnW>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 572\" .\r\n<http://id.ukpds.org/dVL9QjnU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/dVL9QjnU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 573\" .\r\n<http://id.ukpds.org/GocyQOIh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/GocyQOIh>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 574\" .\r\n<http://id.ukpds.org/Xymkpg1E> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Xymkpg1E>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 575\" .\r\n<http://id.ukpds.org/6XzJvSvV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/6XzJvSvV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 576\" .\r\n<http://id.ukpds.org/ri9NnW1D> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ri9NnW1D>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 577\" .\r\n<http://id.ukpds.org/em5pwXeP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/em5pwXeP>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 578\" .\r\n<http://id.ukpds.org/RzkGnYwr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/RzkGnYwr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 579\" .\r\n<http://id.ukpds.org/8o1LNMEt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8o1LNMEt>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 580\" .\r\n<http://id.ukpds.org/Euq5qnin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Euq5qnin>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 581\" .\r\n<http://id.ukpds.org/PMA7NjVj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/PMA7NjVj>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 582\" .\r\n<http://id.ukpds.org/R1vcELvD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/R1vcELvD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 583\" .\r\n<http://id.ukpds.org/mJ7yU0TT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mJ7yU0TT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 584\" .\r\n<http://id.ukpds.org/W3WXU2zX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/W3WXU2zX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 585\" .\r\n<http://id.ukpds.org/KXYRHWuT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/KXYRHWuT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 586\" .\r\n<http://id.ukpds.org/phPHL1GC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/phPHL1GC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 587\" .\r\n<http://id.ukpds.org/0y38m1Da> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/0y38m1Da>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 588\" .\r\n<http://id.ukpds.org/CpQNEu1l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/CpQNEu1l>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 589\" .\r\n<http://id.ukpds.org/nPn9J6FY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nPn9J6FY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 590\" .\r\n<http://id.ukpds.org/21fuwYyg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/21fuwYyg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 591\" .\r\n<http://id.ukpds.org/pXGyQC2R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/pXGyQC2R>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 592\" .\r\n<http://id.ukpds.org/LYury6kg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/LYury6kg>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 593\" .\r\n<http://id.ukpds.org/7fviRCi7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/7fviRCi7>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 594\" .\r\n<http://id.ukpds.org/Mnnc8IhX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Mnnc8IhX>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 595\" .\r\n<http://id.ukpds.org/j7w4ol0u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/j7w4ol0u>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 596\" .\r\n<http://id.ukpds.org/BMpuam6b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/BMpuam6b>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 597\" .\r\n<http://id.ukpds.org/0i4mx5Ld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/0i4mx5Ld>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 598\" .\r\n<http://id.ukpds.org/TngTPnwp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/TngTPnwp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 599\" .\r\n<http://id.ukpds.org/n0WGfD2S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/n0WGfD2S>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 600\" .\r\n<http://id.ukpds.org/Q4tVF70c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Q4tVF70c>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 601\" .\r\n<http://id.ukpds.org/holxXONo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/holxXONo>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 602\" .\r\n<http://id.ukpds.org/NaruyX4r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NaruyX4r>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 603\" .\r\n<http://id.ukpds.org/cXkE5d1d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cXkE5d1d>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 604\" .\r\n<http://id.ukpds.org/9VG7bD26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/9VG7bD26>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 605\" .\r\n<http://id.ukpds.org/E3d8fi4m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/E3d8fi4m>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 606\" .\r\n<http://id.ukpds.org/o7uFU4yD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/o7uFU4yD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 607\" .\r\n<http://id.ukpds.org/0zFRtVgA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/0zFRtVgA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 608\" .\r\n<http://id.ukpds.org/clEQUW1n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/clEQUW1n>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 609\" .\r\n<http://id.ukpds.org/NFyePKVc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NFyePKVc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 610\" .\r\n<http://id.ukpds.org/f92ZSolp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/f92ZSolp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 611\" .\r\n<http://id.ukpds.org/ZnCAzfex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/ZnCAzfex>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 612\" .\r\n<http://id.ukpds.org/V0x3ivdq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/V0x3ivdq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 613\" .\r\n<http://id.ukpds.org/S2I0Rm4B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/S2I0Rm4B>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 614\" .\r\n<http://id.ukpds.org/mEYLVQ3g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/mEYLVQ3g>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 615\" .\r\n<http://id.ukpds.org/XqE26vut> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/XqE26vut>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 616\" .\r\n<http://id.ukpds.org/svx2KBl0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/svx2KBl0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 617\" .\r\n<http://id.ukpds.org/TlcZTPxv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/TlcZTPxv>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 618\" .\r\n<http://id.ukpds.org/TPe2SYZT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/TPe2SYZT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 619\" .\r\n<http://id.ukpds.org/vxC6nHlc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/vxC6nHlc>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 620\" .\r\n<http://id.ukpds.org/QbHIqK3O> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QbHIqK3O>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 621\" .\r\n<http://id.ukpds.org/8Tw7l8qJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/8Tw7l8qJ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 622\" .\r\n<http://id.ukpds.org/nDPHCTaI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/nDPHCTaI>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 623\" .\r\n<http://id.ukpds.org/n98mvkgN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/n98mvkgN>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 624\" .\r\n<http://id.ukpds.org/lG3eRdqK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/lG3eRdqK>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 625\" .\r\n<http://id.ukpds.org/5bS8si0S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5bS8si0S>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 626\" .\r\n<http://id.ukpds.org/SgwtjyjD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SgwtjyjD>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 627\" .\r\n<http://id.ukpds.org/sSAJvWFA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/sSAJvWFA>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 628\" .\r\n<http://id.ukpds.org/hNsOjzoO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/hNsOjzoO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 629\" .\r\n<http://id.ukpds.org/06fHc0V9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/06fHc0V9>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 630\" .\r\n<http://id.ukpds.org/B8Z9b0eO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/B8Z9b0eO>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 631\" .\r\n<http://id.ukpds.org/eLdGwaT0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/eLdGwaT0>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 632\" .\r\n<http://id.ukpds.org/afNrrTCQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/afNrrTCQ>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 633\" .\r\n<http://id.ukpds.org/NC3wiTIr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/NC3wiTIr>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 634\" .\r\n<http://id.ukpds.org/FAYtbYsf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/FAYtbYsf>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 635\" .\r\n<http://id.ukpds.org/fTk1dwc8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/fTk1dwc8>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 636\" .\r\n<http://id.ukpds.org/cAu3KLqn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/cAu3KLqn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 637\" .\r\n<http://id.ukpds.org/m8ytlbxp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/m8ytlbxp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 638\" .\r\n<http://id.ukpds.org/Q8EHWCYU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/Q8EHWCYU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 639\" .\r\n<http://id.ukpds.org/5n0DFseC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5n0DFseC>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 640\" .\r\n<http://id.ukpds.org/QYQAapuF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/QYQAapuF>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 641\" .\r\n<http://id.ukpds.org/S7qD3eR3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/S7qD3eR3>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 642\" .\r\n<http://id.ukpds.org/3bD6UYNU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/3bD6UYNU>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 643\" .\r\n<http://id.ukpds.org/5axrhLHT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/5axrhLHT>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 644\" .\r\n<http://id.ukpds.org/zbR3LkFz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/zbR3LkFz>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 645\" .\r\n<http://id.ukpds.org/MUkQ6XhY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/MUkQ6XhY>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 646\" .\r\n<http://id.ukpds.org/K8uiwnLV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/K8uiwnLV>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 647\" .\r\n<http://id.ukpds.org/480ezCAq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/480ezCAq>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 648\" .\r\n<http://id.ukpds.org/sjKPAGLp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/sjKPAGLp>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 649\" .\r\n<http://id.ukpds.org/SCHztnIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/SCHztnIn>
+        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
+        - 650\" .\r\n_:node1763629 <http://id.ukpds.org/schema/value> \"B\" .\r\n_:node1763630
+        <http://id.ukpds.org/schema/value> \"S\" .\r\n_:node1763631 <http://id.ukpds.org/schema/value>
+        \"P\" .\r\n_:node1763632 <http://id.ukpds.org/schema/value> \"U\" .\r\n_:node1763633
+        <http://id.ukpds.org/schema/value> \"C\" .\r\n_:node1763634 <http://id.ukpds.org/schema/value>
+        \"F\" .\r\n_:node1763635 <http://id.ukpds.org/schema/value> \"E\" .\r\n_:node1763636
+        <http://id.ukpds.org/schema/value> \"G\" .\r\n_:node1763637 <http://id.ukpds.org/schema/value>
+        \"D\" .\r\n_:node1763638 <http://id.ukpds.org/schema/value> \"W\" .\r\n_:node1763639
+        <http://id.ukpds.org/schema/value> \"H\" .\r\n_:node1763640 <http://id.ukpds.org/schema/value>
+        \"N\" .\r\n_:node1763641 <http://id.ukpds.org/schema/value> \"T\" .\r\n_:node1763642
+        <http://id.ukpds.org/schema/value> \"A\" .\r\n_:node1763643 <http://id.ukpds.org/schema/value>
+        \"K\" .\r\n_:node1763644 <http://id.ukpds.org/schema/value> \"R\" .\r\n_:node1763645
+        <http://id.ukpds.org/schema/value> \"I\" .\r\n_:node1763646 <http://id.ukpds.org/schema/value>
+        \"M\" .\r\n_:node1763647 <http://id.ukpds.org/schema/value> \"L\" .\r\n_:node1763648
+        <http://id.ukpds.org/schema/value> \"O\" .\r\n_:node1763649 <http://id.ukpds.org/schema/value>
+        \"V\" .\r\n_:node1763650 <http://id.ukpds.org/schema/value> \"Y\" .\r\n_:node1763651
+        <http://id.ukpds.org/schema/value> \"J\" .\r\n"
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:22:57 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/api/v2/groups/parliament/features/show-dissolution
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Bandiera Ruby Client / 3.0.4
+      Host:
+      - ec2-54-154-199-50.eu-west-1.compute.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '17'
+    body:
+      encoding: UTF-8
+      string: '{"response":true}'
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:22:58 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/api/v2/groups/parliament/features/show-dissolution
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Bandiera Ruby Client / 3.0.4
+      Host:
+      - ec2-54-154-199-50.eu-west-1.compute.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '17'
+    body:
+      encoding: UTF-8
+      string: '{"response":true}'
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:22:58 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/api/v2/groups/parliament/features/show-register
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Bandiera Ruby Client / 3.0.4
+      Host:
+      - ec2-54-154-199-50.eu-west-1.compute.amazonaws.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '17'
+    body:
+      encoding: UTF-8
+      string: '{"response":true}'
+    http_version: 
+  recorded_at: Fri, 19 May 2017 11:22:58 GMT
+- request:
+    method: get
+    uri: http://localhost:3030/houses
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '420'
+      Content-Type:
+      - application/n-triples
+      Expires:
+      - Fri, 02 Jun 2017 10:41:51 GMT
+      Set-Cookie:
+      - ARRAffinity=b33f2cf26cbb655976ea24d5d2dea6f44e1f8349a0c5eef4404e4762da5fe1ce;Path=/;Domain=20170412115159fixedquery.azurewebsites.net
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 02 Jun 2017 10:41:51 GMT
+    body:
+      encoding: UTF-8
+      string: "<http://id.ukpds.org/cqIATgUK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/cqIATgUK> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 1\" .\r\n<http://id.ukpds.org/mG2ur5TF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/mG2ur5TF> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 2\" .\r\n"
+    http_version: 
+  recorded_at: Fri, 02 Jun 2017 10:41:53 GMT
+recorded_with: VCR 3.0.3

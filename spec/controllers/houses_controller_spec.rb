@@ -1,0 +1,104 @@
+require 'rails_helper'
+
+RSpec.describe HousesController, vcr: true do
+
+  describe "GET index" do
+    before(:each) do
+      get :index
+    end
+
+    it 'should have a response with http status ok (200)' do
+      expect(response).to have_http_status(:ok)
+    end
+
+    it 'assigns @houses' do
+      assigns(:houses).each do |house|
+        expect(house).to be_a(Grom::Node)
+        expect(house.type).to eq('http://id.ukpds.org/schema/House')
+      end
+    end
+
+    it 'assigns @houses in alphabetical order' do
+      expect(assigns(:houses)[0].name).to eq('House of Commons')
+      expect(assigns(:houses)[1].name).to eq('House of Lords')
+    end
+
+    it 'renders the index template' do
+      expect(response).to render_template('index')
+    end
+  end
+
+  describe 'GET lookup_by_letters' do
+    context 'it returns multiple results' do
+      before(:each) do
+        get :lookup_by_letters, params: { letters: 'house' }
+      end
+
+      it 'should have a response with http status redirect (302)' do
+        expect(response).to have_http_status(302)
+      end
+
+      it 'redirects to index' do
+        expect(response).to redirect_to(houses_path)
+      end
+    end
+
+    context 'it returns a single result' do
+      before(:each) do
+        get :lookup_by_letters, params: { letters: 'commons' }
+      end
+
+      it 'should have a response with http status redirect (302)' do
+        expect(response).to have_http_status(302)
+      end
+
+      it 'redirects to houses/:id' do
+        expect(response).to redirect_to(house_path('cqIATgUK'))
+      end
+    end
+  end
+
+  describe '#data_check' do
+    context 'an available data format is requested' do
+      methods = [
+          {
+            route: 'index',
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/houses"
+          },
+          {
+            route: 'lookup_by_letters',
+            parameters: { letters: 'labour' },
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/houses/partial/labour"
+          }
+        ]
+
+      before(:each) do
+        headers = { 'Accept' => 'application/rdf+xml' }
+        request.headers.merge(headers)
+      end
+
+      it 'should have a response with http status redirect (302)' do
+        methods.each do |method|
+          if method.include?(:parameters)
+            get method[:route].to_sym, params: method[:parameters]
+          else
+            get method[:route].to_sym
+          end
+          expect(response).to have_http_status(302)
+        end
+      end
+
+      it 'redirects to the data service' do
+        methods.each do |method|
+          if method.include?(:parameters)
+            get method[:route].to_sym, params: method[:parameters]
+          else
+            get method[:route].to_sym
+          end
+          expect(response).to redirect_to(method[:data_url])
+        end
+      end
+
+    end
+  end
+end
