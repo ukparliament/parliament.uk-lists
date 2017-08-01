@@ -3,7 +3,7 @@ module Parliaments
     before_action :data_check, :build_request
 
     ROUTE_MAP = {
-      index: proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.parliaments(params[:parliament_id]).houses }
+      index: proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.parliament_houses.set_url_params({ parliament_id: params[:parliament_id] }) },
     }.freeze
 
     def index
