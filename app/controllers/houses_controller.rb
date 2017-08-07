@@ -2,8 +2,8 @@ class HousesController < ApplicationController
   before_action :data_check, :build_request
 
   ROUTE_MAP = {
-    index:             proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.houses },
-    lookup_by_letters: proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.houses.partial(params[:letters]) }
+    index:              proc  { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.house_index },
+    lookup_by_letters:  proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.house_by_substring.set_url_params({ substring: params[:letters] }) }
   }.freeze
 
   def index
