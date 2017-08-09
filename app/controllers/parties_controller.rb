@@ -3,7 +3,6 @@ class PartiesController < ApplicationController
 
   ROUTE_MAP = {
     index:             proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.party_index },
-    lookup:            proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.party_lookup.set_url_params({ property: params[:source], value: params[:id] }) },
     current:           proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.party_current },
     letters:           proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.party_by_initial.set_url_params({ initial: params[:letter] }) },
     a_to_z:            proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.party_a_to_z },
@@ -22,12 +21,6 @@ class PartiesController < ApplicationController
 
     @parties = @parties.sort_by(:name)
     @letters = @letters.map(&:value)
-  end
-
-  def lookup
-    @party = @request.get.first
-
-    redirect_to party_path(@party.graph_id)
   end
 
   def current
