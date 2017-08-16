@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/puma/puma.git
+  revision: a771ec3655f7ee7a0e0b620c1cadd0c1a1650aff
+  branch: master
+  specs:
+    puma (3.9.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -163,7 +170,6 @@ GEM
     powerpack (0.1.1)
     public_suffix (2.0.5)
     pugin (1.0.1)
-    puma (3.9.1)
     rack (2.0.3)
     rack-rewrite (1.5.1)
     rack-test (0.6.3)
@@ -264,6 +270,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    stopgap_13632 (1.0.1)
     syslog-logger (1.6.8)
     temple (0.8.0)
     term-ansicolor (1.6.0)
@@ -319,7 +326,7 @@ DEPENDENCIES
   parliament-ruby (~> 0.8)
   parliament-utils (~> 0.2)
   pugin (~> 1.0)
-  puma (~> 3.7)
+  puma!
   rack-rewrite
   rack-timeout
   rails (~> 5.1.2)
@@ -331,6 +338,7 @@ DEPENDENCIES
   simplecov (~> 0.14)
   spring
   spring-watcher-listen (~> 2.0.0)
+  stopgap_13632 (~> 1.0)
   turbolinks (~> 5)
   tzinfo-data
   vcr
