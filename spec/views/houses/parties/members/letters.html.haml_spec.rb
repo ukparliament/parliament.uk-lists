@@ -11,6 +11,7 @@ RSpec.describe 'houses/parties/members/letters', vcr: true do
     allow(view).to receive(:house_parties_party_members_a_z_letter_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members/a-z/a')
 
     controller.params = { letter: 'a' }
+    allow(view).to receive(:house_parties_party_members_path).and_return("/houses/Kz7ncmrt/parties/AJgeHzL2/members")
 
     render
   end
@@ -24,6 +25,7 @@ RSpec.describe 'houses/parties/members/letters', vcr: true do
   context 'partials' do
     it 'will render letter navigation' do
       expect(response).to render_template(partial: 'pugin/components/_navigation-letter')
+      expect(rendered).to include('<a href="/houses/Kz7ncmrt/parties/AJgeHzL2/members">ALL</a>')
     end
 
     it 'will render pugin/elements/_list' do
