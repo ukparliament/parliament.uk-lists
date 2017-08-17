@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3030/region_constituencies_a_to_z?region_code=E15000001
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/n-triples
+      Content-Disposition:
+      - inline; filename="index"
+      Last-Modified:
+      - Mon, 21 Aug 2017 14:33:16 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '1263'
+    body:
+      encoding: UTF-8
+      string: |
+        <http://data.ordnancesurvey.co.uk/id/7000000000041430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ordnancesurvey.co.uk/ontology/admingeo/EuropeanRegion> .
+        <http://data.ordnancesurvey.co.uk/id/7000000000041430> <http://data.ordnancesurvey.co.uk/ontology/admingeo/gssCode> "gssCode - 1" .
+        <http://data.ordnancesurvey.co.uk/id/7000000000041430> <http://www.w3.org/2004/02/skos/core#prefLabel> "core#prefLabel - 1" .
+        _:node1043113 <http://id.ukpds.org/schema/value> "W" .
+        _:node1043114 <http://id.ukpds.org/schema/value> "T" .
+        _:node1043115 <http://id.ukpds.org/schema/value> "V" .
+        _:node1043116 <http://id.ukpds.org/schema/value> "I" .
+        _:node1043117 <http://id.ukpds.org/schema/value> "P" .
+        _:node1043118 <http://id.ukpds.org/schema/value> "K" .
+        _:node1043119 <http://id.ukpds.org/schema/value> "R" .
+        _:node1043120 <http://id.ukpds.org/schema/value> "G" .
+        _:node1043121 <http://id.ukpds.org/schema/value> "D" .
+        _:node1043122 <http://id.ukpds.org/schema/value> "L" .
+        _:node1043123 <http://id.ukpds.org/schema/value> "F" .
+        _:node1043124 <http://id.ukpds.org/schema/value> "Y" .
+        _:node1043125 <http://id.ukpds.org/schema/value> "U" .
+        _:node1043126 <http://id.ukpds.org/schema/value> "O" .
+        _:node1043127 <http://id.ukpds.org/schema/value> "J" .
+    http_version:
+  recorded_at: Tue, 22 Aug 2017 10:17:05 GMT
+- request:
+    method: get
+    uri: http://localhost:3030/house_index
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/n-triples
+      Content-Disposition:
+      - inline; filename="index"
+      Last-Modified:
+      - Mon, 21 Aug 2017 14:27:51 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '420'
+    body:
+      encoding: UTF-8
+      string: "<http://id.ukpds.org/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/Kz7ncmrt> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 1\" .\r\n<http://id.ukpds.org/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/MvLURLV5> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 2\" .\r\n"
+    http_version:
+  recorded_at: Tue, 22 Aug 2017 10:17:05 GMT
+recorded_with: VCR 3.0.3

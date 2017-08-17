@@ -28,8 +28,6 @@ gem 'parliament-utils', '~> 0.2', require: false
 # Parliament routing
 gem 'parliament-routes', '~> 0.3'
 
-
-
 # Parliament NTriple processes N-triple data
 gem 'parliament-ntriple', '~> 0.1', require: false
 

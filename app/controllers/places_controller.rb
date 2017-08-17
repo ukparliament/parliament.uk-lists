@@ -1,5 +1,8 @@
 class PlacesController < ApplicationController
-  def index
 
+  ROUTE_MAP = {
+  }.freeze
+
+  def index
   end
 end
