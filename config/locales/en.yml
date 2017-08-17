@@ -54,6 +54,11 @@ en:
   # global parliaments translations
   parliament: 'parliament'
   parliament_plural: 'parliaments'
+  # global places translations
+  place: 'place'
+  place_plural: 'places'
+  region: 'region'
+  region_plural: 'regions'
   # global generic translations
   view_all: 'view all'
   all: 'all'
