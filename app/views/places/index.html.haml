@@ -1,3 +1,11 @@
 .section--primary
   .container
     %h1= title(t('place_plural').capitalize)
+
+%section#content
+  .container
+    %ul.list--block
+      %li
+        .list--details
+          %h2= link_to "#{t('region_plural').capitalize}", places_regions_path
+          %p= "#{t('places.all_regions')}"

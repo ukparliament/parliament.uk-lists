@@ -56,6 +56,7 @@ module Houses
       @letters = @letters.map(&:value)
       @current_person_type, @other_person_type = Parliament::Utils::Helpers::HousesHelper.person_type_string(@house)
       @current_house_id, @other_house_id = Parliament::Utils::Helpers::HousesHelper.house_id_string(@house)
+      @all_path = :house_members_path
     end
 
     def current_letters
@@ -71,18 +72,21 @@ module Houses
       @letters = @letters.map(&:value)
       @current_person_type, @other_person_type = Parliament::Utils::Helpers::HousesHelper.person_type_string(@house)
       @current_house_id, @other_house_id = Parliament::Utils::Helpers::HousesHelper.house_id_string(@house)
+      @all_path = :house_members_current_path
     end
 
     def a_to_z
       @house_id = params[:house_id]
 
       @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+      @all_path = :house_members_path
     end
 
     def a_to_z_current
       @house_id = params[:house_id]
 
       @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+      @all_path = :house_members_current_path
     end
   end
 end

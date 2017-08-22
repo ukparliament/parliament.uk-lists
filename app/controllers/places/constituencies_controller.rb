@@ -2,7 +2,6 @@ module Places
   class ConstituenciesController < ApplicationController
 
     def index
-
     end
 
     def a_to_z

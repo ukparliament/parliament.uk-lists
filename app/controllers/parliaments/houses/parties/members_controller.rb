@@ -44,6 +44,7 @@ module Parliaments
           @house      = @house.first
           @party      = @party.first
           @letters    = @letters.map(&:value)
+          @all_path = :parliament_house_party_members_path
         end
 
         def letters
@@ -61,6 +62,7 @@ module Parliaments
           @party      = @party.first
           @people     = @people.sort_by(:sort_name)
           @letters    = @letters.map(&:value)
+          @all_path = :parliament_house_party_members_path
         end
       end
     end

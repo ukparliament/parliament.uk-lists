@@ -36,6 +36,7 @@ module Parliaments
       @parliament = @parliament.first
       @letters    = @letters.map(&:value)
       @people     = @people.sort_by(:sort_name)
+      @all_path = :parliament_members_path
     end
 
     def a_to_z
@@ -47,6 +48,7 @@ module Parliaments
 
       @parliament = @parliament.first
       @letters    = @letters.map(&:value)
+      @all_path = :parliament_members_path
     end
   end
 end

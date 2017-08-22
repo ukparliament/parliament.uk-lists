@@ -32,6 +32,7 @@ module Parliaments
       @parliament     = @parliament.first
       @constituencies = @constituencies.sort_by(:name)
       @letters        = @letters.map(&:value)
+      @all_path = :parliament_constituencies_path
     end
 
     def letters
@@ -45,6 +46,7 @@ module Parliaments
       @parliament     = @parliament.first
       @constituencies = @constituencies.sort_by(:name)
       @letters        = @letters.map(&:value)
+      @all_path = :parliament_constituencies_path
     end
   end
 end

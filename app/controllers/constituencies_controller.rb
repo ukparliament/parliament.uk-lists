@@ -49,6 +49,7 @@ class ConstituenciesController < ApplicationController
 
     @constituencies = @constituencies.sort_by(:name)
     @letters = @letters.map(&:value)
+    @all_path = :constituencies_path
   end
 
   # Renders a list of current constituencies that begin with a particular letter given the letter. Shown with an a - z partial view.
@@ -63,18 +64,21 @@ class ConstituenciesController < ApplicationController
 
     @constituencies = @constituencies.sort_by(:name)
     @letters = @letters.map(&:value)
+    @all_path = :constituencies_current_path
   end
 
   # Renders a list of letters taken from first letter of all constituencies. Shown with an a - z partial view.
   # @return [Array] letters representing all constituencies.
   def a_to_z
     @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+    @all_path = :constituencies_path
   end
 
   # Renders a list of letters taken from first letter of all current constituencies. Shown with an a - z partial view.
   # @return [Array] letters representing all current constituencies.
   def a_to_z_current
     @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+    @all_path = :constituencies_current_path
   end
 
   # Look up to find a constituency given a string.  Redirects to either a single constituency or list of constituencies.

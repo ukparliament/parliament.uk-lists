@@ -48,6 +48,7 @@ module Parties
       @party = @party.first
       @people = @people.sort_by(:sort_name)
       @letters = @letters.map(&:value)
+      @all_path = :party_members_path
     end
 
     def current_letters
@@ -61,16 +62,19 @@ module Parties
       @party = @party.first
       @people = @people.sort_by(:sort_name)
       @letters = @letters.map(&:value)
+      @all_path = :party_members_current_path
     end
 
     def a_to_z
       @party_id = params[:party_id]
       @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+      @all_path = :party_members_path
     end
 
     def a_to_z_current
       @party_id = params[:party_id]
       @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+      @all_path = :party_members_current_path
     end
   end
 end
