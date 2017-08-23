@@ -39,10 +39,12 @@ class PartiesController < ApplicationController
 
     @parties = @parties.sort_by(:name)
     @letters = @letters.map(&:value)
+    @all_path = :parties_path
   end
 
   def a_to_z
     @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(ROUTE_MAP[:a_to_z].call)
+    @all_path = :parties_path
   end
 
   def lookup_by_letters

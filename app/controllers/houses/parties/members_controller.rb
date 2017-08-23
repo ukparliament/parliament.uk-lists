@@ -40,6 +40,7 @@ module Houses
         @people = @people.sort_by(:sort_name)
         @letters = @letters.map(&:value)
         @current_person_type, @other_person_type = Parliament::Utils::Helpers::HousesHelper.person_type_string(@house)
+        @all_path = :house_parties_party_members_path
       end
 
       def current
@@ -72,6 +73,7 @@ module Houses
         @people = @people.sort_by(:sort_name)
         @letters = @letters.map(&:value)
         @current_person_type, @other_person_type = Parliament::Utils::Helpers::HousesHelper.person_type_string(@house)
+        @all_path = :house_parties_party_members_current_path
       end
 
       def a_to_z
@@ -79,6 +81,7 @@ module Houses
         @party_id = params[:party_id]
 
         @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(ROUTE_MAP[:a_to_z].call(params))
+        @all_path = :house_parties_party_members_path
       end
 
       def a_to_z_current
@@ -86,6 +89,7 @@ module Houses
         @party_id = params[:party_id]
 
         @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(ROUTE_MAP[:a_to_z_current].call(params))
+        @all_path = :house_parties_party_members_current_path
       end
     end
   end

@@ -42,6 +42,7 @@ module People
 
       @people = @people.sort_by(:sort_name)
       @letters = @letters.map(&:value)
+      @all_path = :people_members_path
     end
 
     def current_letters
@@ -53,14 +54,17 @@ module People
 
       @people = @people.sort_by(:sort_name)
       @letters = @letters.map(&:value)
+      @all_path = :people_members_current_path
     end
 
     def a_to_z
       @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+      @all_path = :people_members_path
     end
 
     def a_to_z_current
       @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+      @all_path = :people_members_current_path
     end
   end
 end

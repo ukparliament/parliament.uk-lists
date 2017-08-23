@@ -34,10 +34,12 @@ class PeopleController < ApplicationController
 
     @people = @people.sort_by(:sort_name)
     @letters = @letters.map(&:value)
+    @all_path = :people_path
   end
 
   def a_to_z
     @letters = Parliament::Utils::Helpers::RequestHelper.process_available_letters(@request)
+    @all_path = :people_path
   end
 
   def lookup_by_letters

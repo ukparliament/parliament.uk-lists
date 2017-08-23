@@ -4,11 +4,12 @@
     %h1
       %span= "#{@party.name} - #{t('mps_and_lords')}"
       = link_to "#{@parliament.date_range(date_format: '%Y')} #{t('parliament')}", parliament_path(@parliament.graph_id)
-
-%section#content
-  .container
     %ul.list--block
       %li
         .list--details
           %h2= link_to "A-Z", parliament_party_members_a_z_path(@parliament.graph_id, @party.graph_id)
           %p= t('parliaments.find_mp_a_to_z')
+
+%section#content
+  .container
+    = render partial: "pugin/elements/list", locals: {item_type: "people", data: @people}

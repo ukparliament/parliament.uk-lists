@@ -1,0 +1,12 @@
+.section--primary
+  .container
+    %h1= title(t('region_plural').capitalize)
+
+%section#content
+  .container
+    %ul.list--block
+      - @regions.each do |region|
+        %li
+          .list--details
+            %h2= link_to region.name, places_show_path(region.graph_id)
+            %p= "#{region.constituency_count} #{t('constituency_plural').capitalize}"

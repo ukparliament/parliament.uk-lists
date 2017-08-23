@@ -10,3 +10,7 @@
           %h2= link_to "A-Z", parliament_members_a_z_path(@parliament.graph_id)
           %p= t('parliaments.find_mp_a_to_z')
 
+%section#content
+  .container
+    = render partial: "pugin/elements/list", locals: {item_type: "people", data: @people}
+

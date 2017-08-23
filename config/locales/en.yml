@@ -54,6 +54,11 @@ en:
   # global parliaments translations
   parliament: 'parliament'
   parliament_plural: 'parliaments'
+  # global places translations
+  place: 'place'
+  place_plural: 'places'
+  region: 'region'
+  region_plural: 'regions'
   # global generic translations
   view_all: 'view all'
   all: 'all'
@@ -72,7 +77,9 @@ en:
   open_new_window: "website opens in a new window"
   # global a-z navigation translations
   a_to_z:
+    a_to_z: 'A to Z'
     select_letter: 'select a letter'
+    showing_results: 'showing results for'
     aria_label: 'Paged navigation'
   # global time format translations
   time:
@@ -281,6 +288,9 @@ en:
       find_mp_house: 'Find an MP by house'
     constituencies:
       find_constituency_a_to_z: 'Find a constituency by A-Z list'
+  # place translations
+  places:
+    all_regions: 'All Regions.'
   # no content translations
   no_content:
     empty_list:
