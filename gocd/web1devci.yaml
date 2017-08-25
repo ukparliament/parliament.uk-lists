@@ -3,8 +3,8 @@ pipelines:
     group: main
     label_template: "${COUNT}"
     environment_variables:
-      ASSET_LOCATION_URL: https://s3-eu-west-1.amazonaws.com/$(AWS_ACCOUNT).pugin-website
-      STATIC_ASSET_LOCATION_URL: https://s3-eu-west-1.amazonaws.com/$(AWS_ACCOUNT).static-assets
+      ASSET_LOCATION_URL: https://s3-eu-west-1.amazonaws.com/web1live.pugin-website
+      STATIC_ASSET_LOCATION_URL: https://s3-eu-west-1.amazonaws.com/web1live.static-assets
       RACK_ENV: development
     materials:
       parliament.uk-lists-git:
