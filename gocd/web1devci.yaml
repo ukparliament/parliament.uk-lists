@@ -55,6 +55,6 @@ pipelines:
 
 
 environments:
-  Web.LIVE:
+  Web.DEVCI:
     pipelines:
       - parliament.uk-lists
