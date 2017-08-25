@@ -188,7 +188,7 @@ RSpec.describe ConstituenciesController, vcr: true do
       end
 
       it 'redirects to constituencies/:id' do
-        expect(response).to redirect_to(constituency_path('JGl1V427'))
+        expect(response).to redirect_to(constituency_path('IBwXbt13'))
       end
     end
   end
@@ -269,5 +269,5 @@ RSpec.describe ConstituenciesController, vcr: true do
       end
     end
   end
-  
+
 end

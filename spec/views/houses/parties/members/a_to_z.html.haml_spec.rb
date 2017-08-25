@@ -5,6 +5,8 @@ RSpec.describe 'houses/parties/members/a_to_z', vcr: true do
     assign(:house_id, 'KL2k1BGP')
     assign(:party_id, 'pPvA9vKP')
     assign(:letters, 'A')
+    allow(view).to receive(:house_parties_party_members_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members')
+    allow(view).to receive(:house_parties_party_members_a_z_letter_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members/a-z/a')
     render
   end
 
