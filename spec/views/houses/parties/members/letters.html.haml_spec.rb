@@ -7,6 +7,9 @@ RSpec.describe 'houses/parties/members/letters', vcr: true do
     assign(:people, [])
     assign(:current_person_type, 'MPs')
     assign(:letters, 'A')
+    allow(view).to receive(:house_parties_party_members_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members')
+    allow(view).to receive(:house_parties_party_members_a_z_letter_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members/a-z/a')
+
     controller.params = { letter: 'a' }
 
     render

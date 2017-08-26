@@ -20,7 +20,7 @@ class ConstituenciesController < ApplicationController
       ::Grom::Node::BLANK
     )
 
-    @constituencies = @constituencies.sort_by(:name)
+    @constituencies = @constituencies.multi_direction_sort({name: :asc, start_date: :desc})
     @letters = @letters.map(&:value)
   end
 
@@ -47,7 +47,7 @@ class ConstituenciesController < ApplicationController
       ::Grom::Node::BLANK
     )
 
-    @constituencies = @constituencies.sort_by(:name)
+    @constituencies = @constituencies.multi_direction_sort({name: :asc, start_date: :desc})
     @letters = @letters.map(&:value)
     @all_path = :constituencies_path
   end
@@ -95,7 +95,7 @@ class ConstituenciesController < ApplicationController
       return
     end
 
-    @constituencies = @constituencies.sort_by(:name)
+    @constituencies = @constituencies.multi_direction_sort({name: :asc, start_date: :desc})
     @letters = @letters.map(&:value)
   end
 end
