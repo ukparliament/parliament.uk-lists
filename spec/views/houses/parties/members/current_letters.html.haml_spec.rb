@@ -13,6 +13,8 @@ RSpec.describe 'houses/parties/members/current_letters', vcr: true do
     assign(:party_id, '891w1b1k')
     assign(:letters, 'A')
     controller.params = { letter: 'a' }
+    allow(view).to receive(:house_parties_party_members_current_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members/current')
+    allow(view).to receive(:house_parties_party_members_current_a_z_letter_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members/current/a-z/a')
 
     render
   end
