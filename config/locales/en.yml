@@ -18,7 +18,6 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   # global people translations
   mp: 'MP'
@@ -275,7 +274,6 @@ en:
       search_by_postcode: 'Enter your full postcode, for example SW1A 0AA.'
       do_not_know_postcode: "Don't know your postcode? Find it on the %{link}."
       do_not_know_postcode_link: 'Royal Mail postcode finder'
-
   # parliament translations
   parliaments:
     find_mp_a_to_z: 'Find an MP by A-Z list'
