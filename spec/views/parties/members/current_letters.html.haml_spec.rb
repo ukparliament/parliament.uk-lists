@@ -6,6 +6,7 @@ RSpec.describe 'parties/members/current_letters', vcr: true do
     assign(:people, [])
     assign(:party, double(:party, name: 'Conservative', graph_id: 'jF43Jxoc'))
     assign(:letters, 'A')
+    allow(view).to receive(:house_parties_party_members_path).and_return('/houses/Kz7ncmrt/parties/AJgeHzL2/members')
     controller.params = { letter: 'a' }
     render
   end

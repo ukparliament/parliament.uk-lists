@@ -18,6 +18,11 @@ pipelines:
             build:
               tasks:
                 - exec:
+                  run_if: passed
+                  command: make
+                  arguments:
+                    - checkout_to_release
+                - exec:
                     run_if: passed
                     command: make
                     arguments:
@@ -33,7 +38,7 @@ pipelines:
                     arguments:
                       - push
                 - exec:
-                    run_if: passed
+                    run_if: any
                     command: make
                     arguments:
                       - rmi
