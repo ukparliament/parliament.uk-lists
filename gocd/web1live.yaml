@@ -38,7 +38,7 @@ pipelines:
                     arguments:
                       - push
                 - exec:
-                    run_if: passed
+                    run_if: any
                     command: make
                     arguments:
                       - rmi
