@@ -3,7 +3,7 @@
   .container
     %h1
       %span= "#{@place.name} #{t('constituency_plural')}"
-      %span= "#{t('a_to_z.a_to_z')} #{t('a_to_z.showing_results')} '#{params[:letter].capitalize}'"
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_results')} #{params[:letter].capitalize}"
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :places_show_constituencies_a_z_letter_path, route_args: [@place.gss_code] }
 
 %section#content

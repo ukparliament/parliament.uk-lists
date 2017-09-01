@@ -12,6 +12,10 @@ RSpec.describe 'constituencies/lookup_by_letters', vcr: true do
     it 'will render the correct header' do
       expect(rendered).to match(/Current and former constituencies/)
     end
+
+    it 'will render the correct sub-header' do
+      expect(rendered).to match(/A to Z - showing results for A/)
+    end
   end
 
   context 'partials' do

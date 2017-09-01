@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 en:
   # global people translations
+  people_single: 'people'
   mp: 'MP'
   mp_plural: 'MPs'
   lord: 'Lord'
@@ -79,6 +80,7 @@ en:
     a_to_z: 'A to Z'
     select_letter: 'select a letter'
     showing_results: 'showing results for'
+    showing_all: 'showing all'
     aria_label: 'Paged navigation'
   # global time format translations
   time:

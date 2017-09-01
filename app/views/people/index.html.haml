@@ -1,6 +1,8 @@
 .section--primary
   .container
-    %h1= title(t('.title', current_and_former: t('current_and_former').capitalize, mps_and_lords: t('mps_and_lords')))
+    %h1
+      %span= title(t('people_single').capitalize)
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
 
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :people_a_z_letter_path }
 

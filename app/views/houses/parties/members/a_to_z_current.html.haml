@@ -1,3 +1,8 @@
+- title("#{@party.name} - #{t('current').capitalize} #{@current_person_type} #{t('a_to_z.a_to_z')}")
 #content.section--primary
   .container
+    %h1
+      %span= "#{@party.name} - #{t('current').capitalize} #{@current_person_type}"
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.select_letter')}"
+
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_parties_party_members_current_a_z_letter_path, route_args: [@house_id, @party_id], all_path: :house_parties_party_members_current_path}

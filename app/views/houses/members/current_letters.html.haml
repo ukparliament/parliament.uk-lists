@@ -1,9 +1,10 @@
-- title("#{ @house.name } - #{ t( '.title', current: t('current').capitalize, member_type: @current_person_type ) }")
+- title("#{@house.name} - #{t('current').capitalize} #{@current_person_type} #{t('a_to_z.a_to_z')} #{t('a_to_z.showing_results')} #{params[:letter].capitalize}")
 
 .section--primary
   .container
-
-    %h1= "#{t('current').capitalize} #{@current_person_type}"
+    %h1
+      %span= "#{t('current').capitalize} #{@current_person_type}"
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_results')} #{params[:letter].capitalize}"
 
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_members_current_a_z_letter_path, route_args: [@house.graph_id], all_path: @all_path}
 
