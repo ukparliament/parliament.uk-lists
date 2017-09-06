@@ -10,7 +10,11 @@ RSpec.describe 'people/lookup_by_letters', vcr: true do
 
   context 'header' do
     it 'will render the correct header' do
-      expect(rendered).to match(/Current and former MPs and Lords/)
+      expect(rendered).to match(/People/)
+    end
+
+    it 'will render the correct sub-header' do
+      expect(rendered).to match(/A to Z - select a letter/)
     end
   end
 

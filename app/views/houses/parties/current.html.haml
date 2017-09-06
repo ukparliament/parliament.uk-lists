@@ -1,4 +1,4 @@
-- title("#{@house.name} - #{t('current').capitalize} #{t('parties_and_groups')}")
+- title("#{@house.name} - #{t('current').capitalize} #{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('party_plural') : t('parties_and_groups')}")
 
 #content.section--primary
   .container
