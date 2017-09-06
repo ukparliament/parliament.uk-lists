@@ -23,6 +23,10 @@ RSpec.describe 'houses/parties/members/current_letters', vcr: true do
     it 'will render the current person type' do
       expect(rendered).to match(/Current MPs/)
     end
+
+    it 'will render the correct sub-header' do
+      expect(rendered).to match(/A to Z - showing results for A/)
+    end
   end
 
   context 'partials' do

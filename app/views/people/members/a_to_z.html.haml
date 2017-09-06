@@ -1,3 +1,8 @@
+- page_title = title("#{t('current_and_former').capitalize} #{t('mps_and_lords')} #{t('a_to_z.a_to_z')}")
 #content.section--primary
   .container
+    %h1
+      %span= "#{t('current_and_former').capitalize} #{t('mps_and_lords')}"
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.select_letter')}"
+
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :people_members_a_z_letter_path, all_path: @all_path}

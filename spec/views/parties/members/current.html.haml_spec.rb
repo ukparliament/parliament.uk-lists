@@ -12,7 +12,7 @@ RSpec.describe 'parties/members/current', vcr: true do
 
   context 'header' do
     it 'will render the correct header' do
-      expect(rendered).to match(/Conservative - Current members/)
+      expect(rendered).to match(/Conservative - Current MPs and Lords/)
     end
   end
 

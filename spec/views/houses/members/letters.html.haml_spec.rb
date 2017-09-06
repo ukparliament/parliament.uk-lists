@@ -20,6 +20,10 @@ RSpec.describe 'houses/members/letters', vcr: true do
     it 'will render the page title' do
       expect(rendered).to match(/Current and former MPs/)
     end
+
+    it 'will render the correct sub-header' do
+      expect(rendered).to match(/A to Z - showing results for A/)
+    end
   end
 
   context 'partials' do
