@@ -43,13 +43,12 @@ RSpec.describe 'people', type: :routing do
     end
 
     context 'person' do
-
       context 'constituencies' do
         it 'GET people/:person_id/constituencies' do
           expect(get: '/people/B4qvo8kI/constituencies').to route_to(
             controller: 'people/constituencies',
             action:     'index',
-            person_id:    'B4qvo8kI'
+            person_id:  'B4qvo8kI'
           )
         end
 
@@ -57,7 +56,7 @@ RSpec.describe 'people', type: :routing do
           expect(get: '/people/B4qvo8kI/constituencies/current').to route_to(
             controller: 'people/constituencies',
             action:     'current',
-            person_id:    'B4qvo8kI'
+            person_id:  'B4qvo8kI'
           )
         end
 
@@ -69,18 +68,17 @@ RSpec.describe 'people', type: :routing do
           expect(get: '/people/B4qvo8kI/contact-points').to route_to(
             controller: 'people/contact_points',
             action:     'index',
-            person_id:    'B4qvo8kI'
+            person_id:  'B4qvo8kI'
           )
         end
       end
 
       context 'houses' do
-
         it 'GET people/:person_id/houses' do
           expect(get: '/people/B4qvo8kI/houses').to route_to(
             controller: 'people/houses',
             action:     'index',
-            person_id:    'B4qvo8kI'
+            person_id:  'B4qvo8kI'
           )
         end
 
@@ -88,19 +86,18 @@ RSpec.describe 'people', type: :routing do
           expect(get: '/people/B4qvo8kI/houses/current').to route_to(
             controller: 'people/houses',
             action:     'current',
-            person_id:    'B4qvo8kI'
+            person_id:  'B4qvo8kI'
           )
         end
 
       end
 
       context 'parties' do
-
         it 'GET people/:person_id/parties' do
           expect(get: '/people/B4qvo8kI/parties').to route_to(
             controller: 'people/parties',
             action:     'index',
-            person_id:    'B4qvo8kI'
+            person_id:  'B4qvo8kI'
           )
         end
 
@@ -108,8 +105,50 @@ RSpec.describe 'people', type: :routing do
           expect(get: '/people/B4qvo8kI/parties/current').to route_to(
             controller: 'people/parties',
             action:     'current',
-            person_id:    'B4qvo8kI'
+            person_id:  'B4qvo8kI'
           )
+        end
+      end
+
+      context 'committees' do
+        # people/:person_id/committees#index
+        it 'GET people/:person_id/committees#index' do
+          expect(get: '/people/B4qvo8kI/committees').to route_to(
+            controller: 'people/committees',
+            action:     'index',
+            person_id:  'B4qvo8kI'
+          )
+        end
+
+        context 'memberships' do
+          # people/:person_id/committees/memberships#index
+          it 'GET people/:person_id/committees/memberships#index' do
+            expect(get: 'people/B4qvo8kI/committees/memberships').to route_to(
+              controller: 'people/committees/memberships',
+              action:     'index',
+              person_id:  'B4qvo8kI'
+            )
+          end
+
+          it 'GET people/:person_id/committees/memberships#current'  do
+            # people/:person_id/committees/memberships#current
+            expect(get: 'people/B4qvo8kI/committees/memberships/current').to route_to(
+              controller: 'people/committees/memberships',
+              action:     'current',
+              person_id:  'B4qvo8kI'
+            )
+          end
+        end
+
+        context 'chairs' do
+          # people/:person_id/committees/chairs#index
+          it 'GET people/:person_id/committees/chairs#index' do
+            expect(get: 'people/B4qvo8kI/committees/chairs').to route_to(
+              controller: 'people/committees/chairs',
+              action:     'index',
+              person_id:  'B4qvo8kI'
+            )
+          end
         end
       end
     end
