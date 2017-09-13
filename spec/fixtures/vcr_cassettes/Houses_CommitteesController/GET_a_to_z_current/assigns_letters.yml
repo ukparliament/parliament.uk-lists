@@ -1,0 +1,531 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3030/house_current_committees_a_to_z?house_id=Kz7ncmrt
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/n-triples
+      Content-Disposition:
+      - inline; filename="index"
+      Last-Modified:
+      - Tue, 12 Sep 2017 14:49:16 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '53993'
+    body:
+      encoding: UTF-8
+      string: |
+        _:node73428 <http://id.ukpds.org/schema/value> "N" .
+        _:node73429 <http://id.ukpds.org/schema/value> "W" .
+        _:node73430 <http://id.ukpds.org/schema/value> "S" .
+        _:node73431 <http://id.ukpds.org/schema/value> "O" .
+        _:node73432 <http://id.ukpds.org/schema/value> "E" .
+        _:node73433 <http://id.ukpds.org/schema/value> "T" .
+        _:node73434 <http://id.ukpds.org/schema/value> "C" .
+        _:node73435 <http://id.ukpds.org/schema/value> "H" .
+        _:node73436 <http://id.ukpds.org/schema/value> "U" .
+        _:node73437 <http://id.ukpds.org/schema/value> "D" .
+        _:node73438 <http://id.ukpds.org/schema/value> "P" .
+        _:node73439 <http://id.ukpds.org/schema/value> "I" .
+        _:node73440 <http://id.ukpds.org/schema/value> "F" .
+        _:node73441 <http://id.ukpds.org/schema/value> "A" .
+        _:node73442 <http://id.ukpds.org/schema/value> "R" .
+        _:node73443 <http://id.ukpds.org/schema/value> "B" .
+        _:node73444 <http://id.ukpds.org/schema/value> "M" .
+        _:node73445 <http://id.ukpds.org/schema/value> "L" .
+        _:node73446 <http://id.ukpds.org/schema/value> "Y" .
+        _:node73447 <http://id.ukpds.org/schema/value> "J" .
+        _:node73448 <http://id.ukpds.org/schema/value> "G" .
+        _:node73449 <http://id.ukpds.org/schema/value> "V" .
+        <http://id.ukpds.org/i2l8iys6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/House> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseName> "houseName - 1" .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/qjqe2JXZ> .
+        <http://id.ukpds.org/qjqe2JXZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/qjqe2JXZ> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 1" .
+        <http://id.ukpds.org/qjqe2JXZ> <http://id.ukpds.org/schema/formalBodyStartDate> "1981-11-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Bw767hL9> .
+        <http://id.ukpds.org/Bw767hL9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Bw767hL9> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 2" .
+        <http://id.ukpds.org/Bw767hL9> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/KdNfFsnz> .
+        <http://id.ukpds.org/KdNfFsnz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/KdNfFsnz> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 3" .
+        <http://id.ukpds.org/KdNfFsnz> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-05-23+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/DY0Vq9fU> .
+        <http://id.ukpds.org/DY0Vq9fU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/DY0Vq9fU> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 4" .
+        <http://id.ukpds.org/DY0Vq9fU> <http://id.ukpds.org/schema/formalBodyStartDate> "1978-11-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Xepog7lK> .
+        <http://id.ukpds.org/Xepog7lK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Xepog7lK> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 5" .
+        <http://id.ukpds.org/Xepog7lK> <http://id.ukpds.org/schema/formalBodyStartDate> "1974-10-30+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Ot7KASVI> .
+        <http://id.ukpds.org/Ot7KASVI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Ot7KASVI> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 6" .
+        <http://id.ukpds.org/Ot7KASVI> <http://id.ukpds.org/schema/formalBodyStartDate> "2012-05-17+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/J2t3PiE4> .
+        <http://id.ukpds.org/J2t3PiE4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/J2t3PiE4> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 7" .
+        <http://id.ukpds.org/J2t3PiE4> <http://id.ukpds.org/schema/formalBodyStartDate> "1986-11-18+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/FK9Pp1CQ> .
+        <http://id.ukpds.org/FK9Pp1CQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/FK9Pp1CQ> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 8" .
+        <http://id.ukpds.org/FK9Pp1CQ> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-01-06+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/5EOpPbAa> .
+        <http://id.ukpds.org/5EOpPbAa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/5EOpPbAa> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 9" .
+        <http://id.ukpds.org/5EOpPbAa> <http://id.ukpds.org/schema/formalBodyStartDate> "1997-07-14+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/rHqpd0Et> .
+        <http://id.ukpds.org/rHqpd0Et> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/rHqpd0Et> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 10" .
+        <http://id.ukpds.org/rHqpd0Et> <http://id.ukpds.org/schema/formalBodyStartDate> "2017-06-27+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/oH2sYZMc> .
+        <http://id.ukpds.org/oH2sYZMc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/oH2sYZMc> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 11" .
+        <http://id.ukpds.org/oH2sYZMc> <http://id.ukpds.org/schema/formalBodyStartDate> "1978-11-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/8g9J4s1w> .
+        <http://id.ukpds.org/8g9J4s1w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/8g9J4s1w> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 12" .
+        <http://id.ukpds.org/8g9J4s1w> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-10-17+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/eIuewOn0> .
+        <http://id.ukpds.org/eIuewOn0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/eIuewOn0> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 13" .
+        <http://id.ukpds.org/eIuewOn0> <http://id.ukpds.org/schema/formalBodyStartDate> "1991-12-05+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/77ctTzhe> .
+        <http://id.ukpds.org/77ctTzhe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/77ctTzhe> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 14" .
+        <http://id.ukpds.org/77ctTzhe> <http://id.ukpds.org/schema/formalBodyStartDate> "2013-01-07+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/eozax5zg> .
+        <http://id.ukpds.org/eozax5zg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/eozax5zg> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 15" .
+        <http://id.ukpds.org/eozax5zg> <http://id.ukpds.org/schema/formalBodyStartDate> "2001-07-16+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Aj6SCEGm> .
+        <http://id.ukpds.org/Aj6SCEGm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Aj6SCEGm> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 16" .
+        <http://id.ukpds.org/Aj6SCEGm> <http://id.ukpds.org/schema/formalBodyStartDate> "2017-01-25+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/qSbIMbi4> .
+        <http://id.ukpds.org/qSbIMbi4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/qSbIMbi4> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 17" .
+        <http://id.ukpds.org/qSbIMbi4> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-09-08+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/XOeO0xGT> .
+        <http://id.ukpds.org/XOeO0xGT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/XOeO0xGT> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 18" .
+        <http://id.ukpds.org/XOeO0xGT> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-05-27+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/kgg7FV7P> .
+        <http://id.ukpds.org/kgg7FV7P> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/kgg7FV7P> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 19" .
+        <http://id.ukpds.org/kgg7FV7P> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-09-13+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/TSjnJjk0> .
+        <http://id.ukpds.org/TSjnJjk0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/TSjnJjk0> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 20" .
+        <http://id.ukpds.org/TSjnJjk0> <http://id.ukpds.org/schema/formalBodyStartDate> "2014-05-13+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/2rSOukNg> .
+        <http://id.ukpds.org/2rSOukNg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/2rSOukNg> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 21" .
+        <http://id.ukpds.org/2rSOukNg> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/9kV19EzY> .
+        <http://id.ukpds.org/9kV19EzY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/9kV19EzY> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 22" .
+        <http://id.ukpds.org/9kV19EzY> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-04-14+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/oR9SEanm> .
+        <http://id.ukpds.org/oR9SEanm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/oR9SEanm> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 23" .
+        <http://id.ukpds.org/oR9SEanm> <http://id.ukpds.org/schema/formalBodyStartDate> "2001-07-16+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/ppuugw3d> .
+        <http://id.ukpds.org/ppuugw3d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/ppuugw3d> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 24" .
+        <http://id.ukpds.org/ppuugw3d> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-10-17+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/oZbmLPiV> .
+        <http://id.ukpds.org/oZbmLPiV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/oZbmLPiV> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 25" .
+        <http://id.ukpds.org/oZbmLPiV> <http://id.ukpds.org/schema/formalBodyStartDate> "1978-11-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/v1wV6nUl> .
+        <http://id.ukpds.org/v1wV6nUl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/v1wV6nUl> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 26" .
+        <http://id.ukpds.org/v1wV6nUl> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-03-23+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/VCri2w0n> .
+        <http://id.ukpds.org/VCri2w0n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/VCri2w0n> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 27" .
+        <http://id.ukpds.org/VCri2w0n> <http://id.ukpds.org/schema/formalBodyStartDate> "1994-07-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/o0dELdJJ> .
+        <http://id.ukpds.org/o0dELdJJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/o0dELdJJ> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 28" .
+        <http://id.ukpds.org/o0dELdJJ> <http://id.ukpds.org/schema/formalBodyStartDate> "1997-07-28+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/C3IYusB9> .
+        <http://id.ukpds.org/C3IYusB9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/C3IYusB9> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 29" .
+        <http://id.ukpds.org/C3IYusB9> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-07-13+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/k7N8CS60> .
+        <http://id.ukpds.org/k7N8CS60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/k7N8CS60> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 30" .
+        <http://id.ukpds.org/k7N8CS60> <http://id.ukpds.org/schema/formalBodyStartDate> "2003-06-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/dxQW9XK4> .
+        <http://id.ukpds.org/dxQW9XK4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/dxQW9XK4> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 31" .
+        <http://id.ukpds.org/dxQW9XK4> <http://id.ukpds.org/schema/formalBodyStartDate> "1997-11-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Vj5oqOvs> .
+        <http://id.ukpds.org/Vj5oqOvs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Vj5oqOvs> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 32" .
+        <http://id.ukpds.org/Vj5oqOvs> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-23+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/dyIlYzi1> .
+        <http://id.ukpds.org/dyIlYzi1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/dyIlYzi1> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 33" .
+        <http://id.ukpds.org/dyIlYzi1> <http://id.ukpds.org/schema/formalBodyStartDate> "1979-05-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/HbsxCtLA> .
+        <http://id.ukpds.org/HbsxCtLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/HbsxCtLA> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 34" .
+        <http://id.ukpds.org/HbsxCtLA> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/7eESqgbu> .
+        <http://id.ukpds.org/7eESqgbu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/7eESqgbu> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 1" .
+        <http://id.ukpds.org/7eESqgbu> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-11-02+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/COExNcNp> .
+        <http://id.ukpds.org/COExNcNp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/COExNcNp> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 36" .
+        <http://id.ukpds.org/COExNcNp> <http://id.ukpds.org/schema/formalBodyStartDate> "2017-02-20+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/fQNXdzT8> .
+        <http://id.ukpds.org/fQNXdzT8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/fQNXdzT8> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 37" .
+        <http://id.ukpds.org/fQNXdzT8> <http://id.ukpds.org/schema/formalBodyStartDate> "1979-05-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/XeXGB5f8> .
+        <http://id.ukpds.org/XeXGB5f8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/XeXGB5f8> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 2" .
+        <http://id.ukpds.org/XeXGB5f8> <http://id.ukpds.org/schema/formalBodyStartDate> "2002-11-13+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/4xXHJvbl> .
+        <http://id.ukpds.org/4xXHJvbl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/4xXHJvbl> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 39" .
+        <http://id.ukpds.org/4xXHJvbl> <http://id.ukpds.org/schema/formalBodyStartDate> "2012-10-31+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/hAwIRDZg> .
+        <http://id.ukpds.org/hAwIRDZg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/hAwIRDZg> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 40" .
+        <http://id.ukpds.org/hAwIRDZg> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-12-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/6HJjOylU> .
+        <http://id.ukpds.org/6HJjOylU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/6HJjOylU> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 41" .
+        <http://id.ukpds.org/6HJjOylU> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-18+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/1aE5KxPy> .
+        <http://id.ukpds.org/1aE5KxPy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/1aE5KxPy> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 42" .
+        <http://id.ukpds.org/1aE5KxPy> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-05-23+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/o0NGqtEH> .
+        <http://id.ukpds.org/o0NGqtEH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/o0NGqtEH> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 43" .
+        <http://id.ukpds.org/o0NGqtEH> <http://id.ukpds.org/schema/formalBodyStartDate> "2001-01-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/w2oa8PL7> .
+        <http://id.ukpds.org/w2oa8PL7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/w2oa8PL7> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 44" .
+        <http://id.ukpds.org/w2oa8PL7> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-07-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Sja3CKLA> .
+        <http://id.ukpds.org/Sja3CKLA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Sja3CKLA> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 45" .
+        <http://id.ukpds.org/Sja3CKLA> <http://id.ukpds.org/schema/formalBodyStartDate> "2012-05-18+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/bVycDnoz> .
+        <http://id.ukpds.org/bVycDnoz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/bVycDnoz> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 46" .
+        <http://id.ukpds.org/bVycDnoz> <http://id.ukpds.org/schema/formalBodyStartDate> "1995-11-15+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Y01b53Ht> .
+        <http://id.ukpds.org/Y01b53Ht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Y01b53Ht> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 47" .
+        <http://id.ukpds.org/Y01b53Ht> <http://id.ukpds.org/schema/formalBodyStartDate> "1979-05-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/7PZ22dzp> .
+        <http://id.ukpds.org/7PZ22dzp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/7PZ22dzp> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 48" .
+        <http://id.ukpds.org/7PZ22dzp> <http://id.ukpds.org/schema/formalBodyStartDate> "2011-06-28+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/YyAVWyYa> .
+        <http://id.ukpds.org/YyAVWyYa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/YyAVWyYa> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 49" .
+        <http://id.ukpds.org/YyAVWyYa> <http://id.ukpds.org/schema/formalBodyStartDate> "2001-07-16+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/u7laxo6f> .
+        <http://id.ukpds.org/u7laxo6f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/u7laxo6f> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 50" .
+        <http://id.ukpds.org/u7laxo6f> <http://id.ukpds.org/schema/formalBodyStartDate> "1978-11-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/sd1Eraen> .
+        <http://id.ukpds.org/sd1Eraen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/sd1Eraen> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 51" .
+        <http://id.ukpds.org/sd1Eraen> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-11-18+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/6F9ytPlD> .
+        <http://id.ukpds.org/6F9ytPlD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/6F9ytPlD> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 52" .
+        <http://id.ukpds.org/6F9ytPlD> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-09-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/1Ryug20J> .
+        <http://id.ukpds.org/1Ryug20J> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/1Ryug20J> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 53" .
+        <http://id.ukpds.org/1Ryug20J> <http://id.ukpds.org/schema/formalBodyStartDate> "2004-01-29+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/vVMZqmKX> .
+        <http://id.ukpds.org/vVMZqmKX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/vVMZqmKX> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 54" .
+        <http://id.ukpds.org/vVMZqmKX> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-05-23+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/FZreflJI> .
+        <http://id.ukpds.org/FZreflJI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/FZreflJI> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 55" .
+        <http://id.ukpds.org/FZreflJI> <http://id.ukpds.org/schema/formalBodyStartDate> "1975-04-16+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/GkBTWlHn> .
+        <http://id.ukpds.org/GkBTWlHn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/GkBTWlHn> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 56" .
+        <http://id.ukpds.org/GkBTWlHn> <http://id.ukpds.org/schema/formalBodyStartDate> "2004-12-07+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/jNyQhzQo> .
+        <http://id.ukpds.org/jNyQhzQo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/jNyQhzQo> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 57" .
+        <http://id.ukpds.org/jNyQhzQo> <http://id.ukpds.org/schema/formalBodyStartDate> "1978-11-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/tdisOOsy> .
+        <http://id.ukpds.org/tdisOOsy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/tdisOOsy> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 58" .
+        <http://id.ukpds.org/tdisOOsy> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-05-25+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/N6frivyw> .
+        <http://id.ukpds.org/N6frivyw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/N6frivyw> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 59" .
+        <http://id.ukpds.org/N6frivyw> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-04-21+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/CplQJm53> .
+        <http://id.ukpds.org/CplQJm53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/CplQJm53> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 60" .
+        <http://id.ukpds.org/CplQJm53> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-12-20+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/WlNrYRQ4> .
+        <http://id.ukpds.org/WlNrYRQ4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/WlNrYRQ4> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 61" .
+        <http://id.ukpds.org/WlNrYRQ4> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/5T7IQzpS> .
+        <http://id.ukpds.org/5T7IQzpS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/5T7IQzpS> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 62" .
+        <http://id.ukpds.org/5T7IQzpS> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-11+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/ZF8GZVgX> .
+        <http://id.ukpds.org/ZF8GZVgX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/ZF8GZVgX> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 63" .
+        <http://id.ukpds.org/ZF8GZVgX> <http://id.ukpds.org/schema/formalBodyStartDate> "2009-10-28+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/hqBDJUag> .
+        <http://id.ukpds.org/hqBDJUag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/hqBDJUag> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 64" .
+        <http://id.ukpds.org/hqBDJUag> <http://id.ukpds.org/schema/formalBodyStartDate> "1979-05-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/bpArA4d0> .
+        <http://id.ukpds.org/bpArA4d0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/bpArA4d0> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 65" .
+        <http://id.ukpds.org/bpArA4d0> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-09-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/iOvKfyJk> .
+        <http://id.ukpds.org/iOvKfyJk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/iOvKfyJk> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 3" .
+        <http://id.ukpds.org/iOvKfyJk> <http://id.ukpds.org/schema/formalBodyStartDate> "2017-06-27+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/MwUBehz5> .
+        <http://id.ukpds.org/MwUBehz5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/MwUBehz5> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 67" .
+        <http://id.ukpds.org/MwUBehz5> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-05-23+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/qZBYzBzz> .
+        <http://id.ukpds.org/qZBYzBzz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/qZBYzBzz> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 68" .
+        <http://id.ukpds.org/qZBYzBzz> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-01-05+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/2VkNwaz2> .
+        <http://id.ukpds.org/2VkNwaz2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/2VkNwaz2> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 69" .
+        <http://id.ukpds.org/2VkNwaz2> <http://id.ukpds.org/schema/formalBodyStartDate> "1978-11-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/IXT7myWZ> .
+        <http://id.ukpds.org/IXT7myWZ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/IXT7myWZ> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 70" .
+        <http://id.ukpds.org/IXT7myWZ> <http://id.ukpds.org/schema/formalBodyStartDate> "2001-06-28+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/QLNpaLp0> .
+        <http://id.ukpds.org/QLNpaLp0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/QLNpaLp0> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 71" .
+        <http://id.ukpds.org/QLNpaLp0> <http://id.ukpds.org/schema/formalBodyStartDate> "1993-12-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/kQJBRET3> .
+        <http://id.ukpds.org/kQJBRET3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/kQJBRET3> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 72" .
+        <http://id.ukpds.org/kQJBRET3> <http://id.ukpds.org/schema/formalBodyStartDate> "1994-11-16+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/wMROItvF> .
+        <http://id.ukpds.org/wMROItvF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/wMROItvF> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 73" .
+        <http://id.ukpds.org/wMROItvF> <http://id.ukpds.org/schema/formalBodyStartDate> "2001-06-28+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/OpfPEBtv> .
+        <http://id.ukpds.org/OpfPEBtv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/OpfPEBtv> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 74" .
+        <http://id.ukpds.org/OpfPEBtv> <http://id.ukpds.org/schema/formalBodyStartDate> "1979-05-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/KdMOR6hR> .
+        <http://id.ukpds.org/KdMOR6hR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/KdMOR6hR> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 75" .
+        <http://id.ukpds.org/KdMOR6hR> <http://id.ukpds.org/schema/formalBodyStartDate> "1991-10-31+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/7NIkknrm> .
+        <http://id.ukpds.org/7NIkknrm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/7NIkknrm> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 76" .
+        <http://id.ukpds.org/7NIkknrm> <http://id.ukpds.org/schema/formalBodyStartDate> "2007-11-06+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/isqJAf1f> .
+        <http://id.ukpds.org/isqJAf1f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/isqJAf1f> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 77" .
+        <http://id.ukpds.org/isqJAf1f> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-11-02+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Q78bUi2w> .
+        <http://id.ukpds.org/Q78bUi2w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Q78bUi2w> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 78" .
+        <http://id.ukpds.org/Q78bUi2w> <http://id.ukpds.org/schema/formalBodyStartDate> "2013-01-07+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/SesnD7Jq> .
+        <http://id.ukpds.org/SesnD7Jq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/SesnD7Jq> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 79" .
+        <http://id.ukpds.org/SesnD7Jq> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-11+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/OaKKZ1Iy> .
+        <http://id.ukpds.org/OaKKZ1Iy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/OaKKZ1Iy> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 80" .
+        <http://id.ukpds.org/OaKKZ1Iy> <http://id.ukpds.org/schema/formalBodyStartDate> "2017-06-27+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/yiWLiImg> .
+        <http://id.ukpds.org/yiWLiImg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/yiWLiImg> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 81" .
+        <http://id.ukpds.org/yiWLiImg> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-05-27+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/o8AP7LnM> .
+        <http://id.ukpds.org/o8AP7LnM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/o8AP7LnM> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 82" .
+        <http://id.ukpds.org/o8AP7LnM> <http://id.ukpds.org/schema/formalBodyStartDate> "1980-01-31+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Vtr2nZ97> .
+        <http://id.ukpds.org/Vtr2nZ97> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Vtr2nZ97> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 83" .
+        <http://id.ukpds.org/Vtr2nZ97> <http://id.ukpds.org/schema/formalBodyStartDate> "2001-01-17+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/fhoXyewx> .
+        <http://id.ukpds.org/fhoXyewx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/fhoXyewx> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 84" .
+        <http://id.ukpds.org/fhoXyewx> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-07-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/dqV3IOYX> .
+        <http://id.ukpds.org/dqV3IOYX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/dqV3IOYX> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 85" .
+        <http://id.ukpds.org/dqV3IOYX> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-04-21+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/Rcsd8fL6> .
+        <http://id.ukpds.org/Rcsd8fL6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/Rcsd8fL6> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 86" .
+        <http://id.ukpds.org/Rcsd8fL6> <http://id.ukpds.org/schema/formalBodyStartDate> "2006-06-27+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/otVxK1mQ> .
+        <http://id.ukpds.org/otVxK1mQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/otVxK1mQ> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 87" .
+        <http://id.ukpds.org/otVxK1mQ> <http://id.ukpds.org/schema/formalBodyStartDate> "1999-04-20+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/yeDPMLLy> .
+        <http://id.ukpds.org/yeDPMLLy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/yeDPMLLy> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 88" .
+        <http://id.ukpds.org/yeDPMLLy> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-01-13+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/O4WjaNAc> .
+        <http://id.ukpds.org/O4WjaNAc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/O4WjaNAc> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 89" .
+        <http://id.ukpds.org/O4WjaNAc> <http://id.ukpds.org/schema/formalBodyStartDate> "1974-11-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/ytYTBT2A> .
+        <http://id.ukpds.org/ytYTBT2A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/ytYTBT2A> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 90" .
+        <http://id.ukpds.org/ytYTBT2A> <http://id.ukpds.org/schema/formalBodyStartDate> "2007-04-23+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/XknlfAAo> .
+        <http://id.ukpds.org/XknlfAAo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/XknlfAAo> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 91" .
+        <http://id.ukpds.org/XknlfAAo> <http://id.ukpds.org/schema/formalBodyStartDate> "2017-06-27+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/C7r7jnxX> .
+        <http://id.ukpds.org/C7r7jnxX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/C7r7jnxX> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 92" .
+        <http://id.ukpds.org/C7r7jnxX> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-07-16+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/vGLehiqd> .
+        <http://id.ukpds.org/vGLehiqd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/vGLehiqd> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 93" .
+        <http://id.ukpds.org/vGLehiqd> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/gB0L5my4> .
+        <http://id.ukpds.org/gB0L5my4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/gB0L5my4> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 94" .
+        <http://id.ukpds.org/gB0L5my4> <http://id.ukpds.org/schema/formalBodyStartDate> "1998-11-17+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/y6stWz8Z> .
+        <http://id.ukpds.org/y6stWz8Z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/y6stWz8Z> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 95" .
+        <http://id.ukpds.org/y6stWz8Z> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-12-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/RBy6xUC3> .
+        <http://id.ukpds.org/RBy6xUC3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/RBy6xUC3> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 96" .
+        <http://id.ukpds.org/RBy6xUC3> <http://id.ukpds.org/schema/formalBodyStartDate> "1978-11-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/jp80iCPR> .
+        <http://id.ukpds.org/jp80iCPR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/jp80iCPR> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 97" .
+        <http://id.ukpds.org/jp80iCPR> <http://id.ukpds.org/schema/formalBodyStartDate> "1979-05-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/IXsvuGCe> .
+        <http://id.ukpds.org/IXsvuGCe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/IXsvuGCe> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 98" .
+        <http://id.ukpds.org/IXsvuGCe> <http://id.ukpds.org/schema/formalBodyStartDate> "1979-05-03+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/NcH0pGFL> .
+        <http://id.ukpds.org/NcH0pGFL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/NcH0pGFL> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 99" .
+        <http://id.ukpds.org/NcH0pGFL> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-09-01+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/39fzOc1w> .
+        <http://id.ukpds.org/39fzOc1w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/39fzOc1w> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 100" .
+        <http://id.ukpds.org/39fzOc1w> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-10-17+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/dKkM9yKQ> .
+        <http://id.ukpds.org/dKkM9yKQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/dKkM9yKQ> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 101" .
+        <http://id.ukpds.org/dKkM9yKQ> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/ggLJixHI> .
+        <http://id.ukpds.org/ggLJixHI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/ggLJixHI> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 102" .
+        <http://id.ukpds.org/ggLJixHI> <http://id.ukpds.org/schema/formalBodyStartDate> "2010-06-29+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/L2LM1LB5> .
+        <http://id.ukpds.org/L2LM1LB5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/L2LM1LB5> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 4" .
+        <http://id.ukpds.org/L2LM1LB5> <http://id.ukpds.org/schema/formalBodyStartDate> "1991-10-31+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/2FlHKork> .
+        <http://id.ukpds.org/2FlHKork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/2FlHKork> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 104" .
+        <http://id.ukpds.org/2FlHKork> <http://id.ukpds.org/schema/formalBodyStartDate> "2015-06-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/1pwOY7gt> .
+        <http://id.ukpds.org/1pwOY7gt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/1pwOY7gt> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 105" .
+        <http://id.ukpds.org/1pwOY7gt> <http://id.ukpds.org/schema/formalBodyStartDate> "1974-11-07+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/3hlCx9iN> .
+        <http://id.ukpds.org/3hlCx9iN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/3hlCx9iN> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 106" .
+        <http://id.ukpds.org/3hlCx9iN> <http://id.ukpds.org/schema/formalBodyStartDate> "1974-11-12+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <http://id.ukpds.org/i2l8iys6> <http://id.ukpds.org/schema/houseHasFormalBody> <http://id.ukpds.org/0i7xZ6Br> .
+        <http://id.ukpds.org/0i7xZ6Br> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
+        <http://id.ukpds.org/0i7xZ6Br> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 107" .
+        <http://id.ukpds.org/0i7xZ6Br> <http://id.ukpds.org/schema/formalBodyStartDate> "2016-11-15+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+    http_version: 
+  recorded_at: Wed, 13 Sep 2017 08:29:12 GMT
+- request:
+    method: get
+    uri: http://localhost:3030/house_index
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/n-triples
+      Content-Disposition:
+      - inline; filename="index"
+      Last-Modified:
+      - Thu, 31 Aug 2017 10:25:15 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '420'
+    body:
+      encoding: UTF-8
+      string: "<http://id.ukpds.org/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/Kz7ncmrt> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 1\" .\r\n<http://id.ukpds.org/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/MvLURLV5> <http://id.ukpds.org/schema/houseName>
+        \"houseName - 2\" .\r\n"
+    http_version: 
+  recorded_at: Wed, 13 Sep 2017 08:29:12 GMT
+recorded_with: VCR 3.0.3
