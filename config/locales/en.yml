@@ -26,6 +26,8 @@ en:
   lord: 'Lord'
   lord_plural: 'Lords'
   mps_and_lords: 'MPs and Lords'
+  committe: 'committee'
+  committee_plural: 'committees'
   mp_count:
     zero: 'MPs'
     one: 'MP'

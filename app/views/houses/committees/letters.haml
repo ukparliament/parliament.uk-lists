@@ -1,0 +1,20 @@
+- title("#{@house.name} - #{t('current_and_former').capitalize} #{t('committee_plural').capitalize} #{t('a_to_z.a_to_z')} #{t('a_to_z.showing_results')} #{params[:letter].capitalize}")
+
+.section--primary
+  .container
+    %h1
+      %span= "#{t('current_and_former').capitalize} #{t('committee_plural').capitalize}"
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_results')} #{params[:letter].capitalize}"
+
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_committees_a_z_letter_path, route_args: [@house.graph_id], all_path: @all_path }
+
+%section#content
+  .container
+    -# = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committees}
+    - unless @committees.nil?
+      %ul.list--block
+        - @committees.each do |committee|
+          %li
+            .list--details
+              %h2= link_to(committee.name, committees_show_path(committee.graph_id))
+              %p= committee.date_range
