@@ -1,0 +1,28 @@
+- title("#{@house.name} - #{t('current').capitalize} #{t('committee_plural').capitalize}")
+
+.section--primary
+  .container
+    %h1
+      %span= "#{t('current').capitalize} #{t('committee_plural').capitalize}"
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
+
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_committees_current_a_z_letter_path, route_args: [@house.graph_id] }
+
+    - if Parliament::Utils::Helpers::HousesHelper.commons?(@house)
+      - if Parliament::Utils::Helpers::FlagHelper.dissolution?
+        = render partial: 'shared/dissolution_message'
+      - elsif Parliament::Utils::Helpers::FlagHelper.election?
+        = render partial: 'shared/election_message'
+
+- unless @letters.empty?
+
+  %section#content
+    .container
+      -# = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committees}
+      - unless @committees.nil?
+        %ul.list--block
+          - @committees.each do |committee|
+            %li
+              .list--details
+                %h2= link_to(committee.name, committees_show_path(committee.graph_id))
+                %p= committee.date_range

@@ -20,7 +20,7 @@ gem 'parliament-ruby', '~> 0.8'
 gem 'parliament-opensearch', '~> 0.2', require: false
 
 # Parliament Grom Decorators decorates Grom nodes
-gem 'parliament-grom-decorators', '~> 0.3'
+gem 'parliament-grom-decorators', '~> 0.7'
 
 # Parliament-Utils gem for generic set up and configuration
 gem 'parliament-utils', '~> 0.2', require: false
