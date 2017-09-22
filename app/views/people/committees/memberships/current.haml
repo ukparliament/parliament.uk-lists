@@ -1,1 +1,16 @@
+- page_title = title("#{@person.display_name} - #{t('current').capitalize} #{t('committee_plural').capitalize}")
 
+.section--primary
+  .container
+    %h1= "#{@person.display_name} - #{t('current').capitalize} #{t('committee_plural').capitalize}"
+
+%section#content
+  .container
+    -# = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committee_memberships}
+    - unless @committee_memberships.nil?
+      %ul.list--block
+        - @committee_memberships.each do |committee_membership|
+          %li
+            .list--details
+              %h2= link_to(committee_membership.formal_body.name, committees_show_path(committee_membership.formal_body.graph_id))
+              %p= committee_membership.formal_body.date_range
