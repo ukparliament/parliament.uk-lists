@@ -18,11 +18,4 @@
 
   %section#content
     .container
-      -# = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committees}
-      - unless @committees.nil?
-        %ul.list--block
-          - @committees.each do |committee|
-            %li
-              .list--details
-                %h2= link_to(committee.name, committees_show_path(committee.graph_id))
-                %p= committee.date_range
+      = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committees}
