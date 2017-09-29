@@ -60,7 +60,7 @@ module Houses
 
       @house      = @house.first
       @committees = @committees.sort_by(:name)
-      @letters    = @letters.map(&:value) 
+      @letters    = @letters.map(&:value)
     end
 
     def a_to_z_current
@@ -72,7 +72,7 @@ module Houses
 
       @house = @house.first
       @letters = @letters.map(&:value)
-      @all_path = :house_committees_path
+      @all_path = :house_committees_current_path
     end
 
     def current_letters
@@ -86,7 +86,7 @@ module Houses
       @house      = @house.first
       @committees = @committees.sort_by(:name)
       @letters    = @letters.map(&:value)
-      @all_path   = :house_committees_path
+      @all_path   = :house_committees_current_path
     end
   end
 end
