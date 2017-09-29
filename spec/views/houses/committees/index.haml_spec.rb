@@ -14,7 +14,7 @@ RSpec.describe 'houses/committees/index', vcr: true do
 
   context 'header' do
     it 'will render the page title' do
-      expect(rendered).to match(/Current and former Committees/)
+      expect(rendered).to match(/Current and former committees/)
     end
   end
 
