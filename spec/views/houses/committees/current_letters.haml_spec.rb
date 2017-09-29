@@ -19,7 +19,7 @@ RSpec.describe 'houses/committees/current_letters', vcr: true do
 
     context 'header' do
       it 'will render the current person type' do
-        expect(rendered).to match(/Current Committees/)
+        expect(rendered).to match(/Current committees/)
       end
 
       it 'will render the correct sub-header' do

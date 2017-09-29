@@ -13,7 +13,7 @@ RSpec.describe 'houses/committees/a_to_z_current', vcr: true do
 
   context 'header' do
     it 'will render the correct header' do
-      expect(rendered).to match(/Current Committees/)
+      expect(rendered).to match(/Current committees/)
     end
 
     it 'will render the correct sub-header' do
