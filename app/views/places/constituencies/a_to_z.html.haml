@@ -4,4 +4,4 @@
     %h1
       %span= "#{@place.name} #{t('constituency_plural')}"
       %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.select_letter')}"
-    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :places_show_constituencies_a_z_letter_path, route_args: [@place.gss_code] }
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :places_show_constituencies_a_z_letter_path, route_args: [@place.gss_code], all_path: :places_show_constituencies_path }
