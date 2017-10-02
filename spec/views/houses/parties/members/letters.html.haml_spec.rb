@@ -29,7 +29,7 @@ RSpec.describe 'houses/parties/members/letters', vcr: true do
   context 'partials' do
     it 'will render letter navigation' do
       expect(response).to render_template(partial: 'pugin/components/_navigation-letter')
-      expect(rendered).to include('<a href="/houses/Kz7ncmrt/parties/AJgeHzL2/members">ALL</a>')
+      expect(rendered).to include('<a href="/houses/Kz7ncmrt/parties/AJgeHzL2/members">All</a>')
     end
 
     it 'will render pugin/elements/_list' do
