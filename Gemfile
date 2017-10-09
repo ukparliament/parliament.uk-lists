@@ -20,22 +20,22 @@ gem 'parliament-ruby', '~> 0.8'
 gem 'parliament-opensearch', '~> 0.2', require: false
 
 # Parliament Grom Decorators decorates Grom nodes
-gem 'parliament-grom-decorators', '~> 0.3'
+gem 'parliament-grom-decorators', '~> 0.8'
 
 # Parliament-Utils gem for generic set up and configuration
 gem 'parliament-utils', '~> 0.2', require: false
 
 # Parliament routing
-gem 'parliament-routes', '~> 0.3'
+gem 'parliament-routes', '~> 0.4'
 
 # Parliament NTriple processes N-triple data
-gem 'parliament-ntriple', '~> 0.1', require: false
+gem 'parliament-ntriple', '~> 0.2', require: false
 
 # Use bandiera-client for feature flagging
 gem 'bandiera-client'
 
 # Use Pugin for front-end components and templates
-gem 'pugin', '~> 1.2'
+gem 'pugin', '~> 1.3'
 
 # Use dotenv to override environment variables
 gem 'dotenv'

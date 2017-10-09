@@ -1,0 +1,10 @@
+- page_title = title("#{@person.display_name} - #{t('current_and_former').capitalize} #{t('committee_plural')}")
+
+.section--primary
+  .container
+    %h1= "#{@person.display_name} - #{t('current_and_former').capitalize} #{t('committee_plural')}"
+
+- if Pugin::Feature::Bandiera.show_committees?
+  %section#content
+    .container
+      = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committee_memberships}
