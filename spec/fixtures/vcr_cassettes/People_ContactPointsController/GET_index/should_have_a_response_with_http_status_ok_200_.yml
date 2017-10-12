@@ -48,10 +48,10 @@ http_interactions:
         \"personGivenName - 135\" .\r\n<http://id.ukpds.org/7KNGxTli> <http://id.ukpds.org/schema/personFamilyName>
         \"personFamilyName - 135\" .\r\n<http://id.ukpds.org/7KNGxTli> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF>
         \"F31CBD81AD8343898B49DC65743F0BDF - 135\" .\r\n<http://id.ukpds.org/7KNGxTli>
-        <http://id.ukpds.org/schema/memberHasIncumbency> <http://id.ukpds.org/o02UYaRh>
+        <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency> <http://id.ukpds.org/o02UYaRh>
         .\r\n<http://id.ukpds.org/o02UYaRh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/Incumbency> .\r\n<http://id.ukpds.org/o02UYaRh>
-        <http://id.ukpds.org/schema/incumbencyHasContactPoint> <http://id.ukpds.org/9j943FFb>
+        <http://id.ukpds.org/schema/ParliamentaryIncumbency> .\r\n<http://id.ukpds.org/o02UYaRh>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyHasContactPoint> <http://id.ukpds.org/9j943FFb>
         .\r\n<http://id.ukpds.org/9j943FFb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/ContactPoint> .\r\n<http://id.ukpds.org/9j943FFb>
         <http://id.ukpds.org/schema/email> \"email - 1145\" .\r\n<http://id.ukpds.org/9j943FFb>

@@ -44,7 +44,7 @@ http_interactions:
         <http://id.ukpds.org/CWj1LgsV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/CWj1LgsV> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/JOYQTYG0> .
         <http://id.ukpds.org/JOYQTYG0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/bzEe11Wj> .
+        <http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/bzEe11Wj> .
         <http://id.ukpds.org/bzEe11Wj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 1" .
         <http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 1" .
@@ -60,7 +60,7 @@ http_interactions:
         <http://id.ukpds.org/ocWUJjWP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/ocWUJjWP> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/CLjHLXDM> .
         <http://id.ukpds.org/CLjHLXDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/CLjHLXDM> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/SotmfM6g> .
+        <http://id.ukpds.org/CLjHLXDM> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/SotmfM6g> .
         <http://id.ukpds.org/SotmfM6g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/SotmfM6g> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 2" .
         <http://id.ukpds.org/SotmfM6g> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 2" .

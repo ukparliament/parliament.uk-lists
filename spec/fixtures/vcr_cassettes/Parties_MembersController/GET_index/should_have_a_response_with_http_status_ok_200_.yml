@@ -51,7 +51,7 @@ http_interactions:
         \"personFamilyName - 1\" .\r\n<http://id.ukpds.org/49p9Fbdf> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF>
         \"F31CBD81AD8343898B49DC65743F0BDF - 1\" .\r\n<http://id.ukpds.org/49p9Fbdf>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
-        - 1\" .\r\n<http://id.ukpds.org/49p9Fbdf> <http://id.ukpds.org/schema/memberHasIncumbency>
+        - 1\" .\r\n<http://id.ukpds.org/49p9Fbdf> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/M0ivqfxk> .\r\n<http://id.ukpds.org/49p9Fbdf> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
         <http://id.ukpds.org/QBe72jNI> .\r\n<http://id.ukpds.org/QBe72jNI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/PartyMembership> .\r\n<http://id.ukpds.org/QBe72jNI>
@@ -60,13 +60,13 @@ http_interactions:
         <http://id.ukpds.org/schema/HouseSeat> .\r\n<http://id.ukpds.org/M0ivqfxk>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
         .\r\n<http://id.ukpds.org/M0ivqfxk> <http://id.ukpds.org/schema/seatIncumbencyHasHouseSeat>
-        <http://id.ukpds.org/y9E4kcb4> .\r\n<http://id.ukpds.org/M0ivqfxk> <http://id.ukpds.org/schema/incumbencyEndDate>
+        <http://id.ukpds.org/y9E4kcb4> .\r\n<http://id.ukpds.org/M0ivqfxk> <http://id.ukpds.org/schema/parliamentaryIncumbencyEndDate>
         \"2001-06-07\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<http://id.ukpds.org/49p9Fbdf>
-        <http://id.ukpds.org/schema/memberHasIncumbency> <http://id.ukpds.org/JRbXhkSX>
+        <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency> <http://id.ukpds.org/JRbXhkSX>
         .\r\n<http://id.ukpds.org/JRbXhkSX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/SeatIncumbency> .\r\n<http://id.ukpds.org/JRbXhkSX>
         <http://id.ukpds.org/schema/seatIncumbencyHasHouseSeat> <http://id.ukpds.org/y9E4kcb4>
-        .\r\n<http://id.ukpds.org/JRbXhkSX> <http://id.ukpds.org/schema/incumbencyEndDate>
+        .\r\n<http://id.ukpds.org/JRbXhkSX> <http://id.ukpds.org/schema/parliamentaryIncumbencyEndDate>
         \"2005-05-05\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n"
     http_version:
   recorded_at: Wed, 02 Aug 2017 09:48:54 GMT

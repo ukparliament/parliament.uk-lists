@@ -17,7 +17,7 @@ RSpec.describe People::HousesController, vcr: true do
 
       assigns(:incumbencies).each do |incumbency|
         expect(incumbency).to be_a(Grom::Node)
-        expect(incumbency.type).to eq('http://id.ukpds.org/schema/Incumbency')
+        expect(incumbency.type).to eq('http://id.ukpds.org/schema/ParliamentaryIncumbency')
       end
     end
 

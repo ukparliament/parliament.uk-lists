@@ -49,7 +49,7 @@ http_interactions:
         \"personFamilyName - 12\" .\r\n<http://id.ukpds.org/YsBcwtpY> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF>
         \"F31CBD81AD8343898B49DC65743F0BDF - 12\" .\r\n<http://id.ukpds.org/YsBcwtpY>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
-        - 12\" .\r\n<http://id.ukpds.org/YsBcwtpY> <http://id.ukpds.org/schema/memberHasIncumbency>
+        - 12\" .\r\n<http://id.ukpds.org/YsBcwtpY> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/1s3cM25w> .\r\n<http://id.ukpds.org/YsBcwtpY> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
         <http://id.ukpds.org/leTnUEXP> .\r\n<http://id.ukpds.org/1s3cM25w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/HouseIncumbency> .\r\n<http://id.ukpds.org/leTnUEXP>
