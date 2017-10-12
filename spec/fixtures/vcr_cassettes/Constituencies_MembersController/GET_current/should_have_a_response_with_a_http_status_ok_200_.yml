@@ -54,8 +54,8 @@ http_interactions:
         <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/JOYQTYG0>
         .\r\n<http://id.ukpds.org/JOYQTYG0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/SeatIncumbency> .\r\n<http://id.ukpds.org/JOYQTYG0>
-        <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/bzEe11Wj>
-        .\r\n<http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/incumbencyStartDate>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/bzEe11Wj>
+        .\r\n<http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/parliamentaryIncumbencyStartDate>
         \"2017-06-08\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<http://id.ukpds.org/bzEe11Wj>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person>
         .\r\n<http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personGivenName>

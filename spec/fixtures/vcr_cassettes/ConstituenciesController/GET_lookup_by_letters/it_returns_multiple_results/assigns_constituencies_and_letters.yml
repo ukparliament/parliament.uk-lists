@@ -72,7 +72,7 @@ http_interactions:
         <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/S02f6OrL>
         .\r\n<http://id.ukpds.org/S02f6OrL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/SeatIncumbency> .\r\n<http://id.ukpds.org/S02f6OrL>
-        <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/7lLSaAcd>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/7lLSaAcd>
         .\r\n<http://id.ukpds.org/7lLSaAcd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/Person> .\r\n<http://id.ukpds.org/7lLSaAcd> <http://id.ukpds.org/schema/personGivenName>
         \"personGivenName - 542\" .\r\n<http://id.ukpds.org/7lLSaAcd> <http://id.ukpds.org/schema/personFamilyName>
