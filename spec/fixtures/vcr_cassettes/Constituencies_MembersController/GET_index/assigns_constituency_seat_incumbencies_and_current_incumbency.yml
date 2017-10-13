@@ -53,8 +53,8 @@ http_interactions:
         .\r\n<http://id.ukpds.org/CWj1LgsV> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency>
         <http://id.ukpds.org/JOYQTYG0> .\r\n<http://id.ukpds.org/JOYQTYG0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/SeatIncumbency> .\r\n<http://id.ukpds.org/JOYQTYG0>
-        <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/bzEe11Wj>
-        .\r\n<http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/incumbencyStartDate>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/bzEe11Wj>
+        .\r\n<http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/parliamentaryIncumbencyStartDate>
         \"2017-06-08\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<http://id.ukpds.org/bzEe11Wj>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person>
         .\r\n<http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personGivenName>
@@ -64,10 +64,10 @@ http_interactions:
         <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/icpFBbw7>
         .\r\n<http://id.ukpds.org/icpFBbw7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/SeatIncumbency> .\r\n<http://id.ukpds.org/icpFBbw7>
-        <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/IjcMiMJa>
-        .\r\n<http://id.ukpds.org/icpFBbw7> <http://id.ukpds.org/schema/incumbencyEndDate>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/IjcMiMJa>
+        .\r\n<http://id.ukpds.org/icpFBbw7> <http://id.ukpds.org/schema/parliamentaryIncumbencyEndDate>
         \"2015-03-30\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<http://id.ukpds.org/icpFBbw7>
-        <http://id.ukpds.org/schema/incumbencyStartDate> \"2010-05-06\"^^<http://www.w3.org/2001/XMLSchema#date>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyStartDate> \"2010-05-06\"^^<http://www.w3.org/2001/XMLSchema#date>
         .\r\n<http://id.ukpds.org/IjcMiMJa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/Person> .\r\n<http://id.ukpds.org/IjcMiMJa> <http://id.ukpds.org/schema/personGivenName>
         \"personGivenName - 935\" .\r\n<http://id.ukpds.org/IjcMiMJa> <http://id.ukpds.org/schema/personFamilyName>
@@ -76,10 +76,10 @@ http_interactions:
         <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/vnMTFjju>
         .\r\n<http://id.ukpds.org/vnMTFjju> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/SeatIncumbency> .\r\n<http://id.ukpds.org/vnMTFjju>
-        <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/IjcMiMJa>
-        .\r\n<http://id.ukpds.org/vnMTFjju> <http://id.ukpds.org/schema/incumbencyEndDate>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/IjcMiMJa>
+        .\r\n<http://id.ukpds.org/vnMTFjju> <http://id.ukpds.org/schema/parliamentaryIncumbencyEndDate>
         \"2017-05-03\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<http://id.ukpds.org/vnMTFjju>
-        <http://id.ukpds.org/schema/incumbencyStartDate> \"2015-05-07\"^^<http://www.w3.org/2001/XMLSchema#date>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyStartDate> \"2015-05-07\"^^<http://www.w3.org/2001/XMLSchema#date>
         .\r\n"
     http_version: 
   recorded_at: Wed, 02 Aug 2017 10:44:07 GMT

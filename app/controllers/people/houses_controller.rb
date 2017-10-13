@@ -11,7 +11,7 @@ module People
       @person, @incumbencies = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
         'http://id.ukpds.org/schema/Person',
-        'http://id.ukpds.org/schema/Incumbency'
+        'http://id.ukpds.org/schema/ParliamentaryIncumbency'
       )
 
       @person = @person.first

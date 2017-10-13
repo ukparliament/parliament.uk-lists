@@ -51,7 +51,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 1\" .\r\n<http://id.ukpds.org/Zu1R3A5u>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 1\" .\r\n<http://id.ukpds.org/Zu1R3A5u> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/WRpLprRd> .\r\n<http://id.ukpds.org/Zu1R3A5u> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/WRpLprRd> .\r\n<http://id.ukpds.org/Zu1R3A5u> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/wAXq1iLI> .\r\n<http://id.ukpds.org/HW8ukxk3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/Kz7ncmrt>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/House>
@@ -79,7 +79,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 2\" .\r\n<http://id.ukpds.org/R3R26Zd0>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 2\" .\r\n<http://id.ukpds.org/R3R26Zd0> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/0dLwgiqx> .\r\n<http://id.ukpds.org/R3R26Zd0> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/0dLwgiqx> .\r\n<http://id.ukpds.org/R3R26Zd0> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/qwWE7e4A> .\r\n<http://id.ukpds.org/Hlhram12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/qwWE7e4A>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -102,7 +102,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 3\" .\r\n<http://id.ukpds.org/LkJd35BN>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 3\" .\r\n<http://id.ukpds.org/LkJd35BN> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/DxV5cFHR> .\r\n<http://id.ukpds.org/LkJd35BN> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/DxV5cFHR> .\r\n<http://id.ukpds.org/LkJd35BN> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/3aFAkyv3> .\r\n<http://id.ukpds.org/Mgn0kk5S> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/3aFAkyv3>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -125,7 +125,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 4\" .\r\n<http://id.ukpds.org/tnmfDugR>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 4\" .\r\n<http://id.ukpds.org/tnmfDugR> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/lpd3kJwD> .\r\n<http://id.ukpds.org/tnmfDugR> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/lpd3kJwD> .\r\n<http://id.ukpds.org/tnmfDugR> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/MY78fKPC> .\r\n<http://id.ukpds.org/7jIntHmV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/MY78fKPC>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -148,7 +148,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 5\" .\r\n<http://id.ukpds.org/ECNQF5zH>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 5\" .\r\n<http://id.ukpds.org/ECNQF5zH> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/nd3vGLTU> .\r\n<http://id.ukpds.org/ECNQF5zH> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/nd3vGLTU> .\r\n<http://id.ukpds.org/ECNQF5zH> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/P0rjMPjX> .\r\n<http://id.ukpds.org/ZsVDn5nd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/P0rjMPjX>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -171,7 +171,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 6\" .\r\n<http://id.ukpds.org/KxYxhREw>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 6\" .\r\n<http://id.ukpds.org/KxYxhREw> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/jRLVDhLF> .\r\n<http://id.ukpds.org/KxYxhREw> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/jRLVDhLF> .\r\n<http://id.ukpds.org/KxYxhREw> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/E6zlNUq5> .\r\n<http://id.ukpds.org/Nc8UOATv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/E6zlNUq5>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -194,7 +194,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 7\" .\r\n<http://id.ukpds.org/rF6OCmPC>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 7\" .\r\n<http://id.ukpds.org/rF6OCmPC> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/rkwOQeEC> .\r\n<http://id.ukpds.org/rF6OCmPC> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/rkwOQeEC> .\r\n<http://id.ukpds.org/rF6OCmPC> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/xhBNc2iR> .\r\n<http://id.ukpds.org/4Kn4owXW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/xhBNc2iR>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -217,7 +217,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 8\" .\r\n<http://id.ukpds.org/k0xQWFUL>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 8\" .\r\n<http://id.ukpds.org/k0xQWFUL> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/X8xpRktq> .\r\n<http://id.ukpds.org/k0xQWFUL> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/X8xpRktq> .\r\n<http://id.ukpds.org/k0xQWFUL> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/Rmlkb4q8> .\r\n<http://id.ukpds.org/YHi3pUgM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/Rmlkb4q8>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -240,7 +240,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 9\" .\r\n<http://id.ukpds.org/6AtyaEg4>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 9\" .\r\n<http://id.ukpds.org/6AtyaEg4> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/WGVQmVWH> .\r\n<http://id.ukpds.org/6AtyaEg4> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/WGVQmVWH> .\r\n<http://id.ukpds.org/6AtyaEg4> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/Ghdz6OiZ> .\r\n<http://id.ukpds.org/DTdvwFJE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/Ghdz6OiZ>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -263,7 +263,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 10\" .\r\n<http://id.ukpds.org/HFFwjFiV>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 10\" .\r\n<http://id.ukpds.org/HFFwjFiV> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/XBXJwtUB> .\r\n<http://id.ukpds.org/HFFwjFiV> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/XBXJwtUB> .\r\n<http://id.ukpds.org/HFFwjFiV> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/j9UndxYk> .\r\n<http://id.ukpds.org/g2eLCe7R> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/j9UndxYk>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>
@@ -286,7 +286,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 11\" .\r\n<http://id.ukpds.org/c4g4fgyR>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 11\" .\r\n<http://id.ukpds.org/c4g4fgyR> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/7RXINkUL> .\r\n<http://id.ukpds.org/c4g4fgyR> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/7RXINkUL> .\r\n<http://id.ukpds.org/c4g4fgyR> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/Sci6dvgx> .\r\n<http://id.ukpds.org/lRKogHos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/Sci6dvgx>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency>

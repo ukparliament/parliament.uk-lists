@@ -44,7 +44,7 @@ http_interactions:
         <http://id.ukpds.org/CWj1LgsV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/CWj1LgsV> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/JOYQTYG0> .
         <http://id.ukpds.org/JOYQTYG0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/bzEe11Wj> .
+        <http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/bzEe11Wj> .
         <http://id.ukpds.org/bzEe11Wj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 1" .
         <http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 1" .
@@ -60,7 +60,7 @@ http_interactions:
         <http://id.ukpds.org/ocWUJjWP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/ocWUJjWP> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/CLjHLXDM> .
         <http://id.ukpds.org/CLjHLXDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/CLjHLXDM> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/SotmfM6g> .
+        <http://id.ukpds.org/CLjHLXDM> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/SotmfM6g> .
         <http://id.ukpds.org/SotmfM6g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/SotmfM6g> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 2" .
         <http://id.ukpds.org/SotmfM6g> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 2" .
@@ -76,7 +76,7 @@ http_interactions:
         <http://id.ukpds.org/i7PQ5Jo3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/i7PQ5Jo3> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/eARUypWQ> .
         <http://id.ukpds.org/eARUypWQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/eARUypWQ> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/4bkzPkRC> .
+        <http://id.ukpds.org/eARUypWQ> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/4bkzPkRC> .
         <http://id.ukpds.org/4bkzPkRC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/4bkzPkRC> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 3" .
         <http://id.ukpds.org/4bkzPkRC> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 3" .
@@ -90,7 +90,7 @@ http_interactions:
         <http://id.ukpds.org/ttdvmloP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/ttdvmloP> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/HxkBmSED> .
         <http://id.ukpds.org/HxkBmSED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/HxkBmSED> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/CVRkIzqz> .
+        <http://id.ukpds.org/HxkBmSED> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/CVRkIzqz> .
         <http://id.ukpds.org/CVRkIzqz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/CVRkIzqz> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 4" .
         <http://id.ukpds.org/CVRkIzqz> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 4" .
@@ -104,7 +104,7 @@ http_interactions:
         <http://id.ukpds.org/SoPfo8Je> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/SoPfo8Je> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/Ehuwwa0c> .
         <http://id.ukpds.org/Ehuwwa0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/Ehuwwa0c> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/Zksed96l> .
+        <http://id.ukpds.org/Ehuwwa0c> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/Zksed96l> .
         <http://id.ukpds.org/Zksed96l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/Zksed96l> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 5" .
         <http://id.ukpds.org/Zksed96l> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 5" .
@@ -118,7 +118,7 @@ http_interactions:
         <http://id.ukpds.org/xzrQWW5m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/xzrQWW5m> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/dhdhqzJ1> .
         <http://id.ukpds.org/dhdhqzJ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/dhdhqzJ1> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/8UMTR1jh> .
+        <http://id.ukpds.org/dhdhqzJ1> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/8UMTR1jh> .
         <http://id.ukpds.org/8UMTR1jh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/8UMTR1jh> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 6" .
         <http://id.ukpds.org/8UMTR1jh> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 6" .
@@ -132,7 +132,7 @@ http_interactions:
         <http://id.ukpds.org/ydW8SNFv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/ydW8SNFv> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/zRcJNazW> .
         <http://id.ukpds.org/zRcJNazW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/zRcJNazW> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/rg9cvCAQ> .
+        <http://id.ukpds.org/zRcJNazW> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/rg9cvCAQ> .
         <http://id.ukpds.org/rg9cvCAQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/rg9cvCAQ> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 7" .
         <http://id.ukpds.org/rg9cvCAQ> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 7" .
@@ -146,7 +146,7 @@ http_interactions:
         <http://id.ukpds.org/2J7rWGtS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/2J7rWGtS> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/XSvJFgLD> .
         <http://id.ukpds.org/XSvJFgLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/XSvJFgLD> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/LSsXjuYn> .
+        <http://id.ukpds.org/XSvJFgLD> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/LSsXjuYn> .
         <http://id.ukpds.org/LSsXjuYn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/LSsXjuYn> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 8" .
         <http://id.ukpds.org/LSsXjuYn> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 8" .
@@ -160,7 +160,7 @@ http_interactions:
         <http://id.ukpds.org/xRn0HpK8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/xRn0HpK8> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/CxbtVVCj> .
         <http://id.ukpds.org/CxbtVVCj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/CxbtVVCj> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/MPp9cSuu> .
+        <http://id.ukpds.org/CxbtVVCj> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/MPp9cSuu> .
         <http://id.ukpds.org/MPp9cSuu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/MPp9cSuu> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 9" .
         <http://id.ukpds.org/MPp9cSuu> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 9" .
@@ -174,7 +174,7 @@ http_interactions:
         <http://id.ukpds.org/7LcZdGiB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
         <http://id.ukpds.org/7LcZdGiB> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/GwHjhFQV> .
         <http://id.ukpds.org/GwHjhFQV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/GwHjhFQV> <http://id.ukpds.org/schema/incumbencyHasMember> <http://id.ukpds.org/DUBnts3c> .
+        <http://id.ukpds.org/GwHjhFQV> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/DUBnts3c> .
         <http://id.ukpds.org/DUBnts3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
         <http://id.ukpds.org/DUBnts3c> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 10" .
         <http://id.ukpds.org/DUBnts3c> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 10" .

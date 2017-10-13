@@ -51,7 +51,7 @@ http_interactions:
         \"F31CBD81AD8343898B49DC65743F0BDF - 142\" .\r\n<http://id.ukpds.org/iYItPEG4>
         <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> \"A5EE13ABE03C4D3A8F1A274F57097B6C
         - 11\" .\r\n<http://id.ukpds.org/iYItPEG4> <http://id.ukpds.org/schema/partyMemberHasPartyMembership>
-        <http://id.ukpds.org/xM5I7V0D> .\r\n<http://id.ukpds.org/iYItPEG4> <http://id.ukpds.org/schema/memberHasIncumbency>
+        <http://id.ukpds.org/xM5I7V0D> .\r\n<http://id.ukpds.org/iYItPEG4> <http://id.ukpds.org/schema/memberHasParliamentaryIncumbency>
         <http://id.ukpds.org/UQnmOFKQ> .\r\n<http://id.ukpds.org/S3bGSTqn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/MemberImage> .\r\n<http://id.ukpds.org/Kz7ncmrt>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/House>

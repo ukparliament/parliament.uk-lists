@@ -53,7 +53,7 @@ http_interactions:
         \"houseName - 1\" .\r\n<http://id.ukpds.org/Kz7ncmrt> <http://id.ukpds.org/schema/houseHasHouseSeat>
         <http://id.ukpds.org/J8WD5jI7> .\r\n<http://id.ukpds.org/o02UYaRh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/SeatIncumbency> .\r\n<http://id.ukpds.org/o02UYaRh>
-        <http://id.ukpds.org/schema/incumbencyStartDate> \"2017-06-08\"^^<http://www.w3.org/2001/XMLSchema#date>
+        <http://id.ukpds.org/schema/parliamentaryIncumbencyStartDate> \"2017-06-08\"^^<http://www.w3.org/2001/XMLSchema#date>
         .\r\n<http://id.ukpds.org/J8WD5jI7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <http://id.ukpds.org/schema/HouseSeat> .\r\n<http://id.ukpds.org/J8WD5jI7>
         <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/o02UYaRh>
