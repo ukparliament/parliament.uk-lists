@@ -10,9 +10,9 @@ module Parliaments
       def index
         @parliament, @house, @parties, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
           @request,
-          'http://id.ukpds.org/schema/ParliamentPeriod',
-          'http://id.ukpds.org/schema/House',
-          'http://id.ukpds.org/schema/Party',
+          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
+          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
+          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
           ::Grom::Node::BLANK
         )
 

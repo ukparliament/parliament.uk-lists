@@ -15,7 +15,7 @@ class PartiesController < ApplicationController
   def index
     @parties, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/Party',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
       ::Grom::Node::BLANK
     )
 
@@ -26,14 +26,14 @@ class PartiesController < ApplicationController
   def current
     @parties = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/Party'
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party')
     ).sort_by(:name)
   end
 
   def letters
     @parties, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/Party',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
       ::Grom::Node::BLANK
     )
 
@@ -50,7 +50,7 @@ class PartiesController < ApplicationController
   def lookup_by_letters
     @parties, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/Party',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
       ::Grom::Node::BLANK
     )
 

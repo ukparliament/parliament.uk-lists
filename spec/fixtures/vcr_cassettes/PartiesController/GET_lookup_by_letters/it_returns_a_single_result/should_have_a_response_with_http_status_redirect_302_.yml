@@ -43,21 +43,21 @@ http_interactions:
       - Wed, 02 Aug 2017 10:15:39 GMT
     body:
       encoding: UTF-8
-      string: "<http://id.ukpds.org/6zqf0pPb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/Party> .\r\n<http://id.ukpds.org/6zqf0pPb> <http://id.ukpds.org/schema/partyName>
-        \"partyName - 12\" .\r\n<http://id.ukpds.org/6zqf0pPb> <http://id.ukpds.org/schema/commonsCount>
-        \"0\"^^<http://www.w3.org/2001/XMLSchema#integer> .\r\n<http://id.ukpds.org/6zqf0pPb>
-        <http://id.ukpds.org/schema/lordsCount> \"0\"^^<http://www.w3.org/2001/XMLSchema#integer>
-        .\r\n_:node1080837 <http://id.ukpds.org/schema/value> \"P\" .\r\n_:node1080838
-        <http://id.ukpds.org/schema/value> \"I\" .\r\n_:node1080839 <http://id.ukpds.org/schema/value>
-        \"B\" .\r\n_:node1080840 <http://id.ukpds.org/schema/value> \"S\" .\r\n_:node1080841
-        <http://id.ukpds.org/schema/value> \"O\" .\r\n_:node1080842 <http://id.ukpds.org/schema/value>
-        \"C\" .\r\n_:node1080843 <http://id.ukpds.org/schema/value> \"U\" .\r\n_:node1080844
-        <http://id.ukpds.org/schema/value> \"G\" .\r\n_:node1080845 <http://id.ukpds.org/schema/value>
-        \"N\" .\r\n_:node1080846 <http://id.ukpds.org/schema/value> \"L\" .\r\n_:node1080847
-        <http://id.ukpds.org/schema/value> \"V\" .\r\n_:node1080848 <http://id.ukpds.org/schema/value>
-        \"R\" .\r\n_:node1080849 <http://id.ukpds.org/schema/value> \"D\" .\r\n_:node1080850
-        <http://id.ukpds.org/schema/value> \"A\" .\r\n"
-    http_version: 
+      string: "<https://id.parliament.uk/6zqf0pPb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Party> .\r\n<https://id.parliament.uk/6zqf0pPb> <https://id.parliament.uk/schema/partyName>
+        \"partyName - 12\" .\r\n<https://id.parliament.uk/6zqf0pPb> <https://id.parliament.uk/schema/commonsCount>
+        \"0\"^^<http://www.w3.org/2001/XMLSchema#integer> .\r\n<https://id.parliament.uk/6zqf0pPb>
+        <https://id.parliament.uk/schema/lordsCount> \"0\"^^<http://www.w3.org/2001/XMLSchema#integer>
+        .\r\n_:node1080837 <https://id.parliament.uk/schema/value> \"P\" .\r\n_:node1080838
+        <https://id.parliament.uk/schema/value> \"I\" .\r\n_:node1080839 <https://id.parliament.uk/schema/value>
+        \"B\" .\r\n_:node1080840 <https://id.parliament.uk/schema/value> \"S\" .\r\n_:node1080841
+        <https://id.parliament.uk/schema/value> \"O\" .\r\n_:node1080842 <https://id.parliament.uk/schema/value>
+        \"C\" .\r\n_:node1080843 <https://id.parliament.uk/schema/value> \"U\" .\r\n_:node1080844
+        <https://id.parliament.uk/schema/value> \"G\" .\r\n_:node1080845 <https://id.parliament.uk/schema/value>
+        \"N\" .\r\n_:node1080846 <https://id.parliament.uk/schema/value> \"L\" .\r\n_:node1080847
+        <https://id.parliament.uk/schema/value> \"V\" .\r\n_:node1080848 <https://id.parliament.uk/schema/value>
+        \"R\" .\r\n_:node1080849 <https://id.parliament.uk/schema/value> \"D\" .\r\n_:node1080850
+        <https://id.parliament.uk/schema/value> \"A\" .\r\n"
+    http_version:
   recorded_at: Wed, 02 Aug 2017 10:19:12 GMT
 recorded_with: VCR 3.0.3

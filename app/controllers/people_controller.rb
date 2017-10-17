@@ -11,7 +11,7 @@ class PeopleController < ApplicationController
   def index
     @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/Person',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
       ::Grom::Node::BLANK
     )
 
@@ -28,7 +28,7 @@ class PeopleController < ApplicationController
   def letters
     @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/Person',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
       ::Grom::Node::BLANK
     )
 
@@ -45,7 +45,7 @@ class PeopleController < ApplicationController
   def lookup_by_letters
     @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/Person',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
       ::Grom::Node::BLANK
     )
 

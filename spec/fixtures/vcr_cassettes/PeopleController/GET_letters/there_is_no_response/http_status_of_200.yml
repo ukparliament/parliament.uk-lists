@@ -43,25 +43,25 @@ http_interactions:
       - Wed, 02 Aug 2017 12:24:26 GMT
     body:
       encoding: UTF-8
-      string: "_:node1129164 <http://id.ukpds.org/schema/value> \"S\" .\r\n_:node1129165
-        <http://id.ukpds.org/schema/value> \"C\" .\r\n_:node1129166 <http://id.ukpds.org/schema/value>
-        \"R\" .\r\n_:node1129167 <http://id.ukpds.org/schema/value> \"W\" .\r\n_:node1129168
-        <http://id.ukpds.org/schema/value> \"M\" .\r\n_:node1129169 <http://id.ukpds.org/schema/value>
-        \"G\" .\r\n_:node1129170 <http://id.ukpds.org/schema/value> \"K\" .\r\n_:node1129171
-        <http://id.ukpds.org/schema/value> \"T\" .\r\n_:node1129172 <http://id.ukpds.org/schema/value>
-        \"B\" .\r\n_:node1129173 <http://id.ukpds.org/schema/value> \"A\" .\r\n_:node1129174
-        <http://id.ukpds.org/schema/value> \"H\" .\r\n_:node1129175 <http://id.ukpds.org/schema/value>
-        \"F\" .\r\n_:node1129176 <http://id.ukpds.org/schema/value> \"D\" .\r\n_:node1129177
-        <http://id.ukpds.org/schema/value> \"J\" .\r\n_:node1129178 <http://id.ukpds.org/schema/value>
-        \"P\" .\r\n_:node1129179 <http://id.ukpds.org/schema/value> \"O\" .\r\n_:node1129180
-        <http://id.ukpds.org/schema/value> \"L\" .\r\n_:node1129181 <http://id.ukpds.org/schema/value>
-        \"V\" .\r\n_:node1129182 <http://id.ukpds.org/schema/value> \"N\" .\r\n_:node1129183
-        <http://id.ukpds.org/schema/value> \"E\" .\r\n_:node1129184 <http://id.ukpds.org/schema/value>
-        \"Y\" .\r\n_:node1129185 <http://id.ukpds.org/schema/value> \"I\" .\r\n_:node1129186
-        <http://id.ukpds.org/schema/value> \"U\" .\r\n_:node1129187 <http://id.ukpds.org/schema/value>
-        \"\\u00D6\" .\r\n_:node1129188 <http://id.ukpds.org/schema/value> \"Q\" .\r\n_:node1129189
-        <http://id.ukpds.org/schema/value> \"Z\" .\r\n"
-    http_version: 
+      string: "_:node1129164 <https://id.parliament.uk/schema/value> \"S\" .\r\n_:node1129165
+        <https://id.parliament.uk/schema/value> \"C\" .\r\n_:node1129166 <https://id.parliament.uk/schema/value>
+        \"R\" .\r\n_:node1129167 <https://id.parliament.uk/schema/value> \"W\" .\r\n_:node1129168
+        <https://id.parliament.uk/schema/value> \"M\" .\r\n_:node1129169 <https://id.parliament.uk/schema/value>
+        \"G\" .\r\n_:node1129170 <https://id.parliament.uk/schema/value> \"K\" .\r\n_:node1129171
+        <https://id.parliament.uk/schema/value> \"T\" .\r\n_:node1129172 <https://id.parliament.uk/schema/value>
+        \"B\" .\r\n_:node1129173 <https://id.parliament.uk/schema/value> \"A\" .\r\n_:node1129174
+        <https://id.parliament.uk/schema/value> \"H\" .\r\n_:node1129175 <https://id.parliament.uk/schema/value>
+        \"F\" .\r\n_:node1129176 <https://id.parliament.uk/schema/value> \"D\" .\r\n_:node1129177
+        <https://id.parliament.uk/schema/value> \"J\" .\r\n_:node1129178 <https://id.parliament.uk/schema/value>
+        \"P\" .\r\n_:node1129179 <https://id.parliament.uk/schema/value> \"O\" .\r\n_:node1129180
+        <https://id.parliament.uk/schema/value> \"L\" .\r\n_:node1129181 <https://id.parliament.uk/schema/value>
+        \"V\" .\r\n_:node1129182 <https://id.parliament.uk/schema/value> \"N\" .\r\n_:node1129183
+        <https://id.parliament.uk/schema/value> \"E\" .\r\n_:node1129184 <https://id.parliament.uk/schema/value>
+        \"Y\" .\r\n_:node1129185 <https://id.parliament.uk/schema/value> \"I\" .\r\n_:node1129186
+        <https://id.parliament.uk/schema/value> \"U\" .\r\n_:node1129187 <https://id.parliament.uk/schema/value>
+        \"\\u00D6\" .\r\n_:node1129188 <https://id.parliament.uk/schema/value> \"Q\" .\r\n_:node1129189
+        <https://id.parliament.uk/schema/value> \"Z\" .\r\n"
+    http_version:
   recorded_at: Wed, 02 Aug 2017 12:27:58 GMT
 - request:
     method: get
@@ -106,11 +106,11 @@ http_interactions:
       - Wed, 02 Aug 2017 12:24:26 GMT
     body:
       encoding: UTF-8
-      string: "<http://id.ukpds.org/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/Kz7ncmrt> <http://id.ukpds.org/schema/houseName>
-        \"houseName - 1\" .\r\n<http://id.ukpds.org/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/MvLURLV5> <http://id.ukpds.org/schema/houseName>
+      string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
+        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
         \"houseName - 2\" .\r\n"
-    http_version: 
+    http_version:
   recorded_at: Wed, 02 Aug 2017 12:27:59 GMT
 recorded_with: VCR 3.0.3

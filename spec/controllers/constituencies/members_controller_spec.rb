@@ -13,15 +13,15 @@ RSpec.describe Constituencies::MembersController, vcr: true do
 
     it 'assigns @constituency, @seat_incumbencies and @current_incumbency' do
       expect(assigns(:constituency)).to be_a(Grom::Node)
-      expect(assigns(:constituency).type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+      expect(assigns(:constituency).type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
 
       assigns(:seat_incumbencies).each do |seat_incumbency|
         expect(seat_incumbency).to be_a(Grom::Node)
-        expect(seat_incumbency.type).to eq('http://id.ukpds.org/schema/SeatIncumbency')
+        expect(seat_incumbency.type).to eq('https://id.parliament.uk/schema/SeatIncumbency')
       end
 
       expect(assigns(:current_incumbency)).to be_a(Grom::Node)
-      expect(assigns(:current_incumbency).type).to eq('http://id.ukpds.org/schema/SeatIncumbency')
+      expect(assigns(:current_incumbency).type).to eq('https://id.parliament.uk/schema/SeatIncumbency')
       expect(assigns(:current_incumbency).current?).to be(true)
     end
 
@@ -49,10 +49,10 @@ RSpec.describe Constituencies::MembersController, vcr: true do
 
     it 'assigns @constituency and @seat_incumbency' do
       expect(assigns(:constituency)).to be_a(Grom::Node)
-      expect(assigns(:constituency).type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+      expect(assigns(:constituency).type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
 
       expect(assigns(:seat_incumbency)).to be_a(Grom::Node)
-      expect(assigns(:seat_incumbency).type).to eq('http://id.ukpds.org/schema/SeatIncumbency')
+      expect(assigns(:seat_incumbency).type).to eq('https://id.parliament.uk/schema/SeatIncumbency')
     end
 
     it 'renders the current_member template' do

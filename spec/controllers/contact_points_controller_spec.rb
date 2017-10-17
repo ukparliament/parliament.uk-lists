@@ -14,7 +14,7 @@ RSpec.describe ContactPointsController, vcr: true do
     it 'assigns @contact_points' do
       assigns(:contact_points).each do |contact_point|
         expect(contact_point).to be_a(Grom::Node)
-        expect(contact_point.type).to eq('http://id.ukpds.org/schema/ContactPoint')
+        expect(contact_point.type).to eq('https://id.parliament.uk/schema/ContactPoint')
       end
     end
 

@@ -36,175 +36,175 @@ http_interactions:
       string: |
         <http://data.ordnancesurvey.co.uk/id/7000000000041430> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ordnancesurvey.co.uk/ontology/admingeo/EuropeanRegion> .
         <http://data.ordnancesurvey.co.uk/id/7000000000041430> <http://data.ordnancesurvey.co.uk/ontology/admingeo/gssCode> "gssCode - 1" .
-        <http://data.ordnancesurvey.co.uk/id/7000000000041430> <http://id.ukpds.org/schema/count> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
+        <http://data.ordnancesurvey.co.uk/id/7000000000041430> <https://id.parliament.uk/schema/count> "54"^^<http://www.w3.org/2001/XMLSchema#integer> .
         <http://data.ordnancesurvey.co.uk/id/7000000000041430> <http://www.w3.org/2004/02/skos/core#prefLabel> "core#prefLabel - 1" .
-        <http://id.ukpds.org/MiTIE0wv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/MiTIE0wv> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 1" .
-        <http://id.ukpds.org/MiTIE0wv> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/CWj1LgsV> .
-        <http://id.ukpds.org/CWj1LgsV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/CWj1LgsV> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/JOYQTYG0> .
-        <http://id.ukpds.org/JOYQTYG0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/JOYQTYG0> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/bzEe11Wj> .
-        <http://id.ukpds.org/bzEe11Wj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 1" .
-        <http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 1" .
-        <http://id.ukpds.org/bzEe11Wj> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 1" .
-        <http://id.ukpds.org/bzEe11Wj> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/xgbXsAfS> .
-        <http://id.ukpds.org/xgbXsAfS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/xgbXsAfS> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/891w1b1k> .
-        <http://id.ukpds.org/891w1b1k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Party> .
-        <http://id.ukpds.org/891w1b1k> <http://id.ukpds.org/schema/partyName> "partyName - 1" .
-        <http://id.ukpds.org/GZR5v8LB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/GZR5v8LB> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 2" .
-        <http://id.ukpds.org/GZR5v8LB> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/ocWUJjWP> .
-        <http://id.ukpds.org/ocWUJjWP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/ocWUJjWP> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/CLjHLXDM> .
-        <http://id.ukpds.org/CLjHLXDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/CLjHLXDM> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/SotmfM6g> .
-        <http://id.ukpds.org/SotmfM6g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/SotmfM6g> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 2" .
-        <http://id.ukpds.org/SotmfM6g> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 2" .
-        <http://id.ukpds.org/SotmfM6g> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 2" .
-        <http://id.ukpds.org/SotmfM6g> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/eJfaFNt6> .
-        <http://id.ukpds.org/eJfaFNt6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/eJfaFNt6> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/AJgeHzL2> .
-        <http://id.ukpds.org/AJgeHzL2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Party> .
-        <http://id.ukpds.org/AJgeHzL2> <http://id.ukpds.org/schema/partyName> "partyName - 2" .
-        <http://id.ukpds.org/8HWkTUYY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/8HWkTUYY> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 3" .
-        <http://id.ukpds.org/8HWkTUYY> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/i7PQ5Jo3> .
-        <http://id.ukpds.org/i7PQ5Jo3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/i7PQ5Jo3> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/eARUypWQ> .
-        <http://id.ukpds.org/eARUypWQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/eARUypWQ> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/4bkzPkRC> .
-        <http://id.ukpds.org/4bkzPkRC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/4bkzPkRC> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 3" .
-        <http://id.ukpds.org/4bkzPkRC> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 3" .
-        <http://id.ukpds.org/4bkzPkRC> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 3" .
-        <http://id.ukpds.org/4bkzPkRC> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/4iWDhDwv> .
-        <http://id.ukpds.org/4iWDhDwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/4iWDhDwv> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/AJgeHzL2> .
-        <http://id.ukpds.org/I3R20MPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/I3R20MPI> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 4" .
-        <http://id.ukpds.org/I3R20MPI> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/ttdvmloP> .
-        <http://id.ukpds.org/ttdvmloP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/ttdvmloP> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/HxkBmSED> .
-        <http://id.ukpds.org/HxkBmSED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/HxkBmSED> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/CVRkIzqz> .
-        <http://id.ukpds.org/CVRkIzqz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/CVRkIzqz> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 4" .
-        <http://id.ukpds.org/CVRkIzqz> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 4" .
-        <http://id.ukpds.org/CVRkIzqz> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 4" .
-        <http://id.ukpds.org/CVRkIzqz> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/CvrXtuME> .
-        <http://id.ukpds.org/CvrXtuME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/CvrXtuME> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/AJgeHzL2> .
-        <http://id.ukpds.org/9JL2fMKY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/9JL2fMKY> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 5" .
-        <http://id.ukpds.org/9JL2fMKY> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/SoPfo8Je> .
-        <http://id.ukpds.org/SoPfo8Je> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/SoPfo8Je> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/Ehuwwa0c> .
-        <http://id.ukpds.org/Ehuwwa0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/Ehuwwa0c> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/Zksed96l> .
-        <http://id.ukpds.org/Zksed96l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/Zksed96l> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 5" .
-        <http://id.ukpds.org/Zksed96l> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 5" .
-        <http://id.ukpds.org/Zksed96l> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 5" .
-        <http://id.ukpds.org/Zksed96l> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/rXbHt3Jt> .
-        <http://id.ukpds.org/rXbHt3Jt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/rXbHt3Jt> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/891w1b1k> .
-        <http://id.ukpds.org/GYnWoTXX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/GYnWoTXX> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 6" .
-        <http://id.ukpds.org/GYnWoTXX> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/xzrQWW5m> .
-        <http://id.ukpds.org/xzrQWW5m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/xzrQWW5m> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/dhdhqzJ1> .
-        <http://id.ukpds.org/dhdhqzJ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/dhdhqzJ1> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/8UMTR1jh> .
-        <http://id.ukpds.org/8UMTR1jh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/8UMTR1jh> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 6" .
-        <http://id.ukpds.org/8UMTR1jh> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 6" .
-        <http://id.ukpds.org/8UMTR1jh> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 6" .
-        <http://id.ukpds.org/8UMTR1jh> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/O8NjIJex> .
-        <http://id.ukpds.org/O8NjIJex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/O8NjIJex> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/AJgeHzL2> .
-        <http://id.ukpds.org/9FHGHyBF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/9FHGHyBF> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 7" .
-        <http://id.ukpds.org/9FHGHyBF> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/ydW8SNFv> .
-        <http://id.ukpds.org/ydW8SNFv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/ydW8SNFv> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/zRcJNazW> .
-        <http://id.ukpds.org/zRcJNazW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/zRcJNazW> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/rg9cvCAQ> .
-        <http://id.ukpds.org/rg9cvCAQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/rg9cvCAQ> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 7" .
-        <http://id.ukpds.org/rg9cvCAQ> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 7" .
-        <http://id.ukpds.org/rg9cvCAQ> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 7" .
-        <http://id.ukpds.org/rg9cvCAQ> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/INmCoOYV> .
-        <http://id.ukpds.org/INmCoOYV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/INmCoOYV> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/891w1b1k> .
-        <http://id.ukpds.org/HfaYE2BP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/HfaYE2BP> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 8" .
-        <http://id.ukpds.org/HfaYE2BP> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/2J7rWGtS> .
-        <http://id.ukpds.org/2J7rWGtS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/2J7rWGtS> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/XSvJFgLD> .
-        <http://id.ukpds.org/XSvJFgLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/XSvJFgLD> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/LSsXjuYn> .
-        <http://id.ukpds.org/LSsXjuYn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/LSsXjuYn> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 8" .
-        <http://id.ukpds.org/LSsXjuYn> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 8" .
-        <http://id.ukpds.org/LSsXjuYn> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 8" .
-        <http://id.ukpds.org/LSsXjuYn> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/jtjiVAT4> .
-        <http://id.ukpds.org/jtjiVAT4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/jtjiVAT4> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/891w1b1k> .
-        <http://id.ukpds.org/Z3SwjKpn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/Z3SwjKpn> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 9" .
-        <http://id.ukpds.org/Z3SwjKpn> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/xRn0HpK8> .
-        <http://id.ukpds.org/xRn0HpK8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/xRn0HpK8> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/CxbtVVCj> .
-        <http://id.ukpds.org/CxbtVVCj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/CxbtVVCj> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/MPp9cSuu> .
-        <http://id.ukpds.org/MPp9cSuu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/MPp9cSuu> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 9" .
-        <http://id.ukpds.org/MPp9cSuu> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 9" .
-        <http://id.ukpds.org/MPp9cSuu> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 9" .
-        <http://id.ukpds.org/MPp9cSuu> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/C1ojoPbK> .
-        <http://id.ukpds.org/C1ojoPbK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/C1ojoPbK> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/891w1b1k> .
-        <http://id.ukpds.org/sLa5egrv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ConstituencyGroup> .
-        <http://id.ukpds.org/sLa5egrv> <http://id.ukpds.org/schema/constituencyGroupName> "constituencyGroupName - 10" .
-        <http://id.ukpds.org/sLa5egrv> <http://id.ukpds.org/schema/constituencyGroupHasHouseSeat> <http://id.ukpds.org/7LcZdGiB> .
-        <http://id.ukpds.org/7LcZdGiB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/HouseSeat> .
-        <http://id.ukpds.org/7LcZdGiB> <http://id.ukpds.org/schema/houseSeatHasSeatIncumbency> <http://id.ukpds.org/GwHjhFQV> .
-        <http://id.ukpds.org/GwHjhFQV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/SeatIncumbency> .
-        <http://id.ukpds.org/GwHjhFQV> <http://id.ukpds.org/schema/parliamentaryIncumbencyHasMember> <http://id.ukpds.org/DUBnts3c> .
-        <http://id.ukpds.org/DUBnts3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/DUBnts3c> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 10" .
-        <http://id.ukpds.org/DUBnts3c> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 10" .
-        <http://id.ukpds.org/DUBnts3c> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 10" .
-        <http://id.ukpds.org/DUBnts3c> <http://id.ukpds.org/schema/partyMemberHasPartyMembership> <http://id.ukpds.org/CE7PGH5v> .
-        <http://id.ukpds.org/CE7PGH5v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/PartyMembership> .
-        <http://id.ukpds.org/CE7PGH5v> <http://id.ukpds.org/schema/partyMembershipHasParty> <http://id.ukpds.org/891w1b1k> .
-        _:node1043105 <http://id.ukpds.org/schema/value> "B" .
-        _:node1043106 <http://id.ukpds.org/schema/value> "H" .
-        _:node1043107 <http://id.ukpds.org/schema/value> "A" .
-        _:node1043108 <http://id.ukpds.org/schema/value> "C" .
-        _:node1043109 <http://id.ukpds.org/schema/value> "E" .
-        _:node1043110 <http://id.ukpds.org/schema/value> "M" .
-        _:node1043111 <http://id.ukpds.org/schema/value> "S" .
-        _:node1043112 <http://id.ukpds.org/schema/value> "N" .
-        _:node1043113 <http://id.ukpds.org/schema/value> "W" .
-        _:node1043114 <http://id.ukpds.org/schema/value> "T" .
-        _:node1043115 <http://id.ukpds.org/schema/value> "V" .
-        _:node1043116 <http://id.ukpds.org/schema/value> "I" .
-        _:node1043117 <http://id.ukpds.org/schema/value> "P" .
-        _:node1043118 <http://id.ukpds.org/schema/value> "K" .
-        _:node1043119 <http://id.ukpds.org/schema/value> "R" .
-        _:node1043120 <http://id.ukpds.org/schema/value> "G" .
-        _:node1043121 <http://id.ukpds.org/schema/value> "D" .
-        _:node1043122 <http://id.ukpds.org/schema/value> "L" .
-        _:node1043123 <http://id.ukpds.org/schema/value> "F" .
-        _:node1043124 <http://id.ukpds.org/schema/value> "Y" .
-        _:node1043125 <http://id.ukpds.org/schema/value> "U" .
-        _:node1043126 <http://id.ukpds.org/schema/value> "O" .
-        _:node1043127 <http://id.ukpds.org/schema/value> "J" .
+        <https://id.parliament.uk/MiTIE0wv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/MiTIE0wv> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 1" .
+        <https://id.parliament.uk/MiTIE0wv> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/CWj1LgsV> .
+        <https://id.parliament.uk/CWj1LgsV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/CWj1LgsV> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/JOYQTYG0> .
+        <https://id.parliament.uk/JOYQTYG0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/JOYQTYG0> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/bzEe11Wj> .
+        <https://id.parliament.uk/bzEe11Wj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/bzEe11Wj> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 1" .
+        <https://id.parliament.uk/bzEe11Wj> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 1" .
+        <https://id.parliament.uk/bzEe11Wj> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 1" .
+        <https://id.parliament.uk/bzEe11Wj> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/xgbXsAfS> .
+        <https://id.parliament.uk/xgbXsAfS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/xgbXsAfS> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/891w1b1k> .
+        <https://id.parliament.uk/891w1b1k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Party> .
+        <https://id.parliament.uk/891w1b1k> <https://id.parliament.uk/schema/partyName> "partyName - 1" .
+        <https://id.parliament.uk/GZR5v8LB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/GZR5v8LB> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 2" .
+        <https://id.parliament.uk/GZR5v8LB> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/ocWUJjWP> .
+        <https://id.parliament.uk/ocWUJjWP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/ocWUJjWP> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/CLjHLXDM> .
+        <https://id.parliament.uk/CLjHLXDM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/CLjHLXDM> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/SotmfM6g> .
+        <https://id.parliament.uk/SotmfM6g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/SotmfM6g> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 2" .
+        <https://id.parliament.uk/SotmfM6g> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 2" .
+        <https://id.parliament.uk/SotmfM6g> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 2" .
+        <https://id.parliament.uk/SotmfM6g> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/eJfaFNt6> .
+        <https://id.parliament.uk/eJfaFNt6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/eJfaFNt6> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/AJgeHzL2> .
+        <https://id.parliament.uk/AJgeHzL2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Party> .
+        <https://id.parliament.uk/AJgeHzL2> <https://id.parliament.uk/schema/partyName> "partyName - 2" .
+        <https://id.parliament.uk/8HWkTUYY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/8HWkTUYY> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 3" .
+        <https://id.parliament.uk/8HWkTUYY> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/i7PQ5Jo3> .
+        <https://id.parliament.uk/i7PQ5Jo3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/i7PQ5Jo3> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/eARUypWQ> .
+        <https://id.parliament.uk/eARUypWQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/eARUypWQ> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/4bkzPkRC> .
+        <https://id.parliament.uk/4bkzPkRC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/4bkzPkRC> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 3" .
+        <https://id.parliament.uk/4bkzPkRC> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 3" .
+        <https://id.parliament.uk/4bkzPkRC> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 3" .
+        <https://id.parliament.uk/4bkzPkRC> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/4iWDhDwv> .
+        <https://id.parliament.uk/4iWDhDwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/4iWDhDwv> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/AJgeHzL2> .
+        <https://id.parliament.uk/I3R20MPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/I3R20MPI> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 4" .
+        <https://id.parliament.uk/I3R20MPI> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/ttdvmloP> .
+        <https://id.parliament.uk/ttdvmloP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/ttdvmloP> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/HxkBmSED> .
+        <https://id.parliament.uk/HxkBmSED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/HxkBmSED> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/CVRkIzqz> .
+        <https://id.parliament.uk/CVRkIzqz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/CVRkIzqz> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 4" .
+        <https://id.parliament.uk/CVRkIzqz> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 4" .
+        <https://id.parliament.uk/CVRkIzqz> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 4" .
+        <https://id.parliament.uk/CVRkIzqz> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/CvrXtuME> .
+        <https://id.parliament.uk/CvrXtuME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/CvrXtuME> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/AJgeHzL2> .
+        <https://id.parliament.uk/9JL2fMKY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/9JL2fMKY> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 5" .
+        <https://id.parliament.uk/9JL2fMKY> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/SoPfo8Je> .
+        <https://id.parliament.uk/SoPfo8Je> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/SoPfo8Je> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/Ehuwwa0c> .
+        <https://id.parliament.uk/Ehuwwa0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/Ehuwwa0c> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/Zksed96l> .
+        <https://id.parliament.uk/Zksed96l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/Zksed96l> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 5" .
+        <https://id.parliament.uk/Zksed96l> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 5" .
+        <https://id.parliament.uk/Zksed96l> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 5" .
+        <https://id.parliament.uk/Zksed96l> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/rXbHt3Jt> .
+        <https://id.parliament.uk/rXbHt3Jt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/rXbHt3Jt> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/891w1b1k> .
+        <https://id.parliament.uk/GYnWoTXX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/GYnWoTXX> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 6" .
+        <https://id.parliament.uk/GYnWoTXX> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/xzrQWW5m> .
+        <https://id.parliament.uk/xzrQWW5m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/xzrQWW5m> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/dhdhqzJ1> .
+        <https://id.parliament.uk/dhdhqzJ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/dhdhqzJ1> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/8UMTR1jh> .
+        <https://id.parliament.uk/8UMTR1jh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/8UMTR1jh> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 6" .
+        <https://id.parliament.uk/8UMTR1jh> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 6" .
+        <https://id.parliament.uk/8UMTR1jh> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 6" .
+        <https://id.parliament.uk/8UMTR1jh> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/O8NjIJex> .
+        <https://id.parliament.uk/O8NjIJex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/O8NjIJex> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/AJgeHzL2> .
+        <https://id.parliament.uk/9FHGHyBF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/9FHGHyBF> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 7" .
+        <https://id.parliament.uk/9FHGHyBF> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/ydW8SNFv> .
+        <https://id.parliament.uk/ydW8SNFv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/ydW8SNFv> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/zRcJNazW> .
+        <https://id.parliament.uk/zRcJNazW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/zRcJNazW> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/rg9cvCAQ> .
+        <https://id.parliament.uk/rg9cvCAQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/rg9cvCAQ> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 7" .
+        <https://id.parliament.uk/rg9cvCAQ> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 7" .
+        <https://id.parliament.uk/rg9cvCAQ> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 7" .
+        <https://id.parliament.uk/rg9cvCAQ> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/INmCoOYV> .
+        <https://id.parliament.uk/INmCoOYV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/INmCoOYV> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/891w1b1k> .
+        <https://id.parliament.uk/HfaYE2BP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/HfaYE2BP> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 8" .
+        <https://id.parliament.uk/HfaYE2BP> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/2J7rWGtS> .
+        <https://id.parliament.uk/2J7rWGtS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/2J7rWGtS> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/XSvJFgLD> .
+        <https://id.parliament.uk/XSvJFgLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/XSvJFgLD> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/LSsXjuYn> .
+        <https://id.parliament.uk/LSsXjuYn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/LSsXjuYn> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 8" .
+        <https://id.parliament.uk/LSsXjuYn> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 8" .
+        <https://id.parliament.uk/LSsXjuYn> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 8" .
+        <https://id.parliament.uk/LSsXjuYn> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/jtjiVAT4> .
+        <https://id.parliament.uk/jtjiVAT4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/jtjiVAT4> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/891w1b1k> .
+        <https://id.parliament.uk/Z3SwjKpn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/Z3SwjKpn> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 9" .
+        <https://id.parliament.uk/Z3SwjKpn> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/xRn0HpK8> .
+        <https://id.parliament.uk/xRn0HpK8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/xRn0HpK8> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/CxbtVVCj> .
+        <https://id.parliament.uk/CxbtVVCj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/CxbtVVCj> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/MPp9cSuu> .
+        <https://id.parliament.uk/MPp9cSuu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/MPp9cSuu> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 9" .
+        <https://id.parliament.uk/MPp9cSuu> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 9" .
+        <https://id.parliament.uk/MPp9cSuu> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 9" .
+        <https://id.parliament.uk/MPp9cSuu> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/C1ojoPbK> .
+        <https://id.parliament.uk/C1ojoPbK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/C1ojoPbK> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/891w1b1k> .
+        <https://id.parliament.uk/sLa5egrv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ConstituencyGroup> .
+        <https://id.parliament.uk/sLa5egrv> <https://id.parliament.uk/schema/constituencyGroupName> "constituencyGroupName - 10" .
+        <https://id.parliament.uk/sLa5egrv> <https://id.parliament.uk/schema/constituencyGroupHasHouseSeat> <https://id.parliament.uk/7LcZdGiB> .
+        <https://id.parliament.uk/7LcZdGiB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/HouseSeat> .
+        <https://id.parliament.uk/7LcZdGiB> <https://id.parliament.uk/schema/houseSeatHasSeatIncumbency> <https://id.parliament.uk/GwHjhFQV> .
+        <https://id.parliament.uk/GwHjhFQV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/SeatIncumbency> .
+        <https://id.parliament.uk/GwHjhFQV> <https://id.parliament.uk/schema/parliamentaryIncumbencyHasMember> <https://id.parliament.uk/DUBnts3c> .
+        <https://id.parliament.uk/DUBnts3c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/DUBnts3c> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 10" .
+        <https://id.parliament.uk/DUBnts3c> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 10" .
+        <https://id.parliament.uk/DUBnts3c> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 10" .
+        <https://id.parliament.uk/DUBnts3c> <https://id.parliament.uk/schema/partyMemberHasPartyMembership> <https://id.parliament.uk/CE7PGH5v> .
+        <https://id.parliament.uk/CE7PGH5v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/PartyMembership> .
+        <https://id.parliament.uk/CE7PGH5v> <https://id.parliament.uk/schema/partyMembershipHasParty> <https://id.parliament.uk/891w1b1k> .
+        _:node1043105 <https://id.parliament.uk/schema/value> "B" .
+        _:node1043106 <https://id.parliament.uk/schema/value> "H" .
+        _:node1043107 <https://id.parliament.uk/schema/value> "A" .
+        _:node1043108 <https://id.parliament.uk/schema/value> "C" .
+        _:node1043109 <https://id.parliament.uk/schema/value> "E" .
+        _:node1043110 <https://id.parliament.uk/schema/value> "M" .
+        _:node1043111 <https://id.parliament.uk/schema/value> "S" .
+        _:node1043112 <https://id.parliament.uk/schema/value> "N" .
+        _:node1043113 <https://id.parliament.uk/schema/value> "W" .
+        _:node1043114 <https://id.parliament.uk/schema/value> "T" .
+        _:node1043115 <https://id.parliament.uk/schema/value> "V" .
+        _:node1043116 <https://id.parliament.uk/schema/value> "I" .
+        _:node1043117 <https://id.parliament.uk/schema/value> "P" .
+        _:node1043118 <https://id.parliament.uk/schema/value> "K" .
+        _:node1043119 <https://id.parliament.uk/schema/value> "R" .
+        _:node1043120 <https://id.parliament.uk/schema/value> "G" .
+        _:node1043121 <https://id.parliament.uk/schema/value> "D" .
+        _:node1043122 <https://id.parliament.uk/schema/value> "L" .
+        _:node1043123 <https://id.parliament.uk/schema/value> "F" .
+        _:node1043124 <https://id.parliament.uk/schema/value> "Y" .
+        _:node1043125 <https://id.parliament.uk/schema/value> "U" .
+        _:node1043126 <https://id.parliament.uk/schema/value> "O" .
+        _:node1043127 <https://id.parliament.uk/schema/value> "J" .
       http_version:
   recorded_at: Tue, 22 Aug 2017 10:17:42 GMT
 - request:
@@ -240,10 +240,10 @@ http_interactions:
       - '420'
     body:
       encoding: UTF-8
-      string: "<http://id.ukpds.org/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/Kz7ncmrt> <http://id.ukpds.org/schema/houseName>
-        \"houseName - 1\" .\r\n<http://id.ukpds.org/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/MvLURLV5> <http://id.ukpds.org/schema/houseName>
+      string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
+        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
         \"houseName - 2\" .\r\n"
     http_version:
   recorded_at: Tue, 22 Aug 2017 10:17:42 GMT

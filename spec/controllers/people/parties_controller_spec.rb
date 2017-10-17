@@ -13,11 +13,11 @@ RSpec.describe People::PartiesController, vcr: true do
 
     it 'assigns @person and @party_memberships' do
       expect(assigns(:person)).to be_a(Grom::Node)
-      expect(assigns(:person).type).to eq('http://id.ukpds.org/schema/Person')
+      expect(assigns(:person).type).to eq('https://id.parliament.uk/schema/Person')
 
       assigns(:party_memberships).each do |party_membership|
         expect(party_membership).to be_a(Grom::Node)
-        expect(party_membership.type).to eq('http://id.ukpds.org/schema/PartyMembership')
+        expect(party_membership.type).to eq('https://id.parliament.uk/schema/PartyMembership')
       end
     end
 
@@ -42,9 +42,9 @@ RSpec.describe People::PartiesController, vcr: true do
 
     it 'assigns @person and @party' do
       expect(assigns(:person)).to be_a(Grom::Node)
-      expect(assigns(:person).type).to eq('http://id.ukpds.org/schema/Person')
+      expect(assigns(:person).type).to eq('https://id.parliament.uk/schema/Person')
       expect(assigns(:party)).to be_a(Grom::Node)
-      expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+      expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
     end
 
     it 'renders the current_party template' do

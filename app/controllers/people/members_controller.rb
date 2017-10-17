@@ -14,7 +14,7 @@ module People
     def index
       @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -25,7 +25,7 @@ module People
     def current
       @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -36,7 +36,7 @@ module People
     def letters
       @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -48,7 +48,7 @@ module People
     def current_letters
       @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
