@@ -10,8 +10,8 @@ module Constituencies
     def index
       @constituency, @seat_incumbencies = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ConstituencyGroup',
-        'http://id.ukpds.org/schema/SeatIncumbency'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('SeatIncumbency')
       )
 
       @constituency = @constituency.first
@@ -21,14 +21,14 @@ module Constituencies
 
     # Renders a constituency and the current incumbent given a constituency id.
     # @controller_action_param :constituency_id [String] 8 character identifier that identifies constituency in graph database.
-    # @return [Grom::Node] object with type 'http://id.ukpds.org/schema/ConstituencyGroup'.
-    # @return [Grom::Node] object with type 'http://id.ukpds.org/schema/SeatIncumbency'.
+    # @return [Grom::Node] object with type 'https://id.parliament.uk/schema/ConstituencyGroup'.
+    # @return [Grom::Node] object with type 'https://id.parliament.uk/schema/SeatIncumbency'.
 
     def current
       @constituency, @seat_incumbency = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ConstituencyGroup',
-        'http://id.ukpds.org/schema/SeatIncumbency'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('SeatIncumbency')
       )
 
       @constituency = @constituency.first

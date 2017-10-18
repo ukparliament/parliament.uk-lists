@@ -14,7 +14,7 @@ RSpec.describe HousesController, vcr: true do
     it 'assigns @houses' do
       assigns(:houses).each do |house|
         expect(house).to be_a(Grom::Node)
-        expect(house.type).to eq('http://id.ukpds.org/schema/House')
+        expect(house.type).to eq('https://id.parliament.uk/schema/House')
       end
     end
 

@@ -14,8 +14,8 @@ module Parties
     def index
       @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Party',
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -27,8 +27,8 @@ module Parties
     def current
       @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Party',
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -40,8 +40,8 @@ module Parties
     def letters
       @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Party',
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -54,8 +54,8 @@ module Parties
     def current_letters
       @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Party',
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -68,7 +68,7 @@ module Parties
     def a_to_z
       @party, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Party',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
         ::Grom::Node::BLANK
       )
 
@@ -81,7 +81,7 @@ module Parties
     def a_to_z_current
       @party, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Party',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
         ::Grom::Node::BLANK
       )
 

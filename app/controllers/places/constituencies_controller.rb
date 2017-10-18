@@ -18,7 +18,7 @@ module Places
       @place, @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
         'http://data.ordnancesurvey.co.uk/ontology/admingeo/EuropeanRegion',
-        'http://id.ukpds.org/schema/ConstituencyGroup',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
         ::Grom::Node::BLANK
       )
 
@@ -47,7 +47,7 @@ module Places
       @place, @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
         'http://data.ordnancesurvey.co.uk/ontology/admingeo/EuropeanRegion',
-        'http://id.ukpds.org/schema/ConstituencyGroup',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
         ::Grom::Node::BLANK
       )
 

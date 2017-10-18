@@ -13,7 +13,7 @@ RSpec.describe Constituencies::ContactPointsController, vcr: true do
 
     it 'assigns @constituency' do
       expect(assigns(:constituency)).to be_a(Grom::Node)
-      expect(assigns(:constituency).type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+      expect(assigns(:constituency).type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
     end
 
     it 'renders the contact_point template' do

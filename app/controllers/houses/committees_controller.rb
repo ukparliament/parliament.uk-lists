@@ -14,8 +14,8 @@ module Houses
     def index
       @house, @committees, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/House',
-        'http://id.ukpds.org/schema/FormalBody',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('FormalBody'),
         ::Grom::Node::BLANK
       )
 
@@ -27,7 +27,7 @@ module Houses
     def a_to_z
       @house, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/House',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
         ::Grom::Node::BLANK
       )
 
@@ -39,8 +39,8 @@ module Houses
     def letters
       @house, @committees, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/House',
-        'http://id.ukpds.org/schema/FormalBody',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('FormalBody'),
         ::Grom::Node::BLANK
       )
 
@@ -53,8 +53,8 @@ module Houses
     def current
       @house, @committees, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/House',
-        'http://id.ukpds.org/schema/FormalBody',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('FormalBody'),
         ::Grom::Node::BLANK
       )
 
@@ -66,7 +66,7 @@ module Houses
     def a_to_z_current
       @house, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/House',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
         ::Grom::Node::BLANK
       )
 
@@ -78,8 +78,8 @@ module Houses
     def current_letters
       @house, @committees, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/House',
-        'http://id.ukpds.org/schema/FormalBody',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('FormalBody'),
         ::Grom::Node::BLANK
       )
 

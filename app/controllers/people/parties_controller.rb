@@ -10,8 +10,8 @@ module People
     def index
       @person, @party_memberships = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
-        'http://id.ukpds.org/schema/PartyMembership'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('PartyMembership')
       )
 
       @person = @person.first
@@ -21,8 +21,8 @@ module People
     def current
       @person, @party = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
-        'http://id.ukpds.org/schema/Party'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party')
       )
 
       @person = @person.first

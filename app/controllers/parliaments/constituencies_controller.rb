@@ -11,8 +11,8 @@ module Parliaments
     def index
       @parliament, @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ParliamentPeriod',
-        'http://id.ukpds.org/schema/ConstituencyGroup',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
         ::Grom::Node::BLANK
       )
 
@@ -24,8 +24,8 @@ module Parliaments
     def a_to_z
       @parliament, @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ParliamentPeriod',
-        'http://id.ukpds.org/schema/ConstituencyGroup',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
         ::Grom::Node::BLANK
       )
 
@@ -38,8 +38,8 @@ module Parliaments
     def letters
       @parliament, @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ParliamentPeriod',
-        'http://id.ukpds.org/schema/ConstituencyGroup',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
         ::Grom::Node::BLANK
       )
 

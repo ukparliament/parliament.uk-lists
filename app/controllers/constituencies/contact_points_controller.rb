@@ -8,11 +8,11 @@ module Constituencies
 
     # Renders a contact point given a constituency id.
     # @controller_action_param :constituency_id [String] 8 character identifier that identifies constituency in graph database.
-    # @return [Grom::Node] object with type 'http://id.ukpds.org/schema/ConstituencyGroup' which has a contact point.
+    # @return [Grom::Node] object with type 'https://id.parliament.uk/schema/ConstituencyGroup' which has a contact point.
     def index
       @constituency = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ConstituencyGroup'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup')
       ).first
     end
   end

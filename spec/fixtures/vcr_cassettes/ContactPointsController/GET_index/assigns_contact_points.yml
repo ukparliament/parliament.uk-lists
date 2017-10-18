@@ -43,26 +43,26 @@ http_interactions:
       - Tue, 01 Aug 2017 14:23:34 GMT
     body:
       encoding: UTF-8
-      string: "<http://id.ukpds.org/t3Qeaou5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/ContactPoint> .\r\n<http://id.ukpds.org/t3Qeaou5>
-        <http://id.ukpds.org/schema/faxNumber> \"faxNumber - 1\" .\r\n<http://id.ukpds.org/GxvK7Pq1>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ContactPoint>
-        .\r\n<http://id.ukpds.org/GxvK7Pq1> <http://id.ukpds.org/schema/faxNumber>
-        \"faxNumber - 2\" .\r\n<http://id.ukpds.org/hBR1AF9K> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/ContactPoint> .\r\n<http://id.ukpds.org/hBR1AF9K>
-        <http://id.ukpds.org/schema/faxNumber> \"faxNumber - 3\" .\r\n<http://id.ukpds.org/SW9UVtgZ>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ContactPoint>
-        .\r\n<http://id.ukpds.org/SW9UVtgZ> <http://id.ukpds.org/schema/faxNumber>
-        \"faxNumber - 4\" .\r\n<http://id.ukpds.org/abRvURRM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/ContactPoint> .\r\n<http://id.ukpds.org/abRvURRM>
-        <http://id.ukpds.org/schema/faxNumber> \"faxNumber - 5\" .\r\n<http://id.ukpds.org/2rb5evRG>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ContactPoint>
-        .\r\n<http://id.ukpds.org/2rb5evRG> <http://id.ukpds.org/schema/faxNumber>
-        \"faxNumber - 6\" .\r\n<http://id.ukpds.org/DSSdjA7y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/ContactPoint> .\r\n<http://id.ukpds.org/DSSdjA7y>
-        <http://id.ukpds.org/schema/faxNumber> \"faxNumber - 7\" .\r\n<http://id.ukpds.org/rGmF8awk>
-        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/ContactPoint>
-        .\r\n<http://id.ukpds.org/rGmF8awk> <http://id.ukpds.org/schema/faxNumber>
+      string: "<https://id.parliament.uk/t3Qeaou5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/ContactPoint> .\r\n<https://id.parliament.uk/t3Qeaou5>
+        <https://id.parliament.uk/schema/faxNumber> \"faxNumber - 1\" .\r\n<https://id.parliament.uk/GxvK7Pq1>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ContactPoint>
+        .\r\n<https://id.parliament.uk/GxvK7Pq1> <https://id.parliament.uk/schema/faxNumber>
+        \"faxNumber - 2\" .\r\n<https://id.parliament.uk/hBR1AF9K> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/ContactPoint> .\r\n<https://id.parliament.uk/hBR1AF9K>
+        <https://id.parliament.uk/schema/faxNumber> \"faxNumber - 3\" .\r\n<https://id.parliament.uk/SW9UVtgZ>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ContactPoint>
+        .\r\n<https://id.parliament.uk/SW9UVtgZ> <https://id.parliament.uk/schema/faxNumber>
+        \"faxNumber - 4\" .\r\n<https://id.parliament.uk/abRvURRM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/ContactPoint> .\r\n<https://id.parliament.uk/abRvURRM>
+        <https://id.parliament.uk/schema/faxNumber> \"faxNumber - 5\" .\r\n<https://id.parliament.uk/2rb5evRG>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ContactPoint>
+        .\r\n<https://id.parliament.uk/2rb5evRG> <https://id.parliament.uk/schema/faxNumber>
+        \"faxNumber - 6\" .\r\n<https://id.parliament.uk/DSSdjA7y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/ContactPoint> .\r\n<https://id.parliament.uk/DSSdjA7y>
+        <https://id.parliament.uk/schema/faxNumber> \"faxNumber - 7\" .\r\n<https://id.parliament.uk/rGmF8awk>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/ContactPoint>
+        .\r\n<https://id.parliament.uk/rGmF8awk> <https://id.parliament.uk/schema/faxNumber>
         \"faxNumber - 8\" .\r\n"
     http_version:
   recorded_at: Tue, 01 Aug 2017 14:27:05 GMT
@@ -109,10 +109,10 @@ http_interactions:
       - Tue, 01 Aug 2017 14:23:45 GMT
     body:
       encoding: UTF-8
-      string: "<http://id.ukpds.org/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/Kz7ncmrt> <http://id.ukpds.org/schema/houseName>
-        \"houseName - 1\" .\r\n<http://id.ukpds.org/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/MvLURLV5> <http://id.ukpds.org/schema/houseName>
+      string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
+        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
         \"houseName - 2\" .\r\n"
     http_version:
   recorded_at: Tue, 01 Aug 2017 14:27:15 GMT

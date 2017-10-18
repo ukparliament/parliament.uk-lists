@@ -14,7 +14,7 @@ RSpec.describe ConstituenciesController, vcr: true do
     it 'assigns @constituencies and @letters' do
       assigns(:constituencies).each do |constituency|
         expect(constituency).to be_a(Grom::Node)
-        expect(constituency.type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+        expect(constituency.type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
       end
 
       expect(assigns(:letters)).to be_a(Array)
@@ -43,7 +43,7 @@ RSpec.describe ConstituenciesController, vcr: true do
       it 'assigns @constituencies and @letters' do
         assigns(:constituencies).each do |constituency|
           expect(constituency).to be_a(Grom::Node)
-          expect(constituency.type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+          expect(constituency.type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
         end
 
         expect(assigns(:letters)).to be_a(Array)
@@ -87,7 +87,7 @@ RSpec.describe ConstituenciesController, vcr: true do
       it 'assigns @constituencies and @letters' do
         assigns(:constituencies).each do |constituency|
           expect(constituency).to be_a(Grom::Node)
-          expect(constituency.type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+          expect(constituency.type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
         end
 
         expect(assigns(:letters)).to be_a(Array)
@@ -167,7 +167,7 @@ RSpec.describe ConstituenciesController, vcr: true do
       it 'assigns @constituencies and @letters' do
         assigns(:constituencies).each do |constituency|
           expect(constituency).to be_a(Grom::Node)
-          expect(constituency.type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+          expect(constituency.type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
         end
 
         expect(assigns(:letters)).to be_a(Array)

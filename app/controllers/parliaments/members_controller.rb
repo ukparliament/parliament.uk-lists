@@ -15,8 +15,8 @@ module Parliaments
     def index
       @parliament, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ParliamentPeriod',
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -28,8 +28,8 @@ module Parliaments
     def letters
       @parliament, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ParliamentPeriod',
-        'http://id.ukpds.org/schema/Person',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
         ::Grom::Node::BLANK
       )
 
@@ -42,7 +42,7 @@ module Parliaments
     def a_to_z
       @parliament, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ParliamentPeriod',
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
         ::Grom::Node::BLANK
       )
 

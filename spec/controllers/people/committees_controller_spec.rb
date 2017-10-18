@@ -13,11 +13,11 @@ RSpec.describe People::CommitteesController, vcr: true do
 
     it 'assigns @person and @committee_memberships' do
       expect(assigns(:person)).to be_a(Grom::Node)
-      expect(assigns(:person).type).to eq('http://id.ukpds.org/schema/Person')
+      expect(assigns(:person).type).to eq('https://id.parliament.uk/schema/Person')
 
       assigns(:committee_memberships).each do |committee_membership|
         expect(committee_membership).to be_a(Grom::Node)
-        expect(committee_membership.type).to eq('http://id.ukpds.org/schema/FormalBodyMembership')
+        expect(committee_membership.type).to eq('https://id.parliament.uk/schema/FormalBodyMembership')
       end
     end
 

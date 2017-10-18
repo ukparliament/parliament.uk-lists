@@ -43,28 +43,28 @@ http_interactions:
       - Fri, 25 Aug 2017 13:49:12 GMT
     body:
       encoding: UTF-8
-      string: "<http://id.ukpds.org/dwtSdieB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/ConstituencyGroup> .\r\n<http://id.ukpds.org/dwtSdieB>
-        <http://id.ukpds.org/schema/constituencyGroupName> \"constituencyGroupName
-        - 1\" .\r\n<http://id.ukpds.org/dwtSdieB> <http://id.ukpds.org/schema/constituencyGroupEndDate>
-        \"1974-02-28\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<http://id.ukpds.org/dwtSdieB>
-        <http://id.ukpds.org/schema/constituencyGroupStartDate> \"1950-02-23\"^^<http://www.w3.org/2001/XMLSchema#date>
-        .\r\n_:node1858590 <http://id.ukpds.org/schema/value> \"F\" .\r\n_:node1858591
-        <http://id.ukpds.org/schema/value> \"D\" .\r\n_:node1858592 <http://id.ukpds.org/schema/value>
-        \"E\" .\r\n_:node1858593 <http://id.ukpds.org/schema/value> \"G\" .\r\n_:node1858594
-        <http://id.ukpds.org/schema/value> \"H\" .\r\n_:node1858595 <http://id.ukpds.org/schema/value>
-        \"K\" .\r\n_:node1858596 <http://id.ukpds.org/schema/value> \"I\" .\r\n_:node1858597
-        <http://id.ukpds.org/schema/value> \"M\" .\r\n_:node1858598 <http://id.ukpds.org/schema/value>
-        \"L\" .\r\n_:node1858599 <http://id.ukpds.org/schema/value> \"O\" .\r\n_:node1858600
-        <http://id.ukpds.org/schema/value> \"N\" .\r\n_:node1858601 <http://id.ukpds.org/schema/value>
-        \"B\" .\r\n_:node1858602 <http://id.ukpds.org/schema/value> \"P\" .\r\n_:node1858603
-        <http://id.ukpds.org/schema/value> \"A\" .\r\n_:node1858604 <http://id.ukpds.org/schema/value>
-        \"C\" .\r\n_:node1858605 <http://id.ukpds.org/schema/value> \"S\" .\r\n_:node1858606
-        <http://id.ukpds.org/schema/value> \"R\" .\r\n_:node1858607 <http://id.ukpds.org/schema/value>
-        \"T\" .\r\n_:node1858608 <http://id.ukpds.org/schema/value> \"W\" .\r\n_:node1858609
-        <http://id.ukpds.org/schema/value> \"U\" .\r\n_:node1858610 <http://id.ukpds.org/schema/value>
-        \"Q\" .\r\n_:node1858611 <http://id.ukpds.org/schema/value> \"Y\" .\r\n_:node1858612
-        <http://id.ukpds.org/schema/value> \"V\" .\r\n_:node1858613 <http://id.ukpds.org/schema/value>
+      string: "<https://id.parliament.uk/dwtSdieB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/ConstituencyGroup> .\r\n<https://id.parliament.uk/dwtSdieB>
+        <https://id.parliament.uk/schema/constituencyGroupName> \"constituencyGroupName
+        - 1\" .\r\n<https://id.parliament.uk/dwtSdieB> <https://id.parliament.uk/schema/constituencyGroupEndDate>
+        \"1974-02-28\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/dwtSdieB>
+        <https://id.parliament.uk/schema/constituencyGroupStartDate> \"1950-02-23\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n_:node1858590 <https://id.parliament.uk/schema/value> \"F\" .\r\n_:node1858591
+        <https://id.parliament.uk/schema/value> \"D\" .\r\n_:node1858592 <https://id.parliament.uk/schema/value>
+        \"E\" .\r\n_:node1858593 <https://id.parliament.uk/schema/value> \"G\" .\r\n_:node1858594
+        <https://id.parliament.uk/schema/value> \"H\" .\r\n_:node1858595 <https://id.parliament.uk/schema/value>
+        \"K\" .\r\n_:node1858596 <https://id.parliament.uk/schema/value> \"I\" .\r\n_:node1858597
+        <https://id.parliament.uk/schema/value> \"M\" .\r\n_:node1858598 <https://id.parliament.uk/schema/value>
+        \"L\" .\r\n_:node1858599 <https://id.parliament.uk/schema/value> \"O\" .\r\n_:node1858600
+        <https://id.parliament.uk/schema/value> \"N\" .\r\n_:node1858601 <https://id.parliament.uk/schema/value>
+        \"B\" .\r\n_:node1858602 <https://id.parliament.uk/schema/value> \"P\" .\r\n_:node1858603
+        <https://id.parliament.uk/schema/value> \"A\" .\r\n_:node1858604 <https://id.parliament.uk/schema/value>
+        \"C\" .\r\n_:node1858605 <https://id.parliament.uk/schema/value> \"S\" .\r\n_:node1858606
+        <https://id.parliament.uk/schema/value> \"R\" .\r\n_:node1858607 <https://id.parliament.uk/schema/value>
+        \"T\" .\r\n_:node1858608 <https://id.parliament.uk/schema/value> \"W\" .\r\n_:node1858609
+        <https://id.parliament.uk/schema/value> \"U\" .\r\n_:node1858610 <https://id.parliament.uk/schema/value>
+        \"Q\" .\r\n_:node1858611 <https://id.parliament.uk/schema/value> \"Y\" .\r\n_:node1858612
+        <https://id.parliament.uk/schema/value> \"V\" .\r\n_:node1858613 <https://id.parliament.uk/schema/value>
         \"J\" .\r\n"
     http_version:
   recorded_at: Fri, 25 Aug 2017 13:49:19 GMT
