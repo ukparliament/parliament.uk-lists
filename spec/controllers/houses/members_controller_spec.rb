@@ -14,13 +14,13 @@ RSpec.describe Houses::MembersController, vcr: true do
 
       it 'assigns @house, @people, @letters and @current_person_type' do
         expect(assigns(:house)).to be_a(Grom::Node)
-        expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+        expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
         expect(assigns(:letters)).to be_a(Array)
         expect(assigns(:current_person_type)).to eq('MPs')
 
         assigns(:people).each do |person|
           expect(person).to be_a(Grom::Node)
-          expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+          expect(person.type).to eq('https://id.parliament.uk/schema/Person')
         end
       end
 
@@ -56,12 +56,12 @@ RSpec.describe Houses::MembersController, vcr: true do
 
     it 'assigns @house, @people and @letters' do
       expect(assigns(:house)).to be_a(Grom::Node)
-      expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+      expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
       expect(assigns(:letters)).to be_a(Array)
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
     end
 
@@ -86,12 +86,12 @@ RSpec.describe Houses::MembersController, vcr: true do
 
     it 'assigns @house, @people and @letters' do
       expect(assigns(:house)).to be_a(Grom::Node)
-      expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+      expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
       expect(assigns(:letters)).to be_a(Array)
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
     end
 
@@ -116,12 +116,12 @@ RSpec.describe Houses::MembersController, vcr: true do
 
     it 'assigns @house, @people and @letters' do
       expect(assigns(:house)).to be_a(Grom::Node)
-      expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+      expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
       expect(assigns(:letters)).to be_a(Array)
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
     end
 
@@ -150,7 +150,7 @@ RSpec.describe Houses::MembersController, vcr: true do
 
     it 'assigns @house' do
       expect(assigns(:house)).to be_a(Grom::Node)
-      expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+      expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
     end
 
     it 'renders the a_to_z_members template' do
@@ -173,7 +173,7 @@ RSpec.describe Houses::MembersController, vcr: true do
 
     it 'assigns @house' do
       expect(assigns(:house)).to be_a(Grom::Node)
-      expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+      expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
     end
 
     it 'renders the a_to_z_current_members template' do

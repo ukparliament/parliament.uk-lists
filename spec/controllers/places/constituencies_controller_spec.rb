@@ -20,7 +20,7 @@ RSpec.describe Places::ConstituenciesController, vcr: true do
     it 'assigns @constituencies' do
       expect(assigns(:constituencies)).to be_a(Array)
       expect(assigns(:constituencies)[0]).to be_a(Grom::Node)
-      expect(assigns(:constituencies)[0].type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+      expect(assigns(:constituencies)[0].type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
     end
 
     it 'assigns @constituencies in alphabetical order' do
@@ -79,7 +79,7 @@ RSpec.describe Places::ConstituenciesController, vcr: true do
     it 'assigns @constituencies' do
       expect(assigns(:constituencies)).to be_a(Array)
       expect(assigns(:constituencies)[0]).to be_a(Grom::Node)
-      expect(assigns(:constituencies)[0].type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+      expect(assigns(:constituencies)[0].type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
     end
 
     it 'assigns @constituencies in alphabetical order' do

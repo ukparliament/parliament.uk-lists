@@ -13,7 +13,7 @@ RSpec.describe ParliamentsController, vcr: true do
     it 'assigns @parliaments' do
       assigns(:parliaments).each do |parliament|
         expect(parliament).to be_a(Grom::Node)
-        expect(parliament.type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+        expect(parliament.type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
       end
     end
 

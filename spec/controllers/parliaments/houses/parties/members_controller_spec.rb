@@ -13,21 +13,21 @@ RSpec.describe Parliaments::Houses::Parties::MembersController, vcr: true do
     context '@parliament' do
       it 'assigns @parliament' do
         expect(assigns(:parliament)).to be_a(Grom::Node)
-        expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+        expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
       end
     end
 
     context '@house' do
       it 'assigns @house' do
         expect(assigns(:house)).to be_a(Grom::Node)
-        expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+        expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
       end
     end
 
     context '@party' do
       it 'assigns @party' do
         expect(assigns(:party)).to be_a(Grom::Node)
-        expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+        expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
       end
     end
 
@@ -35,7 +35,7 @@ RSpec.describe Parliaments::Houses::Parties::MembersController, vcr: true do
       it 'assigns @people' do
         assigns(:people).each do |person|
           expect(person).to be_a(Grom::Node)
-          expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+          expect(person.type).to eq('https://id.parliament.uk/schema/Person')
         end
       end
 
@@ -62,21 +62,21 @@ RSpec.describe Parliaments::Houses::Parties::MembersController, vcr: true do
     context '@parliament' do
       it 'assigns @parliament' do
         expect(assigns(:parliament)).to be_a(Grom::Node)
-        expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+        expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
       end
     end
 
     context '@house' do
       it 'assigns @house' do
         expect(assigns(:house)).to be_a(Grom::Node)
-        expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+        expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
       end
     end
 
     context '@party' do
       it 'assigns @party' do
         expect(assigns(:party)).to be_a(Grom::Node)
-        expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+        expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
       end
     end
 
@@ -103,21 +103,21 @@ RSpec.describe Parliaments::Houses::Parties::MembersController, vcr: true do
     context '@parliament' do
       it 'assigns @parliament' do
         expect(assigns(:parliament)).to be_a(Grom::Node)
-        expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+        expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
       end
     end
 
     context '@house' do
       it 'assigns @house' do
         expect(assigns(:house)).to be_a(Grom::Node)
-        expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+        expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
       end
     end
 
     context '@party' do
       it 'assigns @party' do
         expect(assigns(:party)).to be_a(Grom::Node)
-        expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+        expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
       end
     end
 
@@ -125,7 +125,7 @@ RSpec.describe Parliaments::Houses::Parties::MembersController, vcr: true do
       it 'assigns @people' do
         assigns(:people).each do |person|
           expect(person).to be_a(Grom::Node)
-          expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+          expect(person.type).to eq('https://id.parliament.uk/schema/Person')
         end
       end
 

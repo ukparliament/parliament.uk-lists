@@ -12,10 +12,10 @@ RSpec.describe People::ContactPointsController, vcr: true do
 
     it 'assigns @person and @contact_points' do
       expect(assigns(:person)).to be_a(Grom::Node)
-      expect(assigns(:person).type).to eq('http://id.ukpds.org/schema/Person')
+      expect(assigns(:person).type).to eq('https://id.parliament.uk/schema/Person')
       assigns(:contact_points).each do |contact_point|
         expect(contact_point).to be_a(Grom::Node)
-        expect(contact_point.type).to eq('http://id.ukpds.org/schema/ContactPoint')
+        expect(contact_point.type).to eq('https://id.parliament.uk/schema/ContactPoint')
       end
     end
 

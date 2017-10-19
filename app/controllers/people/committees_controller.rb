@@ -9,8 +9,8 @@ module People
     def index
       @person, @committee_memberships = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
-        'http://id.ukpds.org/schema/FormalBodyMembership'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('FormalBodyMembership')
       )
 
       @person = @person.first

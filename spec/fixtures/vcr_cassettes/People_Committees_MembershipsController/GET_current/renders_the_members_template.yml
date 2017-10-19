@@ -34,18 +34,18 @@ http_interactions:
     body:
       encoding: UTF-8
       string: |
-        <http://id.ukpds.org/JPp4EPXc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/Person> .
-        <http://id.ukpds.org/JPp4EPXc> <http://id.ukpds.org/schema/personGivenName> "personGivenName - 1" .
-        <http://id.ukpds.org/JPp4EPXc> <http://id.ukpds.org/schema/personFamilyName> "personFamilyName - 1" .
-        <http://id.ukpds.org/JPp4EPXc> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 1" .
-        <http://id.ukpds.org/JPp4EPXc> <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> "A5EE13ABE03C4D3A8F1A274F57097B6C - 1" .
-        <http://id.ukpds.org/JPp4EPXc> <http://id.ukpds.org/schema/personHasFormalBodyMembership> <http://id.ukpds.org/EaRICHSf> .
-        <http://id.ukpds.org/EaRICHSf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBodyMembership> .
-        <http://id.ukpds.org/EaRICHSf> <http://id.ukpds.org/schema/formalBodyMembershipStartDate> "2017-06-22+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
-        <http://id.ukpds.org/EaRICHSf> <http://id.ukpds.org/schema/formalBodyMembershipHasFormalBody> <http://id.ukpds.org/u7laxo6f> .
-        <http://id.ukpds.org/u7laxo6f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://id.ukpds.org/schema/FormalBody> .
-        <http://id.ukpds.org/u7laxo6f> <http://id.ukpds.org/schema/formalBodyName> "formalBodyName - 1" .
-    http_version: 
+        <https://id.parliament.uk/JPp4EPXc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Person> .
+        <https://id.parliament.uk/JPp4EPXc> <https://id.parliament.uk/schema/personGivenName> "personGivenName - 1" .
+        <https://id.parliament.uk/JPp4EPXc> <https://id.parliament.uk/schema/personFamilyName> "personFamilyName - 1" .
+        <https://id.parliament.uk/JPp4EPXc> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF> "F31CBD81AD8343898B49DC65743F0BDF - 1" .
+        <https://id.parliament.uk/JPp4EPXc> <http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C> "A5EE13ABE03C4D3A8F1A274F57097B6C - 1" .
+        <https://id.parliament.uk/JPp4EPXc> <https://id.parliament.uk/schema/personHasFormalBodyMembership> <https://id.parliament.uk/EaRICHSf> .
+        <https://id.parliament.uk/EaRICHSf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/FormalBodyMembership> .
+        <https://id.parliament.uk/EaRICHSf> <https://id.parliament.uk/schema/formalBodyMembershipStartDate> "2017-06-22+00:00"^^<http://www.w3.org/2001/XMLSchema#date> .
+        <https://id.parliament.uk/EaRICHSf> <https://id.parliament.uk/schema/formalBodyMembershipHasFormalBody> <https://id.parliament.uk/u7laxo6f> .
+        <https://id.parliament.uk/u7laxo6f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/FormalBody> .
+        <https://id.parliament.uk/u7laxo6f> <https://id.parliament.uk/schema/formalBodyName> "formalBodyName - 1" .
+    http_version:
   recorded_at: Wed, 13 Sep 2017 09:37:32 GMT
 - request:
     method: get
@@ -80,11 +80,11 @@ http_interactions:
       - '420'
     body:
       encoding: UTF-8
-      string: "<http://id.ukpds.org/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/Kz7ncmrt> <http://id.ukpds.org/schema/houseName>
-        \"houseName - 1\" .\r\n<http://id.ukpds.org/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
-        <http://id.ukpds.org/schema/House> .\r\n<http://id.ukpds.org/MvLURLV5> <http://id.ukpds.org/schema/houseName>
+      string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
+        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
         \"houseName - 2\" .\r\n"
-    http_version: 
+    http_version:
   recorded_at: Wed, 13 Sep 2017 09:37:32 GMT
 recorded_with: VCR 3.0.3

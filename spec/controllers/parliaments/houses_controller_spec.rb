@@ -14,7 +14,7 @@ RSpec.describe Parliaments::HousesController, vcr: true do
     context '@parliament' do
       it 'assigns @parliament' do
         expect(assigns(:parliament)).to be_a(Grom::Node)
-        expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+        expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
       end
     end
 
@@ -22,7 +22,7 @@ RSpec.describe Parliaments::HousesController, vcr: true do
       it 'assigns @houses' do
         assigns(:houses).each do |house|
           expect(house).to be_a(Grom::Node)
-          expect(house.type).to eq('http://id.ukpds.org/schema/House')
+          expect(house.type).to eq('https://id.parliament.uk/schema/House')
         end
       end
     end

@@ -9,8 +9,8 @@ module Parliaments
     def index
       @parliament, @houses = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/ParliamentPeriod',
-        'http://id.ukpds.org/schema/House'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House')
       )
 
       @parliament = @parliament.first

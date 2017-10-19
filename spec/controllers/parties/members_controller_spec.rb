@@ -13,12 +13,12 @@ RSpec.describe Parties::MembersController, vcr: true do
 
     it 'assigns @party, @people and @letters' do
       expect(assigns(:party)).to be_a(Grom::Node)
-      expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+      expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
       expect(assigns(:letters)).to be_a(Array)
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
     end
 
@@ -43,12 +43,12 @@ RSpec.describe Parties::MembersController, vcr: true do
 
     it 'assigns @party, @people and @letters' do
       expect(assigns(:party)).to be_a(Grom::Node)
-      expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+      expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
       expect(assigns(:letters)).to be_a(Array)
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
     end
 
@@ -73,12 +73,12 @@ RSpec.describe Parties::MembersController, vcr: true do
 
     it 'assigns @party, @people and @letters' do
       expect(assigns(:party)).to be_a(Grom::Node)
-      expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+      expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
       expect(assigns(:letters)).to be_a(Array)
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
     end
 
@@ -103,12 +103,12 @@ RSpec.describe Parties::MembersController, vcr: true do
 
     it 'assigns @party, @people and @letters' do
       expect(assigns(:party)).to be_a(Grom::Node)
-      expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+      expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
       expect(assigns(:letters)).to be_a(Array)
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
     end
 
@@ -137,7 +137,7 @@ RSpec.describe Parties::MembersController, vcr: true do
 
     it 'assigns @party' do
       expect(assigns(:party)).to be_a(Grom::Node)
-      expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+      expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
     end
 
     it 'renders the a_to_z_members template' do
@@ -160,7 +160,7 @@ RSpec.describe Parties::MembersController, vcr: true do
 
     it 'assigns @party' do
       expect(assigns(:party)).to be_a(Grom::Node)
-      expect(assigns(:party).type).to eq('http://id.ukpds.org/schema/Party')
+      expect(assigns(:party).type).to eq('https://id.parliament.uk/schema/Party')
     end
 
     it 'renders the a_to_z_current_members template' do
