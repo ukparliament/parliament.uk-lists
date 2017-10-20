@@ -31,6 +31,11 @@ pipelines:
                     run_if: passed
                     command: make
                     arguments:
+                      - checkout_to_release
+                - exec:
+                    run_if: passed
+                    command: make
+                    arguments:
                       - test
                 - exec:
                     run_if: passed
