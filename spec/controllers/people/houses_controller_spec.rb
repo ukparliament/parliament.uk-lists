@@ -13,11 +13,11 @@ RSpec.describe People::HousesController, vcr: true do
 
     it 'assigns @person and @incumbencies' do
       expect(assigns(:person)).to be_a(Grom::Node)
-      expect(assigns(:person).type).to eq('http://id.ukpds.org/schema/Person')
+      expect(assigns(:person).type).to eq('https://id.parliament.uk/schema/Person')
 
       assigns(:incumbencies).each do |incumbency|
         expect(incumbency).to be_a(Grom::Node)
-        expect(incumbency.type).to eq('http://id.ukpds.org/schema/Incumbency')
+        expect(incumbency.type).to eq('https://id.parliament.uk/schema/ParliamentaryIncumbency')
       end
     end
 
@@ -42,9 +42,9 @@ RSpec.describe People::HousesController, vcr: true do
 
     it 'assigns @person and @house' do
       expect(assigns(:person)).to be_a(Grom::Node)
-      expect(assigns(:person).type).to eq('http://id.ukpds.org/schema/Person')
+      expect(assigns(:person).type).to eq('https://id.parliament.uk/schema/Person')
       expect(assigns(:house)).to be_a(Grom::Node)
-      expect(assigns(:house).type).to eq('http://id.ukpds.org/schema/House')
+      expect(assigns(:house).type).to eq('https://id.parliament.uk/schema/House')
     end
 
     it 'renders the current_house template' do

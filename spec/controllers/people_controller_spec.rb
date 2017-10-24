@@ -34,7 +34,7 @@ RSpec.describe PeopleController, vcr: true do
       it 'assigns @people and @letters' do
         assigns(:people).each do |person|
           expect(person).to be_a(Grom::Node)
-          expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+          expect(person.type).to eq('https://id.parliament.uk/schema/Person')
         end
 
         expect(assigns(:letters)).to be_a(Array)
@@ -96,7 +96,7 @@ RSpec.describe PeopleController, vcr: true do
       it 'assigns @people and @letters' do
         assigns(:people).each do |person|
           expect(person).to be_a(Grom::Node)
-          expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+          expect(person.type).to eq('https://id.parliament.uk/schema/Person')
         end
 
         expect(assigns(:letters)).to be_a(Array)

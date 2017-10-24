@@ -17,7 +17,7 @@ RSpec.describe 'houses/committees/current', vcr: true do
 
   context 'header' do
     it 'will render the current type' do
-      expect(rendered).to match(/Current Committees/)
+      expect(rendered).to match(/Current committees/)
     end
   end
 

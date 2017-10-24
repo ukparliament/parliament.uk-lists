@@ -12,11 +12,11 @@ class ConstituenciesController < ApplicationController
   }.freeze
 
   # Renders a list of all constituencies with current incumbents and sorted in ascending order by name from a GET request. Shown with an a - z partial view.
-  # @return [Array] Grom::Nodes of type 'http://id.ukpds.org/schema/ConstituencyGroup'.
+  # @return [Array] Grom::Nodes of type 'https://id.parliament.uk/schema/ConstituencyGroup'.
   def index
     @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/ConstituencyGroup',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
       ::Grom::Node::BLANK
     )
 
@@ -25,11 +25,11 @@ class ConstituenciesController < ApplicationController
   end
 
   # Renders a list of all constituencies with current incumbents and sorted in ascending order by name from a GET request. Shown with an a - z partial view.
-  # @return [Array] Grom::Nodes of type 'http://id.ukpds.org/schema/ConstituencyGroup'.
+  # @return [Array] Grom::Nodes of type 'https://id.parliament.uk/schema/ConstituencyGroup'.
   def current
     @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/ConstituencyGroup',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
       ::Grom::Node::BLANK
     )
 
@@ -39,11 +39,11 @@ class ConstituenciesController < ApplicationController
 
   # Renders a list of constituencies that begin with a particular letter given the letter. Shown with an a - z partial view.
   # @controller_action_param :letter [String] single letter that is case insensitive.
-  # @return [Array] Grom::Nodes of type 'http://id.ukpds.org/schema/ConstituencyGroup'.
+  # @return [Array] Grom::Nodes of type 'https://id.parliament.uk/schema/ConstituencyGroup'.
   def letters
     @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/ConstituencyGroup',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
       ::Grom::Node::BLANK
     )
 
@@ -54,11 +54,11 @@ class ConstituenciesController < ApplicationController
 
   # Renders a list of current constituencies that begin with a particular letter given the letter. Shown with an a - z partial view.
   # @controller_action_param :letter [String] single letter that is case insensitive.
-  # @return [Array] Grom::Nodes of type 'http://id.ukpds.org/schema/ConstituencyGroup'.
+  # @return [Array] Grom::Nodes of type 'https://id.parliament.uk/schema/ConstituencyGroup'.
   def current_letters
     @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/ConstituencyGroup',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
       ::Grom::Node::BLANK
     )
 
@@ -86,7 +86,7 @@ class ConstituenciesController < ApplicationController
   def lookup_by_letters
     @constituencies, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
       @request,
-      'http://id.ukpds.org/schema/ConstituencyGroup',
+      Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup'),
       ::Grom::Node::BLANK
     )
 

@@ -13,7 +13,7 @@ RSpec.describe Parliaments::ConstituenciesController, vcr: true do
     context '@parliament' do
       it 'assigns @parliament' do
         expect(assigns(:parliament)).to be_a(Grom::Node)
-        expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+        expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
       end
     end
 
@@ -21,7 +21,7 @@ RSpec.describe Parliaments::ConstituenciesController, vcr: true do
       it 'assigns @constituencies' do
         assigns(:constituencies).each do |constituency|
           expect(constituency).to be_a(Grom::Node)
-          expect(constituency.type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+          expect(constituency.type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
         end
       end
     end
@@ -43,7 +43,7 @@ RSpec.describe Parliaments::ConstituenciesController, vcr: true do
     context '@parliament' do
       it 'assigns @parliament' do
         expect(assigns(:parliament)).to be_a(Grom::Node)
-        expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+        expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
       end
     end
 
@@ -51,7 +51,7 @@ RSpec.describe Parliaments::ConstituenciesController, vcr: true do
       it 'assigns @constituencies' do
         assigns(:constituencies).each do |constituency|
           expect(constituency).to be_a(Grom::Node)
-          expect(constituency.type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+          expect(constituency.type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
         end
       end
     end
@@ -74,7 +74,7 @@ RSpec.describe Parliaments::ConstituenciesController, vcr: true do
       it 'assigns @constituencies' do
         assigns(:constituencies).each do |constituency|
           expect(constituency).to be_a(Grom::Node)
-          expect(constituency.type).to eq('http://id.ukpds.org/schema/ConstituencyGroup')
+          expect(constituency.type).to eq('https://id.parliament.uk/schema/ConstituencyGroup')
         end
       end
     end

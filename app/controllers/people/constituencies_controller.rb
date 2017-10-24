@@ -10,8 +10,8 @@ module People
     def index
       @person, @seat_incumbencies = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
-        'http://id.ukpds.org/schema/SeatIncumbency'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('SeatIncumbency')
       )
 
       @person = @person.first
@@ -21,8 +21,8 @@ module People
     def current
       @person, @constituency = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
         @request,
-        'http://id.ukpds.org/schema/Person',
-        'http://id.ukpds.org/schema/ConstituencyGroup'
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
+        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ConstituencyGroup')
       )
 
       @person = @person.first

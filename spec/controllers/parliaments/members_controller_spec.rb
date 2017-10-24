@@ -13,11 +13,11 @@ RSpec.describe Parliaments::MembersController, vcr: true do
 
     it 'assigns @parliament, @people and @letters' do
       expect(assigns(:parliament)).to be_a(Grom::Node)
-      expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+      expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
 
       expect(assigns(:letters)).to be_a(Array)
@@ -44,11 +44,11 @@ RSpec.describe Parliaments::MembersController, vcr: true do
 
     it 'assigns @parliament, @people and @letters' do
       expect(assigns(:parliament)).to be_a(Grom::Node)
-      expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+      expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
 
       assigns(:people).each do |person|
         expect(person).to be_a(Grom::Node)
-        expect(person.type).to eq('http://id.ukpds.org/schema/Person')
+        expect(person.type).to eq('https://id.parliament.uk/schema/Person')
       end
 
       expect(assigns(:letters)).to be_a(Array)
@@ -71,7 +71,7 @@ RSpec.describe Parliaments::MembersController, vcr: true do
 
     it 'assigns @parliament and @letters' do
       expect(assigns(:parliament)).to be_a(Grom::Node)
-      expect(assigns(:parliament).type).to eq('http://id.ukpds.org/schema/ParliamentPeriod')
+      expect(assigns(:parliament).type).to eq('https://id.parliament.uk/schema/ParliamentPeriod')
 
       expect(assigns(:letters)).to be_a(Array)
     end
