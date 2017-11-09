@@ -40,9 +40,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    airbrake (7.0.3)
-      airbrake-ruby (~> 2.4)
-    airbrake-ruby (2.4.2)
+    airbrake (7.1.0)
+      airbrake-ruby (~> 2.5)
+    airbrake-ruby (2.5.1)
     arel (8.0.0)
     ast (2.3.0)
     bandiera-client (3.0.4)
@@ -87,7 +87,7 @@ GEM
       loofah (>= 2.0)
       sax-machine (>= 1.0)
     ffi (1.9.18)
-    globalid (0.4.0)
+    globalid (0.4.1)
       activesupport (>= 4.2.0)
     grom (0.5.0)
       activesupport (>= 5.0.0.1)
@@ -101,7 +101,7 @@ GEM
     hashdiff (0.3.7)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (0.9.0)
+    i18n (0.9.1)
       concurrent-ruby (~> 1.0)
     json (2.1.0)
     link_header (0.0.8)
@@ -112,7 +112,7 @@ GEM
     loofah (2.1.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    macmillan-utils (1.0.43)
+    macmillan-utils (1.0.44)
       activesupport (>= 3.2.0)
       codeclimate-test-reporter
       colorize
@@ -123,8 +123,8 @@ GEM
       simplecov-rcov
       syslog-logger
       webmock
-    mail (2.6.6)
-      mime-types (>= 1.16, < 4)
+    mail (2.7.0)
+      mini_mime (>= 0.1.1)
     method_source (0.9.0)
     mime-types (3.1)
       mime-types-data (~> 3.2015)
@@ -143,15 +143,15 @@ GEM
     parallel (1.12.0)
     parallel_tests (2.17.0)
       parallel
-    parliament-grom-decorators (0.11.0)
+    parliament-grom-decorators (0.13.0)
     parliament-ntriple (0.2.0)
       grom (~> 0.5)
     parliament-opensearch (0.2.6)
       activesupport (>= 5.0.0.1)
       feedjira (~> 2.1, >= 2.1.2)
-    parliament-routes (0.4.4)
+    parliament-routes (0.5.0)
     parliament-ruby (0.9.0)
-    parliament-utils (0.4.1)
+    parliament-utils (0.4.2)
       bandiera-client
       coveralls
       haml
@@ -166,7 +166,7 @@ GEM
       ast (~> 2.2)
     powerpack (0.1.1)
     public_suffix (3.0.0)
-    pugin (1.4.1)
+    pugin (1.5.1)
     puma (3.10.0)
     rack (2.0.3)
     rack-rewrite (1.5.1)
@@ -202,7 +202,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (2.2.2)
       rake
-    rake (12.1.0)
+    rake (12.2.1)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -281,9 +281,9 @@ GEM
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.3)
-    tzinfo (1.2.3)
+    tzinfo (1.2.4)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2017.2)
+    tzinfo-data (1.2017.3)
       tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
