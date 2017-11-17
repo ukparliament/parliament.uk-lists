@@ -40,7 +40,7 @@ RSpec.describe 'constituencies/contact_points/index', vcr: true do
 
   context 'links' do
     it 'will render link to contact_point_path' do
-      expect(rendered).to have_link('Add to address book', href: contact_point_path('8ONg5lY6'))
+      expect(rendered).to have_link('Download and add to address book', href: contact_point_path('8ONg5lY6'))
     end
   end
 end

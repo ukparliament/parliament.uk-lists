@@ -152,7 +152,7 @@ en:
     fax: 'fax'
     address: 'address'
     download: 'download'
-    add_address_book: 'add to address book'
+    add_address_book: 'download and add to address book'
   # constituencies translations
   constituencies:
     index:
