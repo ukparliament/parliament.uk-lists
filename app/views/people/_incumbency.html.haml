@@ -1,7 +1,7 @@
 %li
   .list--details
     - if incumbency.house.nil?
-      %h2= link_to(incumbency.seat.house.name, house_path(incumbency.seat.house.graph_id))
+      %h2= link_to(incumbency.seat.house.name, house_path(incumbency.seat.house.graph_id), 'aria-label': "#{incumbency.seat.house.name} from #{incumbency.date_range}")
     - else
       %h2= link_to(incumbency.house.name, house_path(incumbency.house.graph_id))
 
