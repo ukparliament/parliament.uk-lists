@@ -9,7 +9,8 @@
         %dl.list--definition
           - if contact_point.email.present?
             %dt= "#{t('contact_points.email').capitalize}:"
-            %dd= "#{contact_point.email}"
+            %dd
+              %a{ href: "mailto:#{contact_point.email}" }= contact_point.email
           - if contact_point.phone_number.present?
             %dt= "#{t('contact_points.phone').capitalize}:"
             %dd= "#{contact_point.phone_number}"
