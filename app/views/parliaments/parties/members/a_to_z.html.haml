@@ -1,5 +1,5 @@
 - title("#{@party.name} #{t('mp_plural')} - #{@parliament.date_range(date_format: '%Y')} #{t('parliament')} #{t('parliaments.a_to_z')}")
-#content.section--primary
+#content.section--primary{:tabindex => "0"}
   .container
     %h1
       %span= "#{@party.name} #{t('mp_plural')}"

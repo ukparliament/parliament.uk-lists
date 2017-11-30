@@ -3,6 +3,6 @@
     %h1= title("#{@place.name} #{t('constituency_plural')}")
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :places_show_constituencies_a_z_letter_path, route_args: [@place.gss_code] }
 
-%section#content
+%section#content{:tabindex => "0"}
   .container
     = render partial: "pugin/elements/list", locals: {item_type: "constituencies", data: @constituencies}
