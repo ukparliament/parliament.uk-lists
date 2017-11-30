@@ -8,6 +8,6 @@
 
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_committees_a_z_letter_path, route_args: [@house.graph_id], all_path: @all_path }
 
-%section#content
+%section#content{:tabindex => "0"}
   .container
     = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committees}
