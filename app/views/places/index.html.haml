@@ -2,7 +2,7 @@
   .container
     %h1= title(t('place_plural').capitalize)
 
-%section#content
+%section#content{:tabindex => "0"}
   .container
     %ul.list--block
       - @places.each do |place|
