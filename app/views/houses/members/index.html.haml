@@ -6,8 +6,8 @@
       %span= "#{t('current_and_former').capitalize} #{@current_person_type}"
       %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
 
-    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_members_a_z_letter_path, route_args: [@house.graph_id]}
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_members_a_z_letter_path, route_args: [@house.graph_id] }
 
-%section#content{:tabindex => "0"}
+%section#content{ tabindex: "0" }
   .container
-    = render partial: "pugin/elements/list", locals: {item_type: "people", data: @people}
+    = render partial: "pugin/elements/list", locals: { item_type: "people", data: @people }

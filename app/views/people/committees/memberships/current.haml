@@ -5,6 +5,6 @@
     %h1= "#{@person.display_name} - #{t('current').capitalize} #{t('committee_plural')}"
 
 - if Pugin::Feature::Bandiera.show_committees?
-  %section#content{:tabindex => "0"}
+  %section#content{ tabindex: "0" }
     .container
-      = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committee_memberships}
+      = render partial: "pugin/elements/list", locals: { item_type: "committees", data: @committee_memberships }
