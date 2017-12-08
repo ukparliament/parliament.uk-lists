@@ -1,6 +1,6 @@
 - title("#{@house.name} - #{t('current_and_former').capitalize} #{t('parties_and_groups')}")
 
-#content.section--primary{:tabindex => "0"}
+#content.section--primary{ tabindex: "0" }
   .container
 
     %h1= "#{t('current_and_former').capitalize} #{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('party_plural') : t('parties_and_groups')}"
