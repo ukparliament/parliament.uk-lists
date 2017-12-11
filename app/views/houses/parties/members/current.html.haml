@@ -5,7 +5,7 @@
       %span= "#{@party.name} - #{t('current').capitalize} #{@current_person_type}"
       %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
 
-    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_parties_party_members_current_a_z_letter_path, route_args: [@house.graph_id, @party.graph_id]}
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :house_parties_party_members_current_a_z_letter_path, route_args: [@house.graph_id, @party.graph_id] }
 
     - if Parliament::Utils::Helpers::HousesHelper.commons?(@house)
       - if Parliament::Utils::Helpers::FlagHelper.dissolution?
@@ -15,6 +15,6 @@
 
 - unless @letters.empty?
 
-  %section#content
+  %section#content{ tabindex: "0" }
     .container
-      = render partial: "pugin/elements/list", locals: {item_type: "people", data: @people}
+      = render partial: "pugin/elements/list", locals: { item_type: "people", data: @people }

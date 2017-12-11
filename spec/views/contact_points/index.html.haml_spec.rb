@@ -26,7 +26,7 @@ RSpec.describe 'contact_points/index', vcr: true do
     end
 
     it 'will render link' do
-      expect(rendered).to have_link('Add to address book', href: contact_point_path('8ONg5lY6'))
+      expect(rendered).to have_link('Download and add to address book', href: contact_point_path('8ONg5lY6'))
     end
   end
 end

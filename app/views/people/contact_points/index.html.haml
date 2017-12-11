@@ -1,6 +1,6 @@
 - title("#{@person.display_name} - #{t('contact_points.index.web-title').capitalize}")
 
-#content.section--primary
+#content.section--primary{ tabindex: "0" }
   .container
     %h1= "#{@person.display_name} - #{t('contact_points.index.page-title').capitalize}"
 
@@ -9,7 +9,8 @@
         %dl.list--definition
           - if contact_point.email.present?
             %dt= "#{t('contact_points.email').capitalize}:"
-            %dd= "#{contact_point.email}"
+            %dd
+              = link_to(contact_point.email, "mailto:#{contact_point.email}")
           - if contact_point.phone_number.present?
             %dt= "#{t('contact_points.phone').capitalize}:"
             %dd= "#{contact_point.phone_number}"
@@ -20,4 +21,4 @@
             - if postal_address.full_address.present?
               %dt= "#{t('contact_points.address').capitalize}:"
               %dd= "#{postal_address.full_address}"
-        %p= link_to "#{t('contact_points.add_address_book').capitalize}", contact_point_path(contact_point.graph_id)
+        %p= link_to("#{t('contact_points.add_address_book').capitalize}", contact_point_path(contact_point.graph_id))

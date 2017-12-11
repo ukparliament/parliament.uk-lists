@@ -16,6 +16,6 @@
 
 - unless @letters.empty?
 
-  %section#content
+  %section#content{ tabindex: "0" }
     .container
-      = render partial: "pugin/elements/list", locals: {item_type: "committees", data: @committees}
+      = render partial: "pugin/elements/list", locals: { item_type: "committees", data: @committees }

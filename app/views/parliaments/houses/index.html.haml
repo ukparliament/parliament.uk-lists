@@ -3,13 +3,12 @@
   .container
     %h1
       %span= "#{t('house_plural').capitalize}"
-      = link_to "#{@parliament.date_range(date_format: '%Y')} #{t('parliament')}", parliament_path(@parliament.graph_id)
+      = link_to("#{@parliament.date_range(date_format: '%Y')} #{t('parliament')}", parliament_path(@parliament.graph_id))
 
-%section#content
+%section#content{ tabindex: "0" }
   .container
     - @houses.each do |house|
       %ul.list--block
         %li
           .list--details
-            %h2= link_to house.name, parliament_house_path(@parliament.graph_id, house.graph_id)
-
+            %h2= link_to(house.name, parliament_house_path(@parliament.graph_id, house.graph_id))

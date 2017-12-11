@@ -5,4 +5,4 @@
       - @parliaments.each do |parliament|
         %li
           .list--details
-            %h2= link_to "#{parliament.date_range(date_format: '%Y')}", parliament_path(parliament.graph_id)
+            %h2= link_to("#{parliament.date_range(date_format: '%Y')}", parliament_path(parliament.graph_id))

@@ -11,6 +11,6 @@
     - elsif Parliament::Utils::Helpers::FlagHelper.election?
       = render partial: 'shared/election_message'
 
-%section#content
+%section#content{ tabindex: "0" }
   .container
-    = render partial: "pugin/elements/list", locals: {item_type: "people", data: @people}
+    = render partial: "pugin/elements/list", locals: { item_type: "people", data: @people }
