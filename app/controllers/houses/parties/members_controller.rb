@@ -13,13 +13,7 @@ module Houses
       }.freeze
 
       def index
-        @house, @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-          @request,
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-          ::Grom::Node::BLANK
-        )
+        @house, @party, @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'House', 'Party', 'Person', ::Grom::Node::BLANK)
         @house = @house.first
         @party = @party.first
         @people = @people.sort_by(:sort_name)
@@ -28,32 +22,17 @@ module Houses
       end
 
       def letters
-        @house, @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-          @request,
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-          ::Grom::Node::BLANK
-        )
+        @house, @party, @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'House', 'Party', 'Person', ::Grom::Node::BLANK)
         @house = @house.first
         @party = @party.first
         @people = @people.sort_by(:sort_name)
         @letters = @letters.map(&:value)
         @current_person_type, @other_person_type = Parliament::Utils::Helpers::HousesHelper.person_type_string(@house)
         @all_path = :house_parties_party_members_path
-
-
       end
 
       def current
-        @house, @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-          @request,
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-          ::Grom::Node::BLANK
-        )
-
+        @house, @party, @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'House', 'Party', 'Person', ::Grom::Node::BLANK)
         @house = @house.first
         @party = @party.first
         @people = @people.sort_by(:sort_name)
@@ -62,14 +41,7 @@ module Houses
       end
 
       def current_letters
-        @house, @party, @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-          @request,
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-          ::Grom::Node::BLANK
-        )
-
+        @house, @party, @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'House', 'Party', 'Person', ::Grom::Node::BLANK)
         @house = @house.first
         @party = @party.first
         @people = @people.sort_by(:sort_name)
@@ -79,13 +51,7 @@ module Houses
       end
 
       def a_to_z
-        @house, @party, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-          @request,
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
-          ::Grom::Node::BLANK
-        )
-
+        @house, @party, @letters = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'House', 'Party', ::Grom::Node::BLANK)
         @house = @house.first
         @house_id = params[:house_id]
         @party = @party.first
@@ -96,13 +62,7 @@ module Houses
       end
 
       def a_to_z_current
-        @house, @party, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-          @request,
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
-          ::Grom::Node::BLANK
-        )
-
+        @house, @party, @letters = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'House', 'Party', ::Grom::Node::BLANK)
         @house = @house.first
         @house_id = params[:house_id]
         @party = @party.first

@@ -8,20 +8,12 @@ module Parliaments
       }.freeze
 
       def index
-        @parliament, @house, @parties, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-          @request,
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('ParliamentPeriod'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('House'),
-          Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Party'),
-          ::Grom::Node::BLANK
-        )
-
+        @parliament, @house, @parties, @letters = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'ParliamentPeriod', 'House', 'Party', ::Grom::Node::BLANK)
         @parliament = @parliament.first
         @house      = @house.first
         @parties    = @parties = @parties.multi_direction_sort({ member_count: :desc, name: :asc })
         @letters    = @letters.map(&:values)
       end
-
     end
   end
 end
