@@ -12,48 +12,20 @@ module People
     }.freeze
 
     def index
-      @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-        @request,
-        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-        ::Grom::Node::BLANK
-      )
-
-      @people = @people.sort_by(:sort_name)
-      @letters = @letters.map(&:value)
+      @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter_sort(@request, :sort_name, 'Person', ::Grom::Node::BLANK)
     end
 
     def current
-      @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-        @request,
-        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-        ::Grom::Node::BLANK
-      )
-
-      @people = @people.sort_by(:sort_name)
-      @letters = @letters.map(&:value)
+      @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter_sort(@request, :sort_name, 'Person', ::Grom::Node::BLANK)
     end
 
     def letters
-      @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-        @request,
-        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-        ::Grom::Node::BLANK
-      )
-
-      @people = @people.sort_by(:sort_name)
-      @letters = @letters.map(&:value)
+      @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter_sort(@request, :sort_name, 'Person', ::Grom::Node::BLANK)
       @all_path = :people_members_path
     end
 
     def current_letters
-      @people, @letters = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-        @request,
-        Parliament::Utils::Helpers::RequestHelper.namespace_uri_schema_path('Person'),
-        ::Grom::Node::BLANK
-      )
-
-      @people = @people.sort_by(:sort_name)
-      @letters = @letters.map(&:value)
+      @people, @letters = Parliament::Utils::Helpers::FilterHelper.filter_sort(@request, :sort_name, 'Person', ::Grom::Node::BLANK)
       @all_path = :people_members_current_path
     end
 
