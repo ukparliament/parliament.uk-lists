@@ -117,7 +117,7 @@ RSpec.describe PeopleController, vcr: true do
       end
 
       it 'redirects to people/:id' do
-        expect(response).to redirect_to(person_path('PjRtyVbi'))
+        expect(response).to redirect_to(person_path('Xs8nJuiQ'))
       end
     end
   end
