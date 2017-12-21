@@ -9,14 +9,8 @@ module Places
     # Renders a list of regions
     # @return [Array] Grom::Nodes of type 'http://data.ordnancesurvey.co.uk/ontology/admingeo/EuropeanRegion'.
     def index
-      @places = Parliament::Utils::Helpers::RequestHelper.filter_response_data(
-        @request,
-        'http://data.ordnancesurvey.co.uk/ontology/admingeo/EuropeanRegion'
-      )
-
+      @places = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'ordnance')
       @places = @places.sort_by(:gss_code)
-
     end
-
   end
 end
