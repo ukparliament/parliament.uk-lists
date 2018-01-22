@@ -17,4 +17,4 @@
             .list--details
               %p
                 = party.member_count
-                %span= t('mp_count', count: party.member_count)
+                %span= "#{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_count', count: party.member_count) : t('lord_count', count: party.member_count)}"
