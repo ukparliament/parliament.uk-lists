@@ -46,7 +46,7 @@ RSpec.describe 'parliaments/houses/members/letters', vcr: true do
     end
 
     it 'will render the correct date range' do
-      expect(rendered).to match(/2015 to 2017 parliament/)
+      expect(rendered).to match(/2015 to 2017 Parliament/)
     end
 
     it 'will render the correct letters' do
