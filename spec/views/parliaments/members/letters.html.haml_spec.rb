@@ -2,17 +2,9 @@ require 'rails_helper'
 
 RSpec.describe 'parliaments/members/letters', vcr: true do
   before do
+    assign(:people, [])
     assign(:parliament, double(:parliament, date_range: '2005 to 2010', graph_id: 'd7b0ec7n'))
     assign(:all_path, :parliament_members_path)
-    assign(:people,
-      [double(:person,
-        graph_id: 'i38vttrf',
-        display_name: 'Test Name',
-        constituencies: [],
-        seat_incumbencies: [],
-        current_mp?: false
-      )]
-    )
     assign(:letters, 'G')
     controller.params = { letter: 'g' }
     render
