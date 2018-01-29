@@ -2,18 +2,10 @@ require 'rails_helper'
 
 RSpec.describe 'parliaments/houses/parties/members/letters', vcr: true do
   before do
+    assign(:people, [])
     assign(:parliament, double(:parliament, date_range: '2015 to 2017', graph_id: 'd7b0ec7n'))
     assign(:party, double(:party, name: 'Conservative', graph_id: 'b6tdch4k'))
     assign(:letters, [])
-    assign(:people,
-      [double(:person,
-        graph_id: 'i38vttrf',
-        display_name: 'Test Name',
-        constituencies: [],
-        seat_incumbencies: [],
-        current_mp?: false
-      )]
-    )
     assign(:house, double(:house, graph_id: 'zxcv9786'))
     assign(:letters, 'P')
     controller.params = { letter: 'p' }

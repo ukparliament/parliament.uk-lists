@@ -2,18 +2,10 @@ require 'rails_helper'
 
 RSpec.describe 'parliaments/parties/members/index', vcr: true do
   before do
+    assign(:people, [])
     assign(:parliament, double(:parliament, date_range: '2010 to 2015', graph_id: 'd7b0ec7n'))
     assign(:party, double(:party, name: 'Labour', graph_id: 'b6tdch4k'))
     assign(:letters, [])
-    assign(:people,
-      [double(:person,
-        graph_id: 'i38vttrf',
-        display_name: 'Test Name',
-        constituencies: [],
-        seat_incumbencies: [],
-        current_mp?: false
-      )]
-    )
     render
   end
 
