@@ -53,7 +53,7 @@ http_interactions:
         <https://id.parliament.uk/QBe72jNI> .\r\n<https://id.parliament.uk/49p9Fbdf> <https://id.parliament.uk/schema/memberHasParliamentaryIncumbency>
         <https://id.parliament.uk/M0ivqfxk> .\r\n<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/M0ivqfxk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Lords\" .\r\n<https://id.parliament.uk/M0ivqfxk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/SeatIncumbency> .\r\n<https://id.parliament.uk/M0ivqfxk>
         <https://id.parliament.uk/schema/seatIncumbencyHasHouseSeat> <https://id.parliament.uk/y9E4kcb4>
         .\r\n<https://id.parliament.uk/M0ivqfxk> <https://id.parliament.uk/schema/parliamentaryIncumbencyEndDate>
@@ -153,9 +153,9 @@ http_interactions:
       encoding: UTF-8
       string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Lords\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 2\" .\r\n"
+        \"House of Commons\" .\r\n"
     http_version:
   recorded_at: Wed, 02 Aug 2017 09:33:16 GMT
 recorded_with: VCR 3.0.3

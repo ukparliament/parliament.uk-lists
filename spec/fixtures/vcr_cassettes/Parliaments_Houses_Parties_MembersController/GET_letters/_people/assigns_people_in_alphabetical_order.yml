@@ -84,7 +84,7 @@ http_interactions:
         <https://id.parliament.uk/ExyBZkI7> .\r\n<https://id.parliament.uk/fHx6P1lb> <https://id.parliament.uk/schema/parliamentPeriodHasImmediatelyPreviousParliamentPeriod>
         <https://id.parliament.uk/Lr7LZwQn> .\r\n<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/cCoWQ0JF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Lords\" .\r\n<https://id.parliament.uk/cCoWQ0JF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/Person> .\r\n<https://id.parliament.uk/cCoWQ0JF> <https://id.parliament.uk/schema/personGivenName>
         \"personGivenName - 2\" .\r\n<https://id.parliament.uk/cCoWQ0JF> <https://id.parliament.uk/schema/personFamilyName>
         \"personFamilyName - 2\" .\r\n<https://id.parliament.uk/cCoWQ0JF> <http://example.com/F31CBD81AD8343898B49DC65743F0BDF>
@@ -615,9 +615,9 @@ http_interactions:
       encoding: UTF-8
       string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Lords\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 2\" .\r\n"
+        \"House of Commons\" .\r\n"
     http_version:
   recorded_at: Thu, 03 Aug 2017 10:06:21 GMT
 recorded_with: VCR 3.0.3
