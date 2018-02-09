@@ -5,7 +5,7 @@ RSpec.describe Houses::MembersController, vcr: true do
   describe "GET index" do
     context 'when the house of commons' do
       before(:each) do
-        get :index, params: { house_id: 'Kz7ncmrt' }
+        get :index, params: { house_id: '1AFu55Hs' }
       end
 
       it 'should have a response with http status ok (200)' do

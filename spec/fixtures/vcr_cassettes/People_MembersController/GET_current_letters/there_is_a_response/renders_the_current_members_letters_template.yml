@@ -64,7 +64,7 @@ http_interactions:
         \"2017-06-08\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/Kz7ncmrt>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/House>
         .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/e85BrBEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Commons\" .\r\n<https://id.parliament.uk/e85BrBEX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/ConstituencyGroup> .\r\n<https://id.parliament.uk/e85BrBEX>
         <https://id.parliament.uk/schema/constituencyGroupName> \"constituencyGroupName
         - 1\" .\r\n<https://id.parliament.uk/kO5M5xzC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
@@ -186,9 +186,9 @@ http_interactions:
       encoding: UTF-8
       string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Commons\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 2\" .\r\n"
+        \"House of Lords\" .\r\n"
     http_version:
   recorded_at: Thu, 03 Aug 2017 07:59:24 GMT
 recorded_with: VCR 3.0.3

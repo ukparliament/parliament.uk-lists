@@ -56,7 +56,7 @@ http_interactions:
         <https://id.parliament.uk/schema/MemberImage> .\r\n<https://id.parliament.uk/Kz7ncmrt>
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/House>
         .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/Q5tm0KMt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Lords\" .\r\n<https://id.parliament.uk/Q5tm0KMt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/SeatIncumbency> .\r\n<https://id.parliament.uk/Q5tm0KMt>
         <https://id.parliament.uk/schema/seatIncumbencyHasHouseSeat> <https://id.parliament.uk/LW1C2u7R>
         .\r\n<https://id.parliament.uk/Q5tm0KMt> <https://id.parliament.uk/schema/parliamentaryIncumbencyEndDate>
@@ -2827,7 +2827,7 @@ http_interactions:
       encoding: UTF-8
       string: "<https://id.parliament.uk/Kz7ncmrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/Kz7ncmrt> <https://id.parliament.uk/schema/houseName>
-        \"houseName - 1\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        \"House of Lords\" .\r\n<https://id.parliament.uk/MvLURLV5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
         <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/MvLURLV5> <https://id.parliament.uk/schema/houseName>
         \"houseName - 2\" .\r\n"
     http_version:
