@@ -1,0 +1,22 @@
+#content.section--primary{ tabindex: "0" }
+  .container
+    %h1= title("#{t('current_and_former').capitalize} #{t('chairs')} of #{@group.name}")
+
+%section
+  .container
+    -if @chairs.empty?
+      = "#{t('no_content.empty_list.no_chairs')}"
+    -else
+      %ul.list--block
+        - @chairs.each do |chair|
+          %li
+            .list--details
+              - chair.incumbencies.sort_by!(&:start_date).reverse!
+              - chair.incumbencies.each do |incumbency|
+                - incumbency.people.each do |person|
+                  - if person.full_name.present?
+                    %h2
+                    %span= link_to(person.full_name, person_path(person.graph_id))
+                    - if person.current_party.present?
+                      = "#{person.current_party.name}"
+                      = "(#{incumbency.date_range})"
