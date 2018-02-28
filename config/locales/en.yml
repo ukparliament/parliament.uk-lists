@@ -61,6 +61,18 @@ en:
   place_plural: 'places'
   region: 'region'
   region_plural: 'regions'
+  # global group translations
+  group: 'group'
+  groups: 'groups'
+  # global government organisation translations
+  government_organisation: 'Government Organisation'
+  government_organisations: 'Government Organisations'
+  # global position translations
+  position: 'position'
+  positions: 'positions'
+  # global chair translations
+  chair: 'chair'
+  chairs: 'chairs'
   # global generic translations
   view_all: 'view all'
   all: 'all'
@@ -302,7 +314,14 @@ en:
         description: "Sorry there are no results for '%{letter}'"
       parties:
         description: "Sorry there are no results for '%{letter}'"
+      groups:
+        description: "Sorry there are no results for '%{letter}'"
+      government_organisations:
+        description: "Sorry there are no results for '%{letter}'"
       no_mp: 'There is currently no MP for your constituency.'
+      no_houses: 'Sorry there are no houses.'
+      no_chairs: 'Sorry there are no chairs.'
+      no_positions: 'Sorry there are no positions.'
   # shared partial translations
   shared:
     dissolution_message:

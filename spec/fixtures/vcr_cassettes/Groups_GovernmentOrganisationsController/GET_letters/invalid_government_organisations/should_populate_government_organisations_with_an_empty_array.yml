@@ -1,0 +1,104 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3030/group_government_organisation_by_initial?initial=x
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '162'
+      Content-Type:
+      - application/n-triples
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:330aa411-57af-491f-b22a-1cab7d08a6a9
+      Set-Cookie:
+      - ARRAffinity=9dd1c11cb8da96f01b5d593dd639e6631bd9aae15f6c21ba2cfeafc7ce7c4659;Path=/;HttpOnly;Domain=fixedquery201710091000.azurewebsites.net
+      Strict-Transport-Security:
+      - max-age=31536000
+      Date:
+      - Fri, 23 Feb 2018 16:27:37 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: "_:node19546940 <https://id.parliament.uk/schema/value> \"D\" .\r\n_:node19546941
+        <https://id.parliament.uk/schema/value> \"F\" .\r\n_:node19546942 <https://id.parliament.uk/schema/value>
+        \"W\" .\r\n_:node19546943 <https://id.parliament.uk/schema/value> \"H\" .\r\n_:node19546944
+        <https://id.parliament.uk/schema/value> \"S\" .\r\n_:node19546945 <https://id.parliament.uk/schema/value>
+        \"O\" .\r\n_:node19546946 <https://id.parliament.uk/schema/value> \"M\" .\r\n_:node19546947
+        <https://id.parliament.uk/schema/value> \"P\" .\r\n_:node19546948 <https://id.parliament.uk/schema/value>
+        \"C\" .\r\n_:node19546949 <https://id.parliament.uk/schema/value> \"N\" .\r\n_:node19546950
+        <https://id.parliament.uk/schema/value> \"L\" .\r\n_:node19546951 <https://id.parliament.uk/schema/value>
+        \"A\" .\r\n_:node19546952 <https://id.parliament.uk/schema/value> \"G\" .\r\n"
+    http_version: 
+  recorded_at: Fri, 23 Feb 2018 16:25:31 GMT
+- request:
+    method: get
+    uri: http://localhost:3030/house_index
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      - application/n-triples
+      User-Agent:
+      - Ruby
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '176'
+      Content-Type:
+      - application/n-triples
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:330aa411-57af-491f-b22a-1cab7d08a6a9
+      Set-Cookie:
+      - ARRAffinity=9dd1c11cb8da96f01b5d593dd639e6631bd9aae15f6c21ba2cfeafc7ce7c4659;Path=/;HttpOnly;Domain=fixedquery201710091000.azurewebsites.net
+      Strict-Transport-Security:
+      - max-age=31536000
+      Date:
+      - Fri, 23 Feb 2018 16:27:36 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: "<https://id.parliament.uk/1AFu55Hs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/1AFu55Hs>
+        <https://id.parliament.uk/schema/houseName> \"houseName - 1\" .\r\n<https://id.parliament.uk/WkUWUBMx>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/House>
+        .\r\n<https://id.parliament.uk/WkUWUBMx> <https://id.parliament.uk/schema/houseName>
+        \"houseName - 2\" .\r\n"
+    http_version: 
+  recorded_at: Fri, 23 Feb 2018 16:25:32 GMT
+recorded_with: VCR 4.0.0

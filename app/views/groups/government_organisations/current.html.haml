@@ -1,0 +1,11 @@
+.section--primary
+  .container
+    %h1
+      %span= title("#{t('current').capitalize} #{t('government_organisations')}")
+      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
+
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :groups_government_organisations_current_a_z_letter_path }
+
+%section#content{ tabindex: "0" }
+  .container
+    = render 'government_organisation_list', locals: { government_organisations: @government_organisations }
