@@ -1,0 +1,26 @@
+- timeline_roles.each do |role|
+  - if RoleHelper.role_type(role, 'SeatIncumbency')
+    - if role.class == RoleGroupingHelper::RoleGroupedObject || role&.house_of_commons?
+      - date_string = role.try(:start_date) && role.try(:end_date) ? " (#{l(role.start_date, format: :year_only)} #{t('to')} #{l(role.end_date, format: :year_only)})" : ''
+      - if role.class == RoleGroupingHelper::RoleGroupedObject
+        - role_type_start = t('people.associations.mp_for')
+        - role_type_link = link_to("#{role.nodes[0].constituency.name} #{date_string}", constituency_path(role.nodes[0].constituency.graph_id))
+        - role_title = "#{role_type_start} #{role_type_link}".html_safe
+        = render 'timeline_role', role: role, role_title: role_title, role_type: t('people.associations.parliamentary_role')
+      - else
+        - role_type_start = t('.mp_for')
+        - role_type_link = link_to("#{role.constituency.name} #{date_string}", constituency_path(role.constituency.graph_id))
+        - role_title = "#{role_type_start} #{role_type_link}".html_safe
+        = render 'timeline_role', role: role, role_title: role_title, role_type: t('people.associations.parliamentary_role')
+
+    - elsif role.house_of_lords?
+      = render 'timeline_role', role: role, role_title: "#{t('member').capitalize} #{t('of_the')} #{t('house_of_lords')}", role_type: t('people.associations.parliamentary_role')
+
+  - elsif RoleHelper.role_type(role, 'FormalBodyMembership')
+    = render 'timeline_role', role: role, role_title: "#{t('member').capitalize} #{t('of_the')} #{role.formal_body.name}", role_type: t('people.associations.committee_role')
+
+  - elsif RoleHelper.role_type(role, 'GovernmentIncumbency')
+    = render 'timeline_role', role: role, role_title: "#{role.government_position.name}", role_type: t('people.associations.government_role')
+
+  - elsif RoleHelper.role_type(role, 'OppositionIncumbency')
+    = render 'timeline_role', role: role, role_title: "#{role.opposition_position.name}", role_type: t('people.associations.opposition_role')

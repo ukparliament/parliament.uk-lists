@@ -1,0 +1,3 @@
+- timeline_roles.each do |role|
+  - if RoleHelper.role_type(role, 'GovernmentIncumbency')
+    = render '/people/associations/timeline_role', role: role, role_title: role.government_position.name, role_type: t('.government_role')
