@@ -3,6 +3,7 @@
 -else
   %ul.list--block
     - @government_organisations.each do |government_organisation|
-      %li
-        .list--details
-          %h2= link_to(government_organisation.name, group_path(government_organisation.graph_id)) if government_organisation.name.present?
+      - if government_organisation.name.present?
+        %li
+          .list--details
+            %h2= link_to(government_organisation.name, group_path(government_organisation.graph_id))
