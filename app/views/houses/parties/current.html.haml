@@ -22,6 +22,9 @@
         %li
           = link_to(t('lords'),house_parties_current_path(Parliament::Utils::Helpers::HousesHelper.lords_id))
 
+    - if Parliament::Utils::Helpers::HousesHelper.lords?(@house) && Pugin::Feature::Bandiera.show_lords_ineligibility_banner?
+      %p
+        = t('count_justification_html', href: link_to(t('count_justification_link'), 'http://www.parliament.uk/mps-lords-and-offices/lords/-ineligible-lords/'))
     - if Parliament::Utils::Helpers::HousesHelper.commons?(@house)
       - if Parliament::Utils::Helpers::FlagHelper.dissolution?
         = render partial: 'shared/dissolution_message'
