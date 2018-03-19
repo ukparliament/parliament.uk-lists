@@ -89,6 +89,8 @@ en:
   find_results: 'Find results from current parliament.uk websites.'
   does_not_search_beta: "This search doesn't search beta.parliament.uk"
   open_new_window: "website opens in a new window"
+  count_justification_html: 'Lords who are not eligible to take part in the work of Parliament are excluded from the numbers shown below. Their names and reasons for ineligibility are %{href}.'
+  count_justification_link: 'available here'
   # global a-z navigation translations
   a_to_z:
     a_to_z: 'A to Z'
