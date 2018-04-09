@@ -37,6 +37,7 @@ en:
     one: 'Lord'
     other: 'Lords'
   house_of_commons_speaker: 'The Speaker of the House of Commons'
+  house_of_lords_speaker: 'The Speaker of the House of Lords'
   # global constituency translations
   constituency: 'constituency'
   constituency_plural: 'constituencies'
