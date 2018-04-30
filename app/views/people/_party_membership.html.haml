@@ -1,5 +1,6 @@
 %li
-  .list--details
-    %h2= link_to(party_membership.party.name, party_path(party_membership.party.graph_id))
-    %p
-      = party_membership.date_range
+  .card
+    .card__details
+      %h2= link_to(party_membership.party.name, party_path(party_membership.party.graph_id))
+      %p
+        = party_membership.date_range
