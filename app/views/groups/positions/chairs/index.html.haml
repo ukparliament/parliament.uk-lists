@@ -10,13 +10,14 @@
       %ul.list--block
         - @chairs.each do |chair|
           %li
-            .list--details
-              - chair.incumbencies.sort_by!(&:start_date).reverse!
-              - chair.incumbencies.each do |incumbency|
-                - incumbency.people.each do |person|
-                  - if person.full_name.present?
-                    %h2
-                    %span= link_to(person.full_name, person_path(person.graph_id))
-                    - if person.current_party.present?
-                      = "#{person.current_party.name}"
-                      = "(#{incumbency.date_range})"
+            .card
+              .card__details
+                - chair.incumbencies.sort_by!(&:start_date).reverse!
+                - chair.incumbencies.each do |incumbency|
+                  - incumbency.people.each do |person|
+                    - if person.full_name.present?
+                      %h2
+                      %span= link_to(person.full_name, person_path(person.graph_id))
+                      - if person.current_party.present?
+                        = "#{person.current_party.name}"
+                        = "(#{incumbency.date_range})"

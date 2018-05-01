@@ -4,5 +4,6 @@
     %ul.list--block
       - @parliaments.each do |parliament|
         %li
-          .list--details
-            %h2= link_to("#{parliament.date_range(date_format: '%Y').capitalize}", parliament_path(parliament.graph_id))
+          .card
+            .card__details
+              %h2= link_to("#{parliament.date_range(date_format: '%Y').capitalize}", parliament_path(parliament.graph_id))
