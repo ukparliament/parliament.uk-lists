@@ -9,9 +9,10 @@
     %ul.list--block
       - @houses.each do |house|
         %li
-          .list--details
-            %h2= link_to(house.name, house_path(house.graph_id))
-            - if Parliament::Utils::Helpers::HousesHelper.commons?(house)
-              %p= "#{t('.all_mps_info')}"
-            - else
-              %p= "#{t('.all_lords_info')}"
+          .card
+            .card__details
+              %h2= link_to(house.name, house_path(house.graph_id))
+              - if Parliament::Utils::Helpers::HousesHelper.commons?(house)
+                %p= "#{t('.all_mps_info')}"
+              - else
+                %p= "#{t('.all_lords_info')}"

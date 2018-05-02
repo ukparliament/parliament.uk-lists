@@ -5,18 +5,14 @@
       = "(#{party.member_count} members)" unless party.member_count.nil?
 - else
   %li
-    .column--75
-      .list--details
-        %h2= link_to(party.name, house_parties_party_members_current_path(@house.graph_id, party.graph_id))
-        - if party.name === "Speaker"
-          %p= "#{t('house_of_commons_speaker')}"
-        - elsif party.name === "Lord Speaker"
-          %p= "#{t('house_of_lords_speaker')}"
-        - else
-          %p= "#{t('view_all').capitalize} #{t('current')} #{party.name} #{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_plural') : t('lord_plural')}"
-    .column--25
-      .list--details
-        %p
-          = party.member_count
-          %span
-            = Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_count', count: party.member_count) : t('lord_count', count: party.member_count)
+    .list--details
+      %h2= link_to(party.name, house_parties_party_members_current_path(@house.graph_id, party.graph_id))
+      - if party.name === "Speaker"
+        %p= "#{t('house_of_commons_speaker')}"
+      - elsif party.name === "Lord Speaker"
+        %p= "#{t('house_of_lords_speaker')}"
+      - else
+        %p= "#{t('view_all').capitalize} #{t('current')} #{party.name} #{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_plural') : t('lord_plural')}"
+    .list--details
+      %span.count= party.member_count
+      = Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_count', count: party.member_count) : t('lord_count', count: party.member_count)
