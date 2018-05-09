@@ -40,7 +40,7 @@ RSpec.describe 'constituencies/_constituencies' do
       end
 
       it 'will render constituency with start date' do
-        expect(rendered).to match("from #{(Time.zone.now - 1.month).strftime('%-e %b %Y')}")
+        expect(rendered).to match("from #{l(Time.zone.now - 1.month, format: :default)}")
       end
     end
 
@@ -66,11 +66,11 @@ RSpec.describe 'constituencies/_constituencies' do
       end
 
       it 'will render constituency with start and end date' do
-        expect(rendered).to match("from #{(Time.zone.now - 1.month).strftime('%-e %b %Y')}")
+        expect(rendered).to match("from #{l(Time.zone.now - 1.month, format: :default)}")
       end
 
       it 'will render constituency end date' do
-        expect(rendered).to match("to #{(Time.zone.now - 1.day).strftime('%-e %b %Y')}")
+        expect(rendered).to match("to #{l(Time.zone.now - 1.day, format: :default)}")
       end
     end
   end

@@ -68,7 +68,7 @@ RSpec.describe 'constituencies/members/current', vcr: true do
         end
 
         it 'will render start date' do
-          expect(rendered).to match("#{(Time.zone.now - 2.month).strftime('%-e %b %Y')} to present")
+          expect(rendered).to match("#{l(Time.zone.now - 2.month, format: :default)} to present")
         end
       end
 
@@ -80,7 +80,7 @@ RSpec.describe 'constituencies/members/current', vcr: true do
         end
 
         it 'will not render start date' do
-          expect(rendered).not_to match("#{(Time.zone.now - 2.month).strftime('%-e %b %Y')} to present")
+          expect(rendered).not_to match("#{l(Time.zone.now - 2.month, format: :default)} to present")
         end
       end
     end
