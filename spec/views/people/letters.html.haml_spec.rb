@@ -12,7 +12,7 @@ RSpec.describe 'people/letters', vcr: true do
     it 'will render the correct header' do
       expect(rendered).to match(/People/)
     end
-    
+
     it 'will render the correct sub-header' do
       expect(rendered).to match(/A to Z - showing results for A/)
     end
