@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3030/group_memberships_a_to_z?group_id=tWzrJATE
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Ruby
+      Accept:
+      - "*/*"
+      - application/n-triples
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/n-triples
+      Content-Disposition:
+      - inline; filename="index"
+      Last-Modified:
+      - Thu, 10 May 2018 12:16:26 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '1645'
+    body:
+      encoding: UTF-8
+      string: |
+        _:node20250574 <https://id.parliament.uk/schema/value> "B" .
+        _:node20250575 <https://id.parliament.uk/schema/value> "A" .
+        _:node20250576 <https://id.parliament.uk/schema/value> "D" .
+        _:node20250577 <https://id.parliament.uk/schema/value> "T" .
+        _:node20250578 <https://id.parliament.uk/schema/value> "S" .
+        _:node20250579 <https://id.parliament.uk/schema/value> "I" .
+        _:node20250580 <https://id.parliament.uk/schema/value> "C" .
+        _:node20250581 <https://id.parliament.uk/schema/value> "H" .
+        _:node20250582 <https://id.parliament.uk/schema/value> "R" .
+        _:node20250583 <https://id.parliament.uk/schema/value> "F" .
+        _:node20250584 <https://id.parliament.uk/schema/value> "M" .
+        _:node20250585 <https://id.parliament.uk/schema/value> "W" .
+        _:node20250586 <https://id.parliament.uk/schema/value> "E" .
+        _:node20250587 <https://id.parliament.uk/schema/value> "V" .
+        _:node20250588 <https://id.parliament.uk/schema/value> "L" .
+        _:node20250589 <https://id.parliament.uk/schema/value> "Y" .
+        _:node20250590 <https://id.parliament.uk/schema/value> "P" .
+        _:node20250591 <https://id.parliament.uk/schema/value> "K" .
+        _:node20250592 <https://id.parliament.uk/schema/value> "N" .
+        _:node20250593 <https://id.parliament.uk/schema/value> "G" .
+        _:node20250594 <https://id.parliament.uk/schema/value> "O" .
+        _:node20250595 <https://id.parliament.uk/schema/value> "J" .
+        _:node20250596 <https://id.parliament.uk/schema/value> "U" .
+        <https://id.parliament.uk/tWzrJATE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group> .
+        <https://id.parliament.uk/tWzrJATE> <https://id.parliament.uk/schema/groupName> "groupName - 1" .
+    http_version: 
+  recorded_at: Fri, 11 May 2018 15:24:30 GMT
+- request:
+    method: get
+    uri: http://localhost:3030/house_index
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Ruby
+      Accept:
+      - "*/*"
+      - application/n-triples
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/n-triples
+      Content-Disposition:
+      - inline; filename="index"
+      Last-Modified:
+      - Thu, 08 Feb 2018 15:21:33 GMT
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '460'
+    body:
+      encoding: UTF-8
+      string: "<https://id.parliament.uk/1AFu55Hs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/1AFu55Hs>
+        <https://id.parliament.uk/schema/houseName> \"houseName - 1\" .\r\n<https://id.parliament.uk/WkUWUBMx>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/House>
+        .\r\n<https://id.parliament.uk/WkUWUBMx> <https://id.parliament.uk/schema/houseName>
+        \"houseName - 2\" .\r\n"
+    http_version: 
+  recorded_at: Fri, 11 May 2018 15:24:30 GMT
+recorded_with: VCR 4.0.0
