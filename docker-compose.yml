@@ -37,7 +37,7 @@ services:
       DATABASE_URL: 'postgres://bandiera:bandiera@bandiera_db/bandiera'
       LOG_TO_STDOUT: 'true'
     depends_on:
-      - bandiera_db 
+      - bandiera_db
 
   bandiera_db:
     image: postgres
