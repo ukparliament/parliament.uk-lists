@@ -327,6 +327,7 @@ en:
       no_houses: 'Sorry there are no houses.'
       no_chairs: 'Sorry there are no chairs.'
       no_positions: 'Sorry there are no positions.'
+      no_results: 'There are no results'
   # shared partial translations
   shared:
     dissolution_message:
