@@ -1,0 +1,20 @@
+.section--primary
+  .container
+    %h1= title('Work packages')
+
+%section#content{ tabindex: "0" }
+  .container
+    %ul.list--block
+      - @work_packages.each do |work_package|
+        - if work_package.work_packageable_thing_name
+          %li
+            .card
+              .card__details
+                -# Name of the work packageable thing, and link
+                %h2= link_to(work_package.work_packageable_thing_name, work_package_path(work_package.graph_id))
+                -# Procedure name
+                - if work_package.try(&:procedure)
+                  %p= "#{work_package.procedure.name.downcase.capitalize} procedure"
+                -# Date of the oldest business item
+                - if work_package.oldest_business_item_date
+                  %p= "#{l(work_package.oldest_business_item_date, format: :default)}"
