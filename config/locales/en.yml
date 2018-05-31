@@ -214,13 +214,13 @@ en:
     index:
       work_package: 'work package'
       procedure: 'procedure'
-      view_all: 'View all work packages subject to the'
+      view_all: 'view all'
   # work packages translations
   work_packages:
     index:
       work_package: 'work package'
-      list_ordering_description: 'This list is in date order. The date shown relates to the first recorded stage of the procedure.'
       procedure: 'procedure'
+      list_ordering_description: 'This list is in date order. The date shown relates to the first recorded stage of the procedure.'
   # parties translations
   parties:
     index:
