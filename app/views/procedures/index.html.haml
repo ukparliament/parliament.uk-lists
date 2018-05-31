@@ -1,13 +1,12 @@
-.section--primary
-  .container
-    %h1= title('Procedures')
+- page_title = title("#{t('.procedure').capitalize.pluralize}")
 
-%section#content{ tabindex: "0" }
+.section--primary#content{ tabindex: "0" }
   .container
+    %h1= page_title
+
     %ul.list--block
       - @procedures.each do |procedure|
         %li
-          .card
-            .card__details
-              %h2= link_to(procedure.name, procedure_path(procedure.graph_id))
-              %p= "View all work packages subject to the #{procedure.name.downcase} procedure."
+          .card__details
+            %h2= link_to(procedure.name, procedure_path(procedure.graph_id))
+            %p= "#{t('.view_all')} #{procedure.name.downcase} #{t('.procedure')}."
