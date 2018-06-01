@@ -212,9 +212,7 @@ en:
   # procedures translations
   procedures:
     index:
-      work_package: 'work package'
       procedure: 'procedure'
-      view_all: 'view all'
   # work packages translations
   work_packages:
     index:

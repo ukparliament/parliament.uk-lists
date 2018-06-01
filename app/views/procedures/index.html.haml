@@ -7,6 +7,6 @@
     %ul.list--block
       - @procedures.each do |procedure|
         %li
-          .card__details
-            %h2= link_to(procedure.name.capitalize, procedure_path(procedure.graph_id))
-            %p= "#{t('.view_all').capitalize} #{procedure.name.downcase} #{t('.work_package').pluralize}."
+          .card
+            .card__details
+              %h2= link_to(procedure.name.capitalize, procedure_path(procedure.graph_id))
