@@ -10,8 +10,9 @@
     %ul.list--block
       - @parties.each do |party|
         %li
-          .list--details
-            %h2= link_to(party.name, parliament_party_path(@parliament.graph_id, party.graph_id))
-          .list--details
-            %span.count= party.count
-            = t('mp_count', count: party.member_count)
+          .card
+            .card__details
+              %h2= link_to(party.name, parliament_party_path(@parliament.graph_id, party.graph_id))
+            .card__details
+              %span.count= party.count
+              = t('mp_count', count: party.member_count)
