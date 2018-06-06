@@ -6,43 +6,44 @@
   .container
     %ul.list--block
       - @chair_people.each do |chair_member|
-        %li.card
-          - if Pugin::Feature::Bandiera.show_list_images?
-            %figure.avatar--round
-              %a{ href: "/people/#{chair_member.graph_id}", aria: { hidden: "true" }, tabindex: "-1" }
-                %picture
-                  - if chair_member.image_id != "placeholder"
-                    %img{ src: "#{ENV['IMAGE_SERVICE_URL']}/#{chair_member.image_id}.jpeg?crop=CU_1:1&width=186&quality=80", alt: "#{chair_member.display_name}" }
-                  - else
-                    %img{ src: "#{Pugin::ASSET_LOCATION_URL}/#{Pugin::ASSET_VERSION}/images/placeholder_members_image.png", alt: "" }
-          .card__details
-            %h2
-              %a{href: "/people/#{chair_member.graph_id}"}= chair_member.display_name
-            %p= "#{t('committee').capitalize} #{t('chair')}"
-            - chair_member_party = chair_member.try(:current_party).try(:name)
-            - if chair_member.current_mp?
-              %p= "#{chair_member_party} #{I18n.t('pugin.people.list.member.mp_for')} #{chair_member.current_seat_incumbency&.constituency&.name}"
-            - else
-              %p= "#{chair_member_party} member of the #{t('house_of_lords')}"
+        %li
+          .card
+            - if Pugin::Feature::Bandiera.show_list_images?
+              %figure.avatar--round
+                %a{ href: "/people/#{chair_member.graph_id}", aria: { hidden: "true" }, tabindex: "-1" }
+                  %picture
+                    - if chair_member.image_id != "placeholder"
+                      %img{ src: "#{ENV['IMAGE_SERVICE_URL']}/#{chair_member.image_id}.jpeg?crop=CU_1:1&width=186&quality=80", alt: "#{chair_member.display_name}" }
+                    - else
+                      %img{ src: "#{Pugin::ASSET_LOCATION_URL}/#{Pugin::ASSET_VERSION}/images/placeholder_members_image.png", alt: "" }
+            .card__details
+              %h2
+                %a{href: "/people/#{chair_member.graph_id}"}= chair_member.display_name
+              %p= "#{t('committee').capitalize} #{t('chair')}"
+              - chair_member_party = chair_member.try(:current_party).try(:name)
+              - if chair_member.current_mp?
+                %p= "#{chair_member_party} #{I18n.t('pugin.people.list.member.mp_for')} #{chair_member.current_seat_incumbency&.constituency&.name}"
+              - else
+                %p= "#{chair_member_party} #{t('member')} #{t('of_the')} #{t('house_of_lords')}"
 
       - @non_chair_members.each do |committee_member|
-        %li.card
-          - if Pugin::Feature::Bandiera.show_list_images?
-            %figure.avatar--round
-              %a{ href: "/people/#{committee_member.graph_id}", aria: { hidden: "true" }, tabindex: "-1" }
-                %picture
-                  - if committee_member.image_id != "placeholder"
-                    %img{ src: "#{ENV['IMAGE_SERVICE_URL']}/#{committee_member.image_id}.jpeg?crop=CU_1:1&width=186&quality=80", alt: "#{committee_member.display_name}" }
-                  - else
-                    %img{ src: "#{Pugin::ASSET_LOCATION_URL}/#{Pugin::ASSET_VERSION}/images/placeholder_members_image.png", alt: "" }
+        %li
+          .card
+            - if Pugin::Feature::Bandiera.show_list_images?
+              %figure.avatar--round
+                %a{ href: "/people/#{committee_member.graph_id}", aria: { hidden: "true" }, tabindex: "-1" }
+                  %picture
+                    - if committee_member.image_id != "placeholder"
+                      %img{ src: "#{ENV['IMAGE_SERVICE_URL']}/#{committee_member.image_id}.jpeg?crop=CU_1:1&width=186&quality=80", alt: "#{committee_member.display_name}" }
+                    - else
+                      %img{ src: "#{Pugin::ASSET_LOCATION_URL}/#{Pugin::ASSET_VERSION}/images/placeholder_members_image.png", alt: "" }
 
-          .card__details
-            %h2
-              %a{href: "/people/#{committee_member.graph_id}"}= committee_member.display_name
-            %p= committee_member.committee_membership_type.join(' ').capitalize
-            - committee_members_party = committee_member.try(:current_party).try(:name)
-            - if committee_member.current_mp?
-              %p= "#{committee_members_party} #{I18n.t('pugin.people.list.member.mp_for')} #{committee_member.current_seat_incumbency&.constituency&.name}"
-            - else
-              %p= "#{committee_members_party} member of the #{t('house_of_lords')}"
-
+            .card__details
+              %h2
+                %a{href: "/people/#{committee_member.graph_id}"}= committee_member.display_name
+              %p= committee_member.committee_membership_type.join(' ').capitalize
+              - committee_members_party = committee_member.try(:current_party).try(:name)
+              - if committee_member.current_mp?
+                %p= "#{committee_members_party} #{I18n.t('pugin.people.list.member.mp_for')} #{committee_member.current_seat_incumbency&.constituency&.name}"
+              - else
+                %p= "#{committee_members_party} #{t('member')} #{t('of_the')} #{t('house_of_lords')}"
