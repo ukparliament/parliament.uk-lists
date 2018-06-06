@@ -27,7 +27,7 @@ RSpec.describe 'groups/positions/chairs/index', vcr: true do
 
   context 'header' do
     it 'will render the correct header' do
-      expect(rendered).to match(/Current and former chairs of GroupName/)
+      expect(rendered).to match(/Current and former chairs of the GroupName/)
     end
   end
 

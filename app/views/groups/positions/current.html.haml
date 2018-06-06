@@ -5,19 +5,28 @@
 %section
   .container
     -if @positions.empty?
-      = "#{t('no_content.empty_list.no_positions')}"
-    -else
+      %h2= "#{t('positions').capitalize}"
       %ul.list--block
-        - @positions.each do |position|
-          %li
-            .card
-              .card__details
-                %h2= position.name.present? ? position.name : ''
-                - position.incumbencies.each do |incumbency|
-                  - incumbency.people.each do |person|
-                    - if person.full_name.present?
-                      %h2
-                      %span= link_to(person.full_name, person_path(person.graph_id))
+        %li= "#{t('no_content.empty_list.no_positions')}"
+    -else
+      - @positions.each do |position|
+        %h2= position.name.present? ? position.name : ''
+        %ul.list--block
+          - position.incumbencies.each do |incumbency|
+            - incumbency.people.each do |person|
+              - if person.full_name.present?
+                %li
+                  .card
+                    - if Pugin::Feature::Bandiera.show_list_images?
+                      %figure.avatar--round
+                        %a{ href: "/people/#{person.graph_id}", aria: { hidden: "true" }, tabindex: "-1" }
+                          %picture
+                            - if person.image_id != "placeholder"
+                              %img{ src: "#{ENV['IMAGE_SERVICE_URL']}/#{committee_member.image_id}.jpeg?crop=CU_1:1&width=186&quality=80", alt: "#{person.full_name}" }
+                            - else
+                              %img{ src: "#{Pugin::ASSET_LOCATION_URL}/#{Pugin::ASSET_VERSION}/images/placeholder_members_image.png", alt: "" }
+                    .card__details
+                      %h2= link_to(person.full_name, person_path(person.graph_id))
                       - if person.current_party.present?
-                        = "#{person.current_party.name}"
-                        = "(#{incumbency.date_range})"
+                        %p= "#{person.current_party.name}"
+                        %p= "#{incumbency.date_range}"
