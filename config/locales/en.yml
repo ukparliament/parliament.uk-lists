@@ -102,9 +102,9 @@ en:
   # global time format translations
   time:
     formats:
-      default: '%-d %b %Y'
+      default: '%-d %B %Y'
   date:
-    abbr_month_names: ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+    abbr_month_names: ['', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
   # global error message translations
   error:
     no_constituency: "we couldn't find the postcode you entered."
