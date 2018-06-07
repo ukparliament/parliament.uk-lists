@@ -10,7 +10,7 @@ RSpec.describe 'groups/positions/current', vcr: true do
                    start_date: Time.zone.now,
                    date_range: '2015 to present',
                    people: [double(:people,
-                     full_name: 'full name',
+                     display_name: 'full name',
                      graph_id: 'h34f8JKl',
                      current_party: (double(:party,
                        name: 'Labour')

@@ -11,7 +11,7 @@ RSpec.describe 'groups/positions/index', vcr: true do
                    end_date: Time.zone.now + 1.day,
                    date_range: '2015 to 2017',
                    people: [double(:people,
-                     full_name: 'full name',
+                     display_name: 'full name',
                      graph_id: 'h34f8JKl',
                      current_party: (double(:party,
                        name: 'Labour')

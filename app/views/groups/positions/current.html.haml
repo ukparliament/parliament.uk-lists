@@ -16,7 +16,7 @@
         %ul.list--block
           - position.incumbencies.each do |incumbency|
             - incumbency.people.each do |person|
-              - if person.full_name.present?
+              - if person.display_name.present?
                 %li
                   .card
                     - if Pugin::Feature::Bandiera.show_list_images?
@@ -28,7 +28,7 @@
                             - else
                               %img{ src: "#{Pugin::ASSET_LOCATION_URL}/#{Pugin::ASSET_VERSION}/images/placeholder_members_image.png", alt: "" }
                     .card__details
-                      %h2= link_to(person.full_name, person_path(person.graph_id))
+                      %h2= link_to(person.display_name, person_path(person.graph_id))
                       - if person.current_party.present?
                         %p= "#{person.current_party.name}"
                         %p= "#{incumbency.date_range}"
