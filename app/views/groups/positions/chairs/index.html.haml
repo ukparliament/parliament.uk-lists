@@ -1,6 +1,8 @@
+- page_title = title("#{t('current_and_former').capitalize} #{t('chairs')} #{t('of_the')} #{@group.name}")
+
 #content.section--primary{ tabindex: "0" }
   .container
-    %h1= title("#{t('current_and_former').capitalize} #{t('chairs')} #{t('of_the')} #{@group.name}")
+    %h1= page_title
 
     -if @chairs.empty?
       = "#{t('no_content.empty_list.no_chairs')}"

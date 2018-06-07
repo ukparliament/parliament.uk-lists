@@ -27,7 +27,7 @@ RSpec.describe 'groups/positions/current', vcr: true do
 
   context 'header' do
     it 'will render the correct header' do
-      expect(rendered).to match(/GroupName current positions/)
+      expect(rendered).to match(/Current positions of the GroupName/)
     end
   end
 

@@ -1,6 +1,8 @@
+- page_title = title("#{t('current').capitalize} #{t('member_plural')} - #{@group.name}")
+
 .section--primary
   .container
-    %h1= "#{t('current').capitalize} #{t('committee')} #{t('member_plural')} - #{@group.name}"
+    %h1= page_title
 
 %section#content{ tabindex: "0" }
   .container

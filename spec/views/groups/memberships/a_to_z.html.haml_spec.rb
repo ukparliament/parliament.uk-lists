@@ -13,7 +13,7 @@ RSpec.describe 'groups/memberships/a_to_z', vcr: true do
 
   context 'header' do
     it 'will render the correct header' do
-      expect(rendered).to match(/Current and former committee members - Test Group Name/)
+      expect(rendered).to match(/Current and former members - Test Group Name/)
     end
   end
 
