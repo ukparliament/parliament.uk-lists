@@ -1,6 +1,7 @@
 %section.section--primary
   .container
-    %h1= title("Parliaments")
+    %h1
+      %span= title("Parliaments")
     %ul.list--block
       - @parliaments.each do |parliament|
         %li

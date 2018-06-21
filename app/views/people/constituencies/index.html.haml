@@ -1,6 +1,7 @@
 #content.section--primary{ tabindex: "0" }
   .container
-    %h1= title("#{@person.display_name} - #{t('.title', current_and_former: t('current_and_former').capitalize, constituency_plural: t('constituency_plural'))}")
+    %h1
+      %span= title("#{@person.display_name} - #{t('.title', current_and_former: t('current_and_former').capitalize, constituency_plural: t('constituency_plural'))}")
 
 - unless @seat_incumbencies.empty?
   %section
