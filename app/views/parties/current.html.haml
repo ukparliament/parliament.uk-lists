@@ -2,7 +2,7 @@
   .container
     %h1
       %span= title("#{t('current').capitalize} #{t('parties_and_groups')}")
-      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
+      %span.context= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
 
     - if Parliament::Utils::Helpers::FlagHelper.dissolution?
       = render partial: 'shared/dissolution_message'

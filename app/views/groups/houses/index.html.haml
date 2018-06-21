@@ -1,6 +1,7 @@
 #content.section--primary{ tabindex: "0" }
   .container
-    %h1= "#{@group.name} #{t('house_plural')}"
+    %h1
+      %span= "#{@group.name} #{t('house_plural')}"
 
 %section
   .container
