@@ -3,7 +3,7 @@
   .container
     %h1
       %span= "#{t('current').capitalize} #{t('mps_and_lords')}"
-      %span= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_results')} #{params[:letter].capitalize}"
+      %span.context= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_results')} #{params[:letter].capitalize}"
 
     = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :people_members_current_a_z_letter_path, all_path: @all_path }
 

@@ -2,7 +2,8 @@
 
 #content.section--primary{ tabindex: "0" }
   .container
-    %h1= "#{@constituency.name} - #{t('contact_points.index.page-title').capitalize}"
+    %h1
+      %span= "#{@constituency.name} - #{t('contact_points.index.page-title').capitalize}"
 
     - @constituency.contact_points.each do |contact_point|
       %dl.list--definition

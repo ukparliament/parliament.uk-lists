@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.2'
+gem 'rails', '~> 5.1.6'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.10.0'
@@ -23,7 +23,7 @@ gem 'parliament-opensearch', '~> 0.2', require: false
 gem 'parliament-grom-decorators', '~> 0.2'
 
 # Parliament-Utils gem for generic set up and configuration
-gem 'parliament-utils', '~> 0.6', require: false
+gem 'parliament-utils', '~> 0.8', '>= 0.8.5', require: false
 
 # Parliament routing
 gem 'parliament-routes', '~> 0.6'
