@@ -219,6 +219,9 @@ en:
       work_package: 'work package'
       procedure: 'procedure'
       list_ordering_description: 'This list is in date order. The date shown relates to the first recorded stage of the procedure.'
+  # committees translations
+  group_committees:
+    committees: 'committees'
   # parties translations
   parties:
     index:

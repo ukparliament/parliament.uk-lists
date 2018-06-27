@@ -190,29 +190,29 @@ RSpec.describe Groups::GovernmentOrganisationsController, vcr: true do
       methods = [
           {
             route: 'index',
-            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/group_government_organisation_index"
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/groups_government_organisation_index"
           },
           {
             route: 'current',
-            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/group_government_organisation_current"
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/groups_government_organisation_current"
           },
           {
             route: 'letters',
             parameters: { letter: 'l' },
-            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/group_government_organisation_by_initial?initial=l"
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/groups_government_organisation_by_initial?initial=l"
           },
           {
             route: 'current_letters',
             parameters: { letter: 'l' },
-            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/group_government_organisation_current_by_initial?initial=l"
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/groups_government_organisation_current_by_initial?initial=l"
           },
           {
             route: 'a_to_z',
-            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/group_government_organisation_a_to_z"
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/groups_government_organisation_a_to_z"
           },
           {
             route: 'a_to_z_current',
-            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/group_government_organisation_current_a_to_z"
+            data_url: "#{ENV['PARLIAMENT_BASE_URL']}/groups_government_organisation_current_a_to_z"
           }
         ]
 
