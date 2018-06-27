@@ -1,8 +1,8 @@
--if @groups.empty?
+- if groups.empty?
   = render partial: 'shared/empty_list', locals: { title: nil, description: t('no_content.empty_list.groups.description', letter: params[:letter].upcase) }
--else
+- else
   %ul.list--block
-    - @groups.each do |group|
+    - groups.each do |group|
       - if group.name.present?
         %li
           .card
