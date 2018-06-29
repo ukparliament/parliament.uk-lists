@@ -1,0 +1,13 @@
+.section--primary
+  .container
+    %h1
+      %p= @committees.size
+
+      %span= title("#{t('current').capitalize} #{t('group_committees.committees')}")
+      %span.context= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
+
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :groups_committees_current_a_z_letter_path }
+
+%section#content{ tabindex: "0" }
+  .container
+    = render 'groups/group_list', groups: @committees
