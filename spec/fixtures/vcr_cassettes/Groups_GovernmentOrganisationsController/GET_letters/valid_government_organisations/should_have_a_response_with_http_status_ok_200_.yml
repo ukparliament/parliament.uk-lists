@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3030/group_government_organisation_by_initial?initial=d
+    uri: http://localhost:3030/groups_government_organisation_by_initial?initial=d
     body:
       encoding: US-ASCII
       string: ''
@@ -150,7 +150,7 @@ http_interactions:
         \"N\" .\r\n_:node19547065 <https://id.parliament.uk/schema/value> \"L\" .\r\n_:node19547066
         <https://id.parliament.uk/schema/value> \"A\" .\r\n_:node19547067 <https://id.parliament.uk/schema/value>
         \"G\" .\r\n"
-    http_version: 
+    http_version:
   recorded_at: Fri, 23 Feb 2018 16:25:33 GMT
 - request:
     method: get
@@ -199,6 +199,6 @@ http_interactions:
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/House>
         .\r\n<https://id.parliament.uk/WkUWUBMx> <https://id.parliament.uk/schema/houseName>
         \"houseName - 2\" .\r\n"
-    http_version: 
+    http_version:
   recorded_at: Fri, 23 Feb 2018 16:25:33 GMT
 recorded_with: VCR 4.0.0

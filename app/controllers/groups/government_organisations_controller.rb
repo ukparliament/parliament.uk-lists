@@ -3,12 +3,12 @@ module Groups
     before_action :data_check, :build_request
 
     ROUTE_MAP = {
-      index:             proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.group_government_organisation_index },
-      current:           proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.group_government_organisation_current },
-      letters:           proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.group_government_organisation_by_initial.set_url_params({ initial: params[:letter] }) },
-      current_letters:   proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.group_government_organisation_current_by_initial.set_url_params({ initial: params[:letter] }) },
-      a_to_z:            proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.group_government_organisation_a_to_z },
-      a_to_z_current:    proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.group_government_organisation_current_a_to_z }
+      index:             proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.groups_government_organisation_index },
+      current:           proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.groups_government_organisation_current },
+      letters:           proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.groups_government_organisation_by_initial.set_url_params({ initial: params[:letter] }) },
+      current_letters:   proc { |params| Parliament::Utils::Helpers::ParliamentHelper.parliament_request.groups_government_organisation_current_by_initial.set_url_params({ initial: params[:letter] }) },
+      a_to_z:            proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.groups_government_organisation_a_to_z },
+      a_to_z_current:    proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.groups_government_organisation_current_a_to_z }
     }.freeze
 
     def index

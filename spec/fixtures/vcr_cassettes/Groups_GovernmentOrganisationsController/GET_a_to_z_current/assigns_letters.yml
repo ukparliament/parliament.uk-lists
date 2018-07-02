@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3030/group_government_organisation_current_a_to_z
+    uri: http://localhost:3030/groups_government_organisation_current_a_to_z
     body:
       encoding: US-ASCII
       string: ''
@@ -48,7 +48,7 @@ http_interactions:
         \"P\" .\r\n_:node19546936 <https://id.parliament.uk/schema/value> \"C\" .\r\n_:node19546937
         <https://id.parliament.uk/schema/value> \"N\" .\r\n_:node19546938 <https://id.parliament.uk/schema/value>
         \"A\" .\r\n_:node19546939 <https://id.parliament.uk/schema/value> \"F\" .\r\n"
-    http_version: 
+    http_version:
   recorded_at: Fri, 23 Feb 2018 16:25:31 GMT
 - request:
     method: get
@@ -97,6 +97,6 @@ http_interactions:
         <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/House>
         .\r\n<https://id.parliament.uk/WkUWUBMx> <https://id.parliament.uk/schema/houseName>
         \"houseName - 2\" .\r\n"
-    http_version: 
+    http_version:
   recorded_at: Fri, 23 Feb 2018 16:25:31 GMT
 recorded_with: VCR 4.0.0
