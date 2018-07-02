@@ -1,0 +1,7 @@
+#content.section--primary{ tabindex: "0" }
+  .container
+    %h1
+      %span= title("#{t('current').capitalize} #{t('group_committees.committees')}")
+      %span.context= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.select_letter')}"
+
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :groups_committees_current_a_z_letter_path, all_path: @all_path }

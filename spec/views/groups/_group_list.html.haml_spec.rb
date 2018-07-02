@@ -1,13 +1,16 @@
 require 'rails_helper'
 
 RSpec.describe 'groups/_group_list', vcr: true do
-  context '@groups is empty' do
-    before do
-      assign(:groups, [])
-      controller.params = { letter: 'a' }
-      render
-    end
+  let(:groups) {
+    assign(:groups, [])
+  }
 
+  before(:each) do
+    controller.params = { letter: 'a' }
+    render 'groups/group_list', groups: groups
+  end
+
+  context 'groups is empty' do
     context 'partials' do
       it 'will render shared/_empty_list' do
         expect(response).to render_template(partial: 'shared/_empty_list')
@@ -15,11 +18,10 @@ RSpec.describe 'groups/_group_list', vcr: true do
     end
   end
 
-  context '@groups is not empty' do
-    before do
+  context 'groups is not empty' do
+    let(:groups) {
       assign(:groups, [double(:group, name: 'GroupName', graph_id: 'ziLwaBLc')])
-      render
-    end
+    }
 
     context 'links' do
       it 'will link to group_path' do
