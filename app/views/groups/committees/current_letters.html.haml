@@ -4,7 +4,7 @@
       %span= title("#{t('current').capitalize} #{t('group_committees.committees')}")
       %span.context= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_results')} #{params[:letter].capitalize}"
 
-    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :groups_current_a_z_letter_path, all_path: @all_path }
+    = render partial: 'pugin/components/navigation-letter', locals: { route_symbol: :groups_committees_current_a_z_letter_path, all_path: @all_path }
 
 %section#content{ tabindex: "0" }
   .container
