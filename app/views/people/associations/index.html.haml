@@ -1,0 +1,18 @@
+- title("#{@person.display_name} - #{t('people.associations.roles').titleize}")
+
+.section--primary
+  .container
+    .card
+      - if @person.image_id(show_placeholder: false)
+        = render '/people/associations/image'
+      .card__details
+        %h1
+          %span= link_to(@person.display_name, person_path(@person.graph_id))
+          %span.context= t('people.associations.roles_in_parliament')
+
+%section{ id: "content", tabindex: "0" }
+  .container
+    - if @current_roles
+      = render 'current_roles', current_roles: @current_roles
+    - if @history
+      = render 'previous_roles'
