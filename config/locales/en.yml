@@ -142,6 +142,53 @@ en:
       check_mp_alternative: 'Check if this is your MP'
       correct_mp: '%{name} is the MP for the postcode entered.'
       incorrect_mp: '%{name} is not the MP for the postcode entered.  Your MP is '
+    index:
+      title: '%{current_and_former} %{mps_and_lords}'
+    a_to_z:
+      title: # needs title
+    letters:
+      title: '%{current_and_former} %{mps_and_lords}'
+    lookup_by_letters:
+      title: '%{current_and_former} %{mps_and_lords}'
+    members:
+      index:
+        title: '%{current_and_former} %{mps_and_lords}'
+      a_to_z:
+        title: # needs title
+      letters:
+        title: '%{current_and_former} %{mps_and_lords}'
+      current:
+        title: '%{current} %{mps_and_lords}'
+      current_letters:
+        title: '%{current} %{mps_and_lords}'
+    associations:
+      mp_for: "MP for"
+      roles: "roles"
+      roles_in_parliament: "Roles in Parliament"
+      current_roles: "Current roles"
+      previous_roles: "Previous roles"
+      committee_role: 'Committee role'
+      government_role: 'Government role'
+      opposition_role: 'Opposition role'
+      parliamentary_role: 'Parliamentary role'
+      held_in: "Held in the last %{years} years"
+    constituencies:
+      index:
+        title: '%{current_and_former} %{constituency_plural}'
+      current:
+        title: '%{current} %{constituency}'
+    contact_points:
+      index:
+    houses:
+      index:
+        title: '%{current_and_former} %{house_plural}'
+      current:
+        title: '%{current} %{house}'
+    parties:
+      index:
+        title: '%{current_and_former} %{parties_and_groups}'
+      current:
+        title: '%{current} %{party}'
     constituencies:
       index:
         title: '%{current_and_former} %{constituency_plural}'
