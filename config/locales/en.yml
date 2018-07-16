@@ -162,6 +162,8 @@ en:
       current_letters:
         title: '%{current} %{mps_and_lords}'
     associations:
+      written_questions: 'Written Questions'
+    associations:
       mp_for: "MP for"
       roles: "roles"
       roles_in_parliament: "Roles in Parliament"

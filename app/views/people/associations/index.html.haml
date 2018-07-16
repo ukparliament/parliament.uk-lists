@@ -4,7 +4,7 @@
   .container
     .card
       - if @person.image_id(show_placeholder: false)
-        = render '/people/associations/image'
+        = render 'shared/image', person_name: @person.display_name, image_id: @person.image_id
       .card__details
         %h1
           %span= link_to(@person.display_name, person_path(@person.graph_id))
