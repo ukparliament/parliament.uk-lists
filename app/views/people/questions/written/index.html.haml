@@ -1,0 +1,27 @@
+.section--primary
+  .container
+    .card
+      - if @asking_person.image_id(show_placeholder: false)
+        = render 'shared/image', person_name: @asking_person.display_name, image_id: @asking_person.image_id
+      .card__details
+        %h1
+          %span= link_to(@asking_person.display_name, person_path(@asking_person.graph_id))
+          %span.context= t('people.questions.written.written_questions')
+
+.section--minor
+  .container
+    .block--border__bottom
+      - @questions_grouped_by_date.each do |date, questions|
+        %h2= "#{l(date, format: :default)}" if date
+        %ul.list--block
+          - questions.each do |question|
+            %li
+              .card
+                .card__details
+                  %h3= link_to(question.heading, question_path(question.graph_id))
+                  %p
+                    - if question.answers.empty?
+                      = 'Awaiting answer'
+                      = " from the #{question.answering_body_allocation.answering_body.name}" if question.answering_body_allocation
+                    - if question.answers.any? && question.answering_body_allocation
+                      = "Answered by the #{question.answering_body_allocation.answering_body.name}"

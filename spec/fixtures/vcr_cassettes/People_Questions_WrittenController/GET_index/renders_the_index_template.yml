@@ -1,0 +1,836 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3030/person_questions_written?person_id=Niiic8ma
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Ruby
+      Accept:
+      - "*/*"
+      - application/n-triples
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '4529'
+      Content-Type:
+      - application/n-triples
+      Content-Encoding:
+      - gzip
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:330aa411-57af-491f-b22a-1cab7d08a6a9
+      Set-Cookie:
+      - ARRAffinity=86446098da8de5f00b83089ea395bfc10c8d53c3a1350acab6a5cba5ddab4ec2;Path=/;HttpOnly;Domain=fixedquery201806151230.azurewebsites.net
+      Strict-Transport-Security:
+      - max-age=31536000
+      Date:
+      - Mon, 16 Jul 2018 15:09:51 GMT
+    body:
+      encoding: UTF-8
+      string: "<https://id.parliament.uk/Niiic8ma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Person> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/personGivenName> \"personGivenName - 1\"
+        .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/personFamilyName>
+        \"personFamilyName - 1\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/dC8ljFxb> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/memberHasMemberImage> <https://id.parliament.uk/tBnbaUGL>
+        .\r\n<https://id.parliament.uk/tBnbaUGL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/MemberImage> .\r\n<https://id.parliament.uk/dC8ljFxb>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/dC8ljFxb> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-19+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/dC8ljFxb>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/wm2iYB0w>
+        .\r\n<https://id.parliament.uk/dC8ljFxb> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 1\" .\r\n<https://id.parliament.uk/dC8ljFxb> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/hh8eQg87> .\r\n<https://id.parliament.uk/hh8eQg87>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/wm2iYB0w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/wm2iYB0w>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7gnSwbLO> .\r\n<https://id.parliament.uk/7gnSwbLO>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/7gnSwbLO> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 1\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/WYc8Xwn9> .\r\n<https://id.parliament.uk/WYc8Xwn9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/WYc8Xwn9> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-14+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/WYc8Xwn9>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/yvjsTFAB>
+        .\r\n<https://id.parliament.uk/WYc8Xwn9> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 2\" .\r\n<https://id.parliament.uk/WYc8Xwn9> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/0qgIYW7o> .\r\n<https://id.parliament.uk/0qgIYW7o>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/yvjsTFAB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/yvjsTFAB>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/HYfypSOE> .\r\n<https://id.parliament.uk/HYfypSOE>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/HYfypSOE> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 2\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/IVj42RhA> .\r\n<https://id.parliament.uk/IVj42RhA>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/IVj42RhA> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-14+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/IVj42RhA>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/ZGpx2leX>
+        .\r\n<https://id.parliament.uk/IVj42RhA> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 3\" .\r\n<https://id.parliament.uk/IVj42RhA> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/KjX1Kfip> .\r\n<https://id.parliament.uk/KjX1Kfip>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/ZGpx2leX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/ZGpx2leX>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/KSMOf7aM> .\r\n<https://id.parliament.uk/KSMOf7aM>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/KSMOf7aM> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 3\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/4PwzjjNH> .\r\n<https://id.parliament.uk/4PwzjjNH>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/4PwzjjNH> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-14+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/4PwzjjNH>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/oLlCaT7w>
+        .\r\n<https://id.parliament.uk/4PwzjjNH> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 4\" .\r\n<https://id.parliament.uk/4PwzjjNH> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/Q5HMifC6> .\r\n<https://id.parliament.uk/Q5HMifC6>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/oLlCaT7w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/oLlCaT7w>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/UIV7W27r> .\r\n<https://id.parliament.uk/UIV7W27r>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/UIV7W27r> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 4\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/hjJsVNPK> .\r\n<https://id.parliament.uk/hjJsVNPK>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/hjJsVNPK> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-14+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/hjJsVNPK>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/9SfEhA5k>
+        .\r\n<https://id.parliament.uk/hjJsVNPK> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 5\" .\r\n<https://id.parliament.uk/hjJsVNPK> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/Qk12z0fO> .\r\n<https://id.parliament.uk/Qk12z0fO>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/9SfEhA5k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/9SfEhA5k>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/ni8aOEk3> .\r\n<https://id.parliament.uk/ni8aOEk3>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/ni8aOEk3> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 5\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/KZARon2B> .\r\n<https://id.parliament.uk/KZARon2B>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/KZARon2B> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-14+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/KZARon2B>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/nxWai0ZO>
+        .\r\n<https://id.parliament.uk/KZARon2B> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 6\" .\r\n<https://id.parliament.uk/KZARon2B> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/97tVQ1i0> .\r\n<https://id.parliament.uk/97tVQ1i0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/nxWai0ZO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/nxWai0ZO>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/DkHdH4kZ> .\r\n<https://id.parliament.uk/DkHdH4kZ>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/DkHdH4kZ> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 6\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/GODPs193> .\r\n<https://id.parliament.uk/GODPs193>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/GODPs193> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/GODPs193>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/WKGBR43u>
+        .\r\n<https://id.parliament.uk/GODPs193> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 7\" .\r\n<https://id.parliament.uk/GODPs193> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/ZHHUkd2A> .\r\n<https://id.parliament.uk/ZHHUkd2A>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/WKGBR43u> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/WKGBR43u>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/5LQ5Ar74> .\r\n<https://id.parliament.uk/5LQ5Ar74>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/5LQ5Ar74> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 7\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/EwYjjXEq> .\r\n<https://id.parliament.uk/EwYjjXEq>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/EwYjjXEq> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/EwYjjXEq>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/ufT3se8k>
+        .\r\n<https://id.parliament.uk/EwYjjXEq> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 8\" .\r\n<https://id.parliament.uk/EwYjjXEq> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/ip4S9KYb> .\r\n<https://id.parliament.uk/ip4S9KYb>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/ufT3se8k> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/ufT3se8k>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/NDZSYjeE> .\r\n<https://id.parliament.uk/NDZSYjeE>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/NDZSYjeE> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 8\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/T7B616Ox> .\r\n<https://id.parliament.uk/T7B616Ox>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/T7B616Ox> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/T7B616Ox>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/w0dGCwEx>
+        .\r\n<https://id.parliament.uk/T7B616Ox> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 9\" .\r\n<https://id.parliament.uk/T7B616Ox> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/G09qL06q> .\r\n<https://id.parliament.uk/G09qL06q>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/w0dGCwEx> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/w0dGCwEx>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/DkHdH4kZ> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/7RSgfITW>
+        .\r\n<https://id.parliament.uk/7RSgfITW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/7RSgfITW>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/7RSgfITW> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/RDr2QIME> .\r\n<https://id.parliament.uk/7RSgfITW>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 10\"
+        .\r\n<https://id.parliament.uk/7RSgfITW> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/BoZOhzm0> .\r\n<https://id.parliament.uk/BoZOhzm0>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/RDr2QIME> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/RDr2QIME>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/yiuTaSI4> .\r\n<https://id.parliament.uk/yiuTaSI4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/yiuTaSI4> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 9\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/ubM5ERuO> .\r\n<https://id.parliament.uk/ubM5ERuO>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/ubM5ERuO> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/ubM5ERuO>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/iHY5OiNr>
+        .\r\n<https://id.parliament.uk/ubM5ERuO> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 11\" .\r\n<https://id.parliament.uk/ubM5ERuO> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/cIoCRIT4> .\r\n<https://id.parliament.uk/cIoCRIT4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/iHY5OiNr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/iHY5OiNr>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/XbTBTDMo> .\r\n<https://id.parliament.uk/XbTBTDMo>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/XbTBTDMo> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 10\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/wUQSacjW> .\r\n<https://id.parliament.uk/wUQSacjW>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/wUQSacjW> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-07+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/wUQSacjW>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/kIkJSKiM>
+        .\r\n<https://id.parliament.uk/wUQSacjW> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 12\" .\r\n<https://id.parliament.uk/wUQSacjW> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/8XaT4omG> .\r\n<https://id.parliament.uk/8XaT4omG>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/kIkJSKiM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/kIkJSKiM>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/UIV7W27r> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/olTeOHkJ>
+        .\r\n<https://id.parliament.uk/olTeOHkJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/olTeOHkJ>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-07+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/olTeOHkJ> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/mGB0xFR6> .\r\n<https://id.parliament.uk/olTeOHkJ>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 13\"
+        .\r\n<https://id.parliament.uk/olTeOHkJ> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/pWPBME3X> .\r\n<https://id.parliament.uk/pWPBME3X>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/mGB0xFR6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/mGB0xFR6>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/ni8aOEk3> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/ANR3mUGN>
+        .\r\n<https://id.parliament.uk/ANR3mUGN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/ANR3mUGN>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-07+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/ANR3mUGN> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/lnUXRy6H> .\r\n<https://id.parliament.uk/ANR3mUGN>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 14\"
+        .\r\n<https://id.parliament.uk/ANR3mUGN> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/XsiZNV5b> .\r\n<https://id.parliament.uk/XsiZNV5b>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/lnUXRy6H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/lnUXRy6H>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/KSMOf7aM> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/ioR4fvMd>
+        .\r\n<https://id.parliament.uk/ioR4fvMd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/ioR4fvMd>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-07+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/ioR4fvMd> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/NbyKho2o> .\r\n<https://id.parliament.uk/ioR4fvMd>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 15\"
+        .\r\n<https://id.parliament.uk/ioR4fvMd> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/wkuT1NYN> .\r\n<https://id.parliament.uk/wkuT1NYN>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/NbyKho2o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/NbyKho2o>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/XouN12Ow> .\r\n<https://id.parliament.uk/XouN12Ow>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/XouN12Ow> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 11\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/qQXlJ9aZ> .\r\n<https://id.parliament.uk/qQXlJ9aZ>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/qQXlJ9aZ> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-07+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/qQXlJ9aZ>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/XARFIzHo>
+        .\r\n<https://id.parliament.uk/qQXlJ9aZ> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 16\" .\r\n<https://id.parliament.uk/qQXlJ9aZ> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/kwoGW2Ua> .\r\n<https://id.parliament.uk/kwoGW2Ua>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/XARFIzHo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/XARFIzHo>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/HYfypSOE> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/ZG3qEOtl>
+        .\r\n<https://id.parliament.uk/ZG3qEOtl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/ZG3qEOtl>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/ZG3qEOtl> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/wmGQNyJn> .\r\n<https://id.parliament.uk/ZG3qEOtl>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 17\"
+        .\r\n<https://id.parliament.uk/ZG3qEOtl> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/GQS5sdhj> .\r\n<https://id.parliament.uk/GQS5sdhj>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/wmGQNyJn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/wmGQNyJn>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fKqMNz79> .\r\n<https://id.parliament.uk/fKqMNz79>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/fKqMNz79> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 12\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/tKY52AjE> .\r\n<https://id.parliament.uk/tKY52AjE>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/tKY52AjE> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/tKY52AjE>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/Me1qKiR6>
+        .\r\n<https://id.parliament.uk/tKY52AjE> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 18\" .\r\n<https://id.parliament.uk/tKY52AjE> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/lZBN63km> .\r\n<https://id.parliament.uk/lZBN63km>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/Me1qKiR6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/Me1qKiR6>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/KSMOf7aM> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/cVxausLb>
+        .\r\n<https://id.parliament.uk/cVxausLb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/cVxausLb>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/cVxausLb> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/0naU28S0> .\r\n<https://id.parliament.uk/cVxausLb>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 19\"
+        .\r\n<https://id.parliament.uk/cVxausLb> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/8PaslTUM> .\r\n<https://id.parliament.uk/8PaslTUM>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/0naU28S0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/0naU28S0>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/KSMOf7aM> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/AuQYYzii>
+        .\r\n<https://id.parliament.uk/AuQYYzii> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/AuQYYzii>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/AuQYYzii> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/37E5unJP> .\r\n<https://id.parliament.uk/AuQYYzii>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 20\"
+        .\r\n<https://id.parliament.uk/AuQYYzii> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/adnLc51g> .\r\n<https://id.parliament.uk/adnLc51g>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/37E5unJP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/37E5unJP>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/NDZSYjeE> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/GOnE4s3o>
+        .\r\n<https://id.parliament.uk/GOnE4s3o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/GOnE4s3o>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/GOnE4s3o> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/XPfUzjYb> .\r\n<https://id.parliament.uk/GOnE4s3o>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 21\"
+        .\r\n<https://id.parliament.uk/GOnE4s3o> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/O7HlftMJ> .\r\n<https://id.parliament.uk/O7HlftMJ>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/XPfUzjYb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/XPfUzjYb>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/NDZSYjeE> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/ilttPxF9>
+        .\r\n<https://id.parliament.uk/ilttPxF9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/ilttPxF9>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/ilttPxF9> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/fPAiPR8n> .\r\n<https://id.parliament.uk/ilttPxF9>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 22\"
+        .\r\n<https://id.parliament.uk/ilttPxF9> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/a6Ctup2S> .\r\n<https://id.parliament.uk/a6Ctup2S>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/fPAiPR8n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/fPAiPR8n>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/NDZSYjeE> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/622Tt9Kh>
+        .\r\n<https://id.parliament.uk/622Tt9Kh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/622Tt9Kh>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/622Tt9Kh> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/hKz6JE93> .\r\n<https://id.parliament.uk/622Tt9Kh>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 23\"
+        .\r\n<https://id.parliament.uk/622Tt9Kh> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/80dnqoaE> .\r\n<https://id.parliament.uk/80dnqoaE>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/hKz6JE93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/hKz6JE93>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/NDZSYjeE> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/laSPzmXV>
+        .\r\n<https://id.parliament.uk/laSPzmXV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/laSPzmXV>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/laSPzmXV> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/t3zOuTCL> .\r\n<https://id.parliament.uk/laSPzmXV>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 24\"
+        .\r\n<https://id.parliament.uk/laSPzmXV> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/AtHDpADC> .\r\n<https://id.parliament.uk/AtHDpADC>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/t3zOuTCL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/t3zOuTCL>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/UIV7W27r> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/SslnUKOU>
+        .\r\n<https://id.parliament.uk/SslnUKOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/SslnUKOU>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/SslnUKOU> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/P1z6tP5s> .\r\n<https://id.parliament.uk/SslnUKOU>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 25\"
+        .\r\n<https://id.parliament.uk/SslnUKOU> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/4bcBZl1Y> .\r\n<https://id.parliament.uk/4bcBZl1Y>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/P1z6tP5s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/P1z6tP5s>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fKqMNz79> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/DkFnzkCQ>
+        .\r\n<https://id.parliament.uk/DkFnzkCQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/DkFnzkCQ>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/DkFnzkCQ> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/CwgKtFI4> .\r\n<https://id.parliament.uk/DkFnzkCQ>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 26\"
+        .\r\n<https://id.parliament.uk/DkFnzkCQ> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/ZYBuNhyH> .\r\n<https://id.parliament.uk/ZYBuNhyH>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/CwgKtFI4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/CwgKtFI4>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fKqMNz79> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/fwzEBhYa>
+        .\r\n<https://id.parliament.uk/fwzEBhYa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/fwzEBhYa>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/fwzEBhYa> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/A584Cep6> .\r\n<https://id.parliament.uk/fwzEBhYa>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 27\"
+        .\r\n<https://id.parliament.uk/fwzEBhYa> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/sFky5pkV> .\r\n<https://id.parliament.uk/sFky5pkV>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/A584Cep6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/A584Cep6>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fKqMNz79> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/0Twwnmri>
+        .\r\n<https://id.parliament.uk/0Twwnmri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/0Twwnmri>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/0Twwnmri> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/Rp6IsaJ1> .\r\n<https://id.parliament.uk/0Twwnmri>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 28\"
+        .\r\n<https://id.parliament.uk/0Twwnmri> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/GAVn15Ra> .\r\n<https://id.parliament.uk/GAVn15Ra>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/Rp6IsaJ1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/Rp6IsaJ1>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fpWTqVKh> .\r\n<https://id.parliament.uk/fpWTqVKh>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/fpWTqVKh> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 13\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/eegbm17K> .\r\n<https://id.parliament.uk/eegbm17K>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/eegbm17K> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/eegbm17K>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/fPwQyshw>
+        .\r\n<https://id.parliament.uk/eegbm17K> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 29\" .\r\n<https://id.parliament.uk/eegbm17K> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/VgCY4F4U> .\r\n<https://id.parliament.uk/VgCY4F4U>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/fPwQyshw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/fPwQyshw>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fpWTqVKh> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/iKjYAfaQ>
+        .\r\n<https://id.parliament.uk/iKjYAfaQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/iKjYAfaQ>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/iKjYAfaQ> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/Pu2nXugN> .\r\n<https://id.parliament.uk/iKjYAfaQ>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 30\"
+        .\r\n<https://id.parliament.uk/iKjYAfaQ> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/18Dj50qT> .\r\n<https://id.parliament.uk/18Dj50qT>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/Pu2nXugN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/Pu2nXugN>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fpWTqVKh> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/Ql2jOEDk>
+        .\r\n<https://id.parliament.uk/Ql2jOEDk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/Ql2jOEDk>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/Ql2jOEDk> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/Xq5dKb9Z> .\r\n<https://id.parliament.uk/Ql2jOEDk>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 31\"
+        .\r\n<https://id.parliament.uk/Ql2jOEDk> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/tml9mxDN> .\r\n<https://id.parliament.uk/tml9mxDN>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/Xq5dKb9Z> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/Xq5dKb9Z>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7dSvuueH> .\r\n<https://id.parliament.uk/7dSvuueH>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/7dSvuueH> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 14\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/RO2so7MY> .\r\n<https://id.parliament.uk/RO2so7MY>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/RO2so7MY> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/RO2so7MY>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/lvyi31OO>
+        .\r\n<https://id.parliament.uk/RO2so7MY> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 32\" .\r\n<https://id.parliament.uk/RO2so7MY> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/UbAZ2U1k> .\r\n<https://id.parliament.uk/UbAZ2U1k>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/lvyi31OO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/lvyi31OO>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/ZU3IXBtP> .\r\n<https://id.parliament.uk/ZU3IXBtP>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Group>
+        .\r\n<https://id.parliament.uk/ZU3IXBtP> <https://id.parliament.uk/schema/groupName>
+        \"groupName - 15\" .\r\n<https://id.parliament.uk/Niiic8ma> <https://id.parliament.uk/schema/askingPersonHasQuestion>
+        <https://id.parliament.uk/5KAgwFTA> .\r\n<https://id.parliament.uk/5KAgwFTA>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Question>
+        .\r\n<https://id.parliament.uk/5KAgwFTA> <https://id.parliament.uk/schema/questionAskedAt>
+        \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date> .\r\n<https://id.parliament.uk/5KAgwFTA>
+        <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation> <https://id.parliament.uk/mBeDY1z9>
+        .\r\n<https://id.parliament.uk/5KAgwFTA> <https://id.parliament.uk/schema/questionHeading>
+        \"questionHeading - 33\" .\r\n<https://id.parliament.uk/5KAgwFTA> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/NPUIRjx9> .\r\n<https://id.parliament.uk/NPUIRjx9>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/mBeDY1z9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/mBeDY1z9>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/ZU3IXBtP> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/2BLr2TpJ>
+        .\r\n<https://id.parliament.uk/2BLr2TpJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/2BLr2TpJ>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/2BLr2TpJ> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/qFH9b4o9> .\r\n<https://id.parliament.uk/2BLr2TpJ>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 34\"
+        .\r\n<https://id.parliament.uk/2BLr2TpJ> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/xxqjrDih> .\r\n<https://id.parliament.uk/xxqjrDih>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/qFH9b4o9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/qFH9b4o9>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/ZU3IXBtP> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/px8BvDi1>
+        .\r\n<https://id.parliament.uk/px8BvDi1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/px8BvDi1>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-06-01+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/px8BvDi1> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/wxhhufVX> .\r\n<https://id.parliament.uk/px8BvDi1>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 35\"
+        .\r\n<https://id.parliament.uk/px8BvDi1> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/rLRm2B8V> .\r\n<https://id.parliament.uk/rLRm2B8V>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/wxhhufVX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/wxhhufVX>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/ZU3IXBtP> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/ShEC98Cz>
+        .\r\n<https://id.parliament.uk/ShEC98Cz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/ShEC98Cz>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-29+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/ShEC98Cz> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/UdHkjMTU> .\r\n<https://id.parliament.uk/ShEC98Cz>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 36\"
+        .\r\n<https://id.parliament.uk/ShEC98Cz> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/C4NFNCcI> .\r\n<https://id.parliament.uk/C4NFNCcI>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/UdHkjMTU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/UdHkjMTU>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/UIV7W27r> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/9dswLgyG>
+        .\r\n<https://id.parliament.uk/9dswLgyG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/9dswLgyG>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-29+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/9dswLgyG> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/Ri9seUj2> .\r\n<https://id.parliament.uk/9dswLgyG>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 37\"
+        .\r\n<https://id.parliament.uk/9dswLgyG> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/Qv4nLaQt> .\r\n<https://id.parliament.uk/Qv4nLaQt>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/Ri9seUj2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/Ri9seUj2>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/DkHdH4kZ> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/588pqU96>
+        .\r\n<https://id.parliament.uk/588pqU96> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/588pqU96>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-29+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/588pqU96> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/eaWrOoi5> .\r\n<https://id.parliament.uk/588pqU96>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 38\"
+        .\r\n<https://id.parliament.uk/588pqU96> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/tg5VRCJR> .\r\n<https://id.parliament.uk/tg5VRCJR>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/eaWrOoi5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/eaWrOoi5>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/DkHdH4kZ> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/IG3kNvPK>
+        .\r\n<https://id.parliament.uk/IG3kNvPK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/IG3kNvPK>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-22+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/IG3kNvPK> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/pzUM7Awj> .\r\n<https://id.parliament.uk/IG3kNvPK>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 39\"
+        .\r\n<https://id.parliament.uk/IG3kNvPK> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/lFzGo433> .\r\n<https://id.parliament.uk/lFzGo433>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/pzUM7Awj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/pzUM7Awj>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7dSvuueH> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/LReeHHyR>
+        .\r\n<https://id.parliament.uk/LReeHHyR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/LReeHHyR>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-22+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/LReeHHyR> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/fOwt8R5V> .\r\n<https://id.parliament.uk/LReeHHyR>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 40\"
+        .\r\n<https://id.parliament.uk/LReeHHyR> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/ix11pM2I> .\r\n<https://id.parliament.uk/ix11pM2I>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/fOwt8R5V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/fOwt8R5V>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7dSvuueH> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/nIoKilHu>
+        .\r\n<https://id.parliament.uk/nIoKilHu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/nIoKilHu>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-22+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/nIoKilHu> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/NH9WkiDA> .\r\n<https://id.parliament.uk/nIoKilHu>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 41\"
+        .\r\n<https://id.parliament.uk/nIoKilHu> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/Z04c9krL> .\r\n<https://id.parliament.uk/Z04c9krL>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/NH9WkiDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/NH9WkiDA>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7dSvuueH> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/umMGr6sI>
+        .\r\n<https://id.parliament.uk/umMGr6sI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/umMGr6sI>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-22+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/umMGr6sI> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/u2fgsJnA> .\r\n<https://id.parliament.uk/umMGr6sI>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 42\"
+        .\r\n<https://id.parliament.uk/umMGr6sI> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/ciTDEk6O> .\r\n<https://id.parliament.uk/ciTDEk6O>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/u2fgsJnA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/u2fgsJnA>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/UIV7W27r> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/dBYatNw6>
+        .\r\n<https://id.parliament.uk/dBYatNw6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/dBYatNw6>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-22+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/dBYatNw6> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/eKg7kf7n> .\r\n<https://id.parliament.uk/dBYatNw6>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 43\"
+        .\r\n<https://id.parliament.uk/dBYatNw6> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/5R0IiQb4> .\r\n<https://id.parliament.uk/5R0IiQb4>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/eKg7kf7n> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/eKg7kf7n>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/DkHdH4kZ> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/OBJAOktQ>
+        .\r\n<https://id.parliament.uk/OBJAOktQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/OBJAOktQ>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-03-22+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/OBJAOktQ> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/FskF5v32> .\r\n<https://id.parliament.uk/OBJAOktQ>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 44\"
+        .\r\n<https://id.parliament.uk/OBJAOktQ> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/WitIK7wQ> .\r\n<https://id.parliament.uk/WitIK7wQ>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/FskF5v32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/FskF5v32>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/fpWTqVKh> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/08q0hQvk>
+        .\r\n<https://id.parliament.uk/08q0hQvk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/08q0hQvk>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-02-20+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/08q0hQvk> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/9DvufEnD> .\r\n<https://id.parliament.uk/08q0hQvk>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 45\"
+        .\r\n<https://id.parliament.uk/08q0hQvk> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/koraNSPS> .\r\n<https://id.parliament.uk/koraNSPS>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/9DvufEnD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/9DvufEnD>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/UIV7W27r> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/vlPzRmNb>
+        .\r\n<https://id.parliament.uk/vlPzRmNb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/vlPzRmNb>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-02-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/vlPzRmNb> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/AaTHTmZy> .\r\n<https://id.parliament.uk/vlPzRmNb>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 46\"
+        .\r\n<https://id.parliament.uk/vlPzRmNb> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/VK76dhxx> .\r\n<https://id.parliament.uk/VK76dhxx>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/AaTHTmZy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/AaTHTmZy>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7dSvuueH> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/DTYRC5sO>
+        .\r\n<https://id.parliament.uk/DTYRC5sO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/DTYRC5sO>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-02-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/DTYRC5sO> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/Uf5DLAGK> .\r\n<https://id.parliament.uk/DTYRC5sO>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 47\"
+        .\r\n<https://id.parliament.uk/DTYRC5sO> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/G0td7f2s> .\r\n<https://id.parliament.uk/G0td7f2s>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/Uf5DLAGK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/Uf5DLAGK>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7gnSwbLO> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/8zYN1yDD>
+        .\r\n<https://id.parliament.uk/8zYN1yDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/8zYN1yDD>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-02-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/8zYN1yDD> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/4kOl0elM> .\r\n<https://id.parliament.uk/8zYN1yDD>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 48\"
+        .\r\n<https://id.parliament.uk/8zYN1yDD> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/ZB9FmTqR> .\r\n<https://id.parliament.uk/ZB9FmTqR>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/4kOl0elM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/4kOl0elM>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7gnSwbLO> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/x9qMjhKk>
+        .\r\n<https://id.parliament.uk/x9qMjhKk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/x9qMjhKk>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-02-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/x9qMjhKk> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/R0MyWmjy> .\r\n<https://id.parliament.uk/x9qMjhKk>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 49\"
+        .\r\n<https://id.parliament.uk/x9qMjhKk> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/4F3xEESK> .\r\n<https://id.parliament.uk/4F3xEESK>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/R0MyWmjy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/R0MyWmjy>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7gnSwbLO> .\r\n<https://id.parliament.uk/Niiic8ma>
+        <https://id.parliament.uk/schema/askingPersonHasQuestion> <https://id.parliament.uk/zRnooWxG>
+        .\r\n<https://id.parliament.uk/zRnooWxG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/Question> .\r\n<https://id.parliament.uk/zRnooWxG>
+        <https://id.parliament.uk/schema/questionAskedAt> \"2018-02-08+00:00\"^^<http://www.w3.org/2001/XMLSchema#date>
+        .\r\n<https://id.parliament.uk/zRnooWxG> <https://id.parliament.uk/schema/questionHasAnsweringBodyAllocation>
+        <https://id.parliament.uk/pi0S6sTa> .\r\n<https://id.parliament.uk/zRnooWxG>
+        <https://id.parliament.uk/schema/questionHeading> \"questionHeading - 50\"
+        .\r\n<https://id.parliament.uk/zRnooWxG> <https://id.parliament.uk/schema/questionHasAnswer>
+        <https://id.parliament.uk/3C1FSVKu> .\r\n<https://id.parliament.uk/3C1FSVKu>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/Answer>
+        .\r\n<https://id.parliament.uk/pi0S6sTa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/AnsweringBodyAllocation> .\r\n<https://id.parliament.uk/pi0S6sTa>
+        <https://id.parliament.uk/schema/answeringBodyAllocationHasAnsweringBody>
+        <https://id.parliament.uk/7dSvuueH> .\r\n"
+    http_version: 
+  recorded_at: Mon, 16 Jul 2018 15:09:50 GMT
+- request:
+    method: get
+    uri: http://localhost:3030/house_index
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Ruby
+      Accept:
+      - "*/*"
+      - application/n-triples
+      Ocp-Apim-Subscription-Key:
+      - "<AUTH_TOKEN>"
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '176'
+      Content-Type:
+      - application/n-triples
+      Content-Encoding:
+      - gzip
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:330aa411-57af-491f-b22a-1cab7d08a6a9
+      Set-Cookie:
+      - ARRAffinity=86446098da8de5f00b83089ea395bfc10c8d53c3a1350acab6a5cba5ddab4ec2;Path=/;HttpOnly;Domain=fixedquery201806151230.azurewebsites.net
+      Strict-Transport-Security:
+      - max-age=31536000
+      Date:
+      - Mon, 16 Jul 2018 15:09:51 GMT
+    body:
+      encoding: UTF-8
+      string: "<https://id.parliament.uk/1AFu55Hs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <https://id.parliament.uk/schema/House> .\r\n<https://id.parliament.uk/1AFu55Hs>
+        <https://id.parliament.uk/schema/houseName> \"houseName - 1\" .\r\n<https://id.parliament.uk/WkUWUBMx>
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://id.parliament.uk/schema/House>
+        .\r\n<https://id.parliament.uk/WkUWUBMx> <https://id.parliament.uk/schema/houseName>
+        \"houseName - 2\" .\r\n"
+    http_version: 
+  recorded_at: Mon, 16 Jul 2018 15:09:50 GMT
+recorded_with: VCR 4.0.0
