@@ -1,0 +1,7 @@
+= @answering_body.name
+
+- @answers_grouped_by_date.each do |date, answers|
+  %h2= "#{l(date, format: :default)}" if date
+  %ul.list--block
+    - answers.each do |answer|
+      %p= link_to(answer.question.heading, question_path(answer.question.graph_id))
