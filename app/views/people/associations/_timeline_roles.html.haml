@@ -8,7 +8,7 @@
         - role_title = "#{role_type_start} #{role_type_link}".html_safe
         = render 'timeline_role', role: role, role_title: role_title, role_type: t('people.associations.parliamentary_role')
       - else
-        - role_type_start = t('.mp_for')
+        - role_type_start = t('people.associations.mp_for')
         - role_type_link = link_to("#{role.constituency.name} #{date_string}", constituency_path(role.constituency.graph_id))
         - role_title = "#{role_type_start} #{role_type_link}".html_safe
         = render 'timeline_role', role: role, role_title: role_title, role_type: t('people.associations.parliamentary_role')
