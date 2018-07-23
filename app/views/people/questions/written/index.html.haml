@@ -2,7 +2,7 @@
   .container
     .card
       - if @asking_person.image_id(show_placeholder: false)
-        = render 'shared/image', person_name: @asking_person.display_name, image_id: @asking_person.image_id
+        = render 'shared/image', person_name: @asking_person.display_name, image_id: @asking_person.image_id, link_to_path: person_path(@asking_person.graph_id)
       .card__details
         %h1
           %span= link_to(@asking_person.display_name, person_path(@asking_person.graph_id))

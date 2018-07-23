@@ -8,10 +8,6 @@ RSpec.describe 'people/questions/written/index' do
         image_id:       '12345678',
         graph_id:       'xcvbnmjk'))
 
-    assign(:image,
-      double(:image,
-        graph_id:     'XXXXXXXX'))
-
     assign(:questions_grouped_by_date, {
       Time.zone.now - 12.days => [
         double(:question1,
