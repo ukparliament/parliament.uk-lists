@@ -36,7 +36,23 @@ RSpec.describe Groups::Questions::Written::AnsweredController, vcr: true do
       end
     end
 
-    xit 'renders the index template' do
+    context 'there are no answers' do
+      it 'assigns @answering_body, @answers and @answers_grouped_by_date' do
+        expect(assigns(:answering_body).type).to eq('https://id.parliament.uk/schema/AnsweringBody')
+
+        expect(assigns(:answers).nodes).to eq []
+
+        expect(assigns(:answers_grouped_by_date).keys.first).to eq(nil)
+      end
+    end
+
+    context 'answering body is an empty array' do
+      it 'assigns assigns @answering_body' do
+        expect(assigns(:answering_body)).to eq nil
+      end
+    end
+
+    it 'renders the index template' do
       expect(response).to render_template('index')
     end
   end

@@ -1,17 +1,18 @@
-.section--primary
-  .container
-    %h1
-      %span= @answering_body.name
+- if @answering_body
+  .section--primary
+    .container
+      %h1
+        %span= @answering_body.name
 
-%section{ id: 'content', tabindex: '0' }
-  .container
-    - @answers_grouped_by_date.each do |date, answers|
-      - if date
-        %h2
-          %time{ datetime: l(date, format: '%Y-%m-%d') }= l(date, format: '%d %B %Y') if date
-      %ul.list--block
-        - answers.each do |answer|
-          %li
-            .card
-              .card__details
-                %h3= link_to(answer.question.heading, question_path(answer.question.graph_id))
+  %section{ id: 'content', tabindex: '0' }
+    .container
+      - @answers_grouped_by_date.each do |date, answers|
+        - if date
+          %h2
+            %time{ datetime: l(date, format: '%Y-%m-%d') }= l(date, format: '%d %B %Y') if date
+        %ul.list--block
+          - answers.each do |answer|
+            %li
+              .card
+                .card__details
+                  %h3= link_to(answer.question.heading, question_path(answer.question.graph_id))
