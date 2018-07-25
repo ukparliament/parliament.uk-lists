@@ -6,8 +6,9 @@
 %section{ id: 'content', tabindex: '0' }
   .container
     - @answers_grouped_by_date.each do |date, answers|
-      %h2
-        %time{ datetime: l(date, format: '%Y-%m-%d') }= l(date, format: '%d %B %Y') if date
+      - if date
+        %h2
+          %time{ datetime: l(date, format: '%Y-%m-%d') }= l(date, format: '%d %B %Y') if date
       %ul.list--block
         - answers.each do |answer|
           %li
