@@ -13,7 +13,7 @@ module Groups
 
           @answering_body = @answering_body.first
 
-          @answers_grouped_by_date = Array(@answers).group_by { |answer| answer.answer_given_date }
+          @answers_grouped_by_date = QuestionAndAnswerGroupingHelper.group(@answers, :answer_given_date)
         end
       end
     end

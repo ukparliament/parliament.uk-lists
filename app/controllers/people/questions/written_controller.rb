@@ -9,7 +9,9 @@ module People
 
       def index
         @questions, @asking_person = Parliament::Utils::Helpers::FilterHelper.filter(@request, 'Question', 'Person')
-        @questions_grouped_by_date = Array(@questions).group_by { |question| question.asked_at_date }
+
+        @questions_grouped_by_date = QuestionAndAnswerGroupingHelper.group(@questions, :asked_at_date)
+
         @asking_person = @asking_person.first
       end
     end
