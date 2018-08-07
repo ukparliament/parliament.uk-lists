@@ -262,6 +262,9 @@ en:
   procedures:
     index:
       procedure: 'procedure'
+  # questions translations
+  questions:
+    answers_to_written_questions: "Answers to written questions"
   # work packages translations
   work_packages:
     index:
