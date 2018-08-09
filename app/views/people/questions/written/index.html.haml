@@ -1,3 +1,4 @@
+- title("#{@asking_person.display_name} - #{t('questions.written_questions')}")
 .section--primary
   .container
     .card
@@ -6,9 +7,9 @@
       .card__details
         %h1
           %span= link_to(@asking_person.display_name, person_path(@asking_person.graph_id))
-          %span.context= t('people.questions.written.written_questions')
+          %span.context= t('questions.written_questions')
 
-.section--minor
+%section{ id: 'content', tabindex: '0' }
   .container
     .block--border__bottom
       - @questions_grouped_by_date.each do |date, questions|
