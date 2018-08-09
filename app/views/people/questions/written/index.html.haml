@@ -12,7 +12,9 @@
   .container
     .block--border__bottom
       - @questions_grouped_by_date.each do |date, questions|
-        %h2= "#{l(date, format: :default)}" if date
+        - if date
+          %h2
+            %time{ datetime: l(date, format: :datetime) }= l(date, format: :default)
         %ul.list--block
           - questions.each do |question|
             %li

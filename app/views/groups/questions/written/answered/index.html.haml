@@ -14,7 +14,7 @@
             %li
               - if date
                 %h2
-                  %time{ datetime: l(date, format: '%Y-%m-%d') }= l(date, format: '%d %B %Y') if date
+                  %time{ datetime: l(date, format: :datetime) }= l(date, format: :default)
               %ul.list--pipe
                 - answers.each do |answer|
                   %li

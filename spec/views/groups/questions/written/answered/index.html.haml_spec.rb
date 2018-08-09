@@ -53,7 +53,7 @@ RSpec.describe 'groups/questions/written/answered/index', vcr: true do
     describe 'with date, with questions' do
       before do
         assign(:answers_grouped_by_date, {
-          Date.parse('Fri, 06 Jul 2018 00:00:00 +0000') => [double(:answer,
+          Time.parse('Fri, 06 Jul 2018 00:00:00 +0000') => [double(:answer,
             question: double(:question,
               heading: 'Question heading 1',
               graph_id: '11111111'
@@ -69,7 +69,7 @@ RSpec.describe 'groups/questions/written/answered/index', vcr: true do
       end
 
       it 'will render an <h2 /> containing <time />' do
-        expect(rendered).to include("<h2>\n<time datetime='2018-07-06'>06 July 2018<\/time>\n<\/h2>")
+        expect(rendered).to include("<h2>\n<time datetime='2018-07-06'>6 July 2018<\/time>\n<\/h2>")
       end
 
       it 'will render a link to a question' do
@@ -96,7 +96,7 @@ RSpec.describe 'groups/questions/written/answered/index', vcr: true do
       end
 
       it 'will not render an <h2 /> containing <time />' do
-        expect(rendered).not_to include("<h2>\n<time datetime='2018-07-06'>06 July 2018<\/time>\n<\/h2>")
+        expect(rendered).not_to include("<h2>\n<time datetime='2018-07-06'>6 July 2018<\/time>\n<\/h2>")
       end
 
       it 'will render a link to a question' do
@@ -107,7 +107,7 @@ RSpec.describe 'groups/questions/written/answered/index', vcr: true do
     describe 'without questions' do
       before do
         assign(:answers_grouped_by_date, {
-          Date.parse('Fri, 06 Jul 2018 00:00:00 +0000') => []
+          Time.parse('Fri, 06 Jul 2018 00:00:00 +0000') => []
         })
 
         render
@@ -118,7 +118,7 @@ RSpec.describe 'groups/questions/written/answered/index', vcr: true do
       end
 
       it 'will not render an <h2 /> containing <time />' do
-        expect(rendered).not_to include("<h2>\n<time datetime='2018-07-06'>06 July 2018<\/time>\n<\/h2>")
+        expect(rendered).not_to include("<h2>\n<time datetime='2018-07-06'>6 July 2018<\/time>\n<\/h2>")
       end
 
       it 'will not render a link to a question' do
