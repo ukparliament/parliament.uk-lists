@@ -1,4 +1,5 @@
 - if @answering_body && @answering_body.name
+  - title("#{@answering_body.name} - #{t('questions.answers_to_written_questions')}")
   .section--primary
     .container
       %h1
