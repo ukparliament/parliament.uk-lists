@@ -1,5 +1,5 @@
 class WorkPackagesController < ApplicationController
-  before_action :data_check, :build_request, :disable_top_navigation
+  before_action :data_check, :build_request
 
   ROUTE_MAP = {
     index: proc { Parliament::Utils::Helpers::ParliamentHelper.parliament_request.work_package_index },
