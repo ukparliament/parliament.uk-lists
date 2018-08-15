@@ -22,7 +22,7 @@ module QuestionAndAnswerGroupingHelper
   def self.all_objects(objects, method, objects_without_method)
     objects_with_method = objects - objects_without_method
 
-    objects_with_method.sort_by { |item| item.try(method) }
+    objects_with_method.sort_by! { |item| item.try(method) }
 
     objects_with_method.reverse + objects_without_method
   end
