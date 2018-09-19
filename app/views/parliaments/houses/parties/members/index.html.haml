@@ -1,8 +1,8 @@
 - title("#{@party.name} - #{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_plural') : t('lord_plural')} - #{@parliament.date_range(date_format: '%Y')} #{t('parliament')}")
 .section--primary
   .container
+    %small= link_to("#{@parliament.date_range(date_format: '%Y')} #{t('parliament').capitalize}", parliament_path(@parliament.graph_id))
     %h1
-      %small= link_to("#{@parliament.date_range(date_format: '%Y')} #{t('parliament').capitalize}", parliament_path(@parliament.graph_id))
       %span= "#{@party.name} - #{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_plural') : t('lord_plural')}"
       %span.context= "#{t('a_to_z.a_to_z')} - #{t('a_to_z.showing_all')}"
 
