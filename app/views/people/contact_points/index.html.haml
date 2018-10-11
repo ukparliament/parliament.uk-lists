@@ -9,17 +9,17 @@
       - @contact_points.each do |contact_point|
         %dl.list--definition
           - if contact_point.email.present?
-            %dt= "#{t('contact_points.email').capitalize}:"
+            %dt= "#{t('contact_points.email').capitalize}"
             %dd
               = link_to(contact_point.email, "mailto:#{contact_point.email}")
           - if contact_point.phone_number.present?
-            %dt= "#{t('contact_points.phone').capitalize}:"
+            %dt= "#{t('contact_points.phone').capitalize}"
             %dd= "#{contact_point.phone_number}"
           - if contact_point.fax_number.present?
-            %dt= "#{t('contact_points.fax').capitalize}:"
+            %dt= "#{t('contact_points.fax').capitalize}"
             %dd= "#{contact_point.fax_number}"
           - contact_point.postal_addresses.each do |postal_address|
             - if postal_address.full_address.present?
-              %dt= "#{t('contact_points.address').capitalize}:"
+              %dt= "#{t('contact_points.address').capitalize}"
               %dd= "#{postal_address.full_address}"
         %p= link_to("#{t('contact_points.add_address_book').capitalize}", contact_point_path(contact_point.graph_id))
