@@ -24,7 +24,7 @@ RSpec.describe 'work_packages/index', vcr: true do
 
   context 'header' do
     it 'will render the correct header' do
-      expect(rendered).to match(/Work packages/)
+      expect(rendered).to match(/Procedural activity/)
     end
   end
 
