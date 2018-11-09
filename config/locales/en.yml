@@ -270,7 +270,7 @@ en:
   # work packages translations
   work_packages:
     index:
-      work_package: 'work package'
+      work_package: 'procedural activity'
       procedure: 'procedure'
       list_ordering_description: 'This list is in date order. The date shown relates to the first recorded stage of the procedure.'
   # committees translations
