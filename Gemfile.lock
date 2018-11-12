@@ -317,7 +317,7 @@ DEPENDENCIES
   parliament-routes (~> 0.6)
   parliament-ruby (~> 1.0)
   parliament-utils (~> 0.8)
-  pugin (~> 1.9)
+  pugin (~> 1.10)
   puma (~> 3.10.0)
   rack-rewrite
   rack-timeout
