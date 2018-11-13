@@ -35,7 +35,7 @@ gem 'parliament-ntriple', '~> 0.2', require: false
 gem 'bandiera-client'
 
 # Use Pugin for front-end components and templates
-gem 'pugin', '~> 1.9'
+gem 'pugin', '~> 1.10'
 
 # Use sanitize to prevent cross site scripting
 gem 'sanitize'
