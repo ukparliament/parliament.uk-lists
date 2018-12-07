@@ -15,6 +15,6 @@
           %p= "#{t('house_of_lords_speaker')}"
         - else
           %p= "#{t('view_all').capitalize} #{t('current')} #{party.name} #{Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_plural') : t('lord_plural')}"
-      .card__details
-        %span.count= party.member_count
-        = Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_count', count: party.member_count) : t('lord_count', count: party.member_count)
+      .count
+        %span.count__number= party.member_count
+        %span.count__context= Parliament::Utils::Helpers::HousesHelper.commons?(@house) ? t('mp_count', count: party.member_count) : t('lord_count', count: party.member_count)
