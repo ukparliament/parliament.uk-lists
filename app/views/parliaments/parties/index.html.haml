@@ -13,6 +13,6 @@
           .card
             .card__details
               %h2= link_to(party.name, parliament_party_path(@parliament.graph_id, party.graph_id))
-            .card__details
-              %span.count= party.count
-              = t('mp_count', count: party.member_count)
+            .count
+              %span.count__number= party.count
+              %span.count__context= t('mp_count', count: party.member_count)
